@@ -7,7 +7,7 @@ about:
   head: 56ee049
   archived: false
   latestVersion: v5.8.0
-  collectedAt: 2026-09-04T19:40:59Z
+  collectedAt: 2026-09-04T20:52:28Z
 timeline:
   created: 2014-11-12
   lastCommit: 2026-09-01
@@ -45,49 +45,142 @@ recent:
     release: 2
     mergedPR: 12
     openPR: 3
-    closedIssue: 10
-    openIssue: 5
+    closedIssue: 11
+    openIssue: 4
     commit: 23
   last90d:
     since: 2026-06-06
     release: 2
     mergedPR: 26
     openPR: 9
-    closedIssue: 13
-    openIssue: 10
+    closedIssue: 14
+    openIssue: 9
     commit: 45
   last180d:
     since: 2026-03-08
     release: 5
     mergedPR: 51
     openPR: 15
-    closedIssue: 31
-    openIssue: 22
+    closedIssue: 32
+    openIssue: 21
     commit: 89
   last360d:
     since: 2025-09-09
     release: 10
     mergedPR: 117
     openPR: 25
-    closedIssue: 61
-    openIssue: 44
+    closedIssue: 62
+    openIssue: 43
     commit: 183
   last720d:
     since: 2024-09-14
     release: 21
     mergedPR: 358
     openPR: 32
-    closedIssue: 187
-    openIssue: 74
+    closedIssue: 188
+    openIssue: 73
     commit: 470
 total:
   release: 73
   mergedPR: 4133
   openPR: 64
-  closedIssue: 5450
-  openIssue: 124
+  closedIssue: 5451
+  openIssue: 123
   commit: 11435
 ---
+path: /home/runner/.x-repo/github.com/certbot/certbot
+collectedAt: 2026-09-04T20:52:32Z
+loc:
+  Python:
+    code: 57754
+    comments: 5343
+    blanks: 11787
+    files: 366
+  Bitbake:
+    code: 6296
+    comments: 3415
+    blanks: 1706
+    files: 237
+  ReStructuredText:
+    code: 2660
+    comments: 0
+    blanks: 928
+    files: 97
+  Sh:
+    code: 2066
+    comments: 520
+    blanks: 346
+    files: 20
+  Json:
+    code: 1446
+    comments: 0
+    blanks: 0
+    files: 5
+  Toml:
+    code: 1065
+    comments: 85
+    blanks: 136
+    files: 24
+  Batch:
+    code: 805
+    comments: 17
+    blanks: 172
+    files: 15
+  Makefile:
+    code: 434
+    comments: 90
+    blanks: 111
+    files: 15
+  Ini:
+    code: 300
+    comments: 68
+    blanks: 41
+    files: 7
+  Bash:
+    code: 149
+    comments: 33
+    blanks: 22
+    files: 2
+  Yaml:
+    code: 124
+    comments: 53
+    blanks: 7
+    files: 2
+  Autoconf:
+    code: 121
+    comments: 0
+    blanks: 0
+    files: 19
+  Html:
+    code: 50
+    comments: 0
+    blanks: 2
+    files: 1
+  Dockerfile:
+    code: 44
+    comments: 24
+    blanks: 11
+    files: 2
+  Pan:
+    code: 5
+    comments: 5
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 3081
+    blanks: 1102
+    files: 10
+  Text:
+    code: 0
+    comments: 4300
+    blanks: 693
+    files: 25
+total:
+  code: 73319
+  comments: 17034
+  blanks: 17064
+  files: 848
 ---
 date: "2026-08-03"
 repo:
