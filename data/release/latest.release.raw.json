@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 91121,
       "digest": "sha256:44c4edb53acdd3fa8402cb29c78a6d1bd2005d777a4d2fcd12663bbc3c147b34",
-      "download_count": 36,
+      "download_count": 38,
       "created_at": "2026-09-01T21:04:29Z",
       "updated_at": "2026-09-01T21:04:29Z",
       "browser_download_url": "https://github.com/certbot/certbot/releases/download/v5.8.0/acme-5.8.0.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 708523,
       "digest": "sha256:a4a2c7b0459bb626b3791ef07b6df26bbb222d2324783ba3e60f76c0933eec87",
-      "download_count": 59,
+      "download_count": 65,
       "created_at": "2026-09-01T21:04:29Z",
       "updated_at": "2026-09-01T21:04:29Z",
       "browser_download_url": "https://github.com/certbot/certbot/releases/download/v5.8.0/certbot-5.8.0.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 6019,
       "digest": "sha256:c09403208a749b2bf1bb03051886d6e926572f113a93326ae39895a443d43a46",
-      "download_count": 33,
+      "download_count": 36,
       "created_at": "2026-09-01T21:04:29Z",
       "updated_at": "2026-09-01T21:04:29Z",
       "browser_download_url": "https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_apache-5.8.0.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 18001,
       "digest": "sha256:540870f24a7aa05d9057bfa70cb684094b4106838747e15990f498ef16b7d212",
-      "download_count": 64,
+      "download_count": 67,
       "created_at": "2026-09-01T21:04:29Z",
       "updated_at": "2026-09-01T21:04:29Z",
       "browser_download_url": "https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_cloudflare-5.8.0.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 14570,
       "digest": "sha256:5c08b3a2c9ab097fa7c6122b972920082ae19077dbb374a3f8a121746ee35ee3",
-      "download_count": 24,
+      "download_count": 26,
       "created_at": "2026-09-01T21:04:29Z",
       "updated_at": "2026-09-01T21:04:29Z",
       "browser_download_url": "https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_digitalocean-5.8.0.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 12304,
       "digest": "sha256:93a7dd4acf57ec7891bbfbcde02a19adeb8e820e4ed8dd10ffbcd269878c0974",
-      "download_count": 27,
+      "download_count": 30,
       "created_at": "2026-09-01T21:04:29Z",
       "updated_at": "2026-09-01T21:04:29Z",
       "browser_download_url": "https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_dnsimple-5.8.0.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 12467,
       "digest": "sha256:6ff6893a5963f44109c3973e23593d9b99c89f211a6af427cca67236b46c2a2e",
-      "download_count": 22,
+      "download_count": 24,
       "created_at": "2026-09-01T21:04:29Z",
       "updated_at": "2026-09-01T21:04:29Z",
       "browser_download_url": "https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_dnsmadeeasy-5.8.0.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 12400,
       "digest": "sha256:73f4f354aa2b223c25368407204ec75852ffc2438f881626b4e720316a62a7b7",
-      "download_count": 25,
+      "download_count": 27,
       "created_at": "2026-09-01T21:04:29Z",
       "updated_at": "2026-09-01T21:04:30Z",
       "browser_download_url": "https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_gehirn-5.8.0.tar.gz"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 25207,
       "digest": "sha256:fcff7da84fc86598f83e269609845737631a46a25ce6414a780c708766c400ca",
-      "download_count": 23,
+      "download_count": 25,
       "created_at": "2026-09-01T21:04:29Z",
       "updated_at": "2026-09-01T21:04:30Z",
       "browser_download_url": "https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_google-5.8.0.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 12592,
       "digest": "sha256:6f8d22e530fe68e28d7d612b8acbd85d34c1f9d77e96032cd4821f56cfc6dda9",
-      "download_count": 23,
+      "download_count": 25,
       "created_at": "2026-09-01T21:04:29Z",
       "updated_at": "2026-09-01T21:04:30Z",
       "browser_download_url": "https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_linode-5.8.0.tar.gz"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 12319,
       "digest": "sha256:e7aeb723c824c1c3685dbfceb63fa7ed5344e99ed3060058de2d4e953b3310a4",
-      "download_count": 25,
+      "download_count": 28,
       "created_at": "2026-09-01T21:04:30Z",
       "updated_at": "2026-09-01T21:04:30Z",
       "browser_download_url": "https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_luadns-5.8.0.tar.gz"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 12373,
       "digest": "sha256:7c6b2035a0d01d2ecf44938352828d0d8114289c0e86b08aa83ea2ab8fef71d0",
-      "download_count": 21,
+      "download_count": 23,
       "created_at": "2026-09-01T21:04:30Z",
       "updated_at": "2026-09-01T21:04:30Z",
       "browser_download_url": "https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_nsone-5.8.0.tar.gz"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 12749,
       "digest": "sha256:da6e4e6e845e676abb23529f165a0237a0a8bb4b19913dfc6a4d36876624f810",
-      "download_count": 25,
+      "download_count": 27,
       "created_at": "2026-09-01T21:04:30Z",
       "updated_at": "2026-09-01T21:04:30Z",
       "browser_download_url": "https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_ovh-5.8.0.tar.gz"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 16904,
       "digest": "sha256:6a2f105b29bc5d79f653d2ea9c4a94d24e2916dbc6294e4f0d8ee7cb8d44041b",
-      "download_count": 24,
+      "download_count": 26,
       "created_at": "2026-09-01T21:04:30Z",
       "updated_at": "2026-09-01T21:04:30Z",
       "browser_download_url": "https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_rfc2136-5.8.0.tar.gz"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 15733,
       "digest": "sha256:de2d294074f7a0c084c708fdc6217474e8196917b0c4f98929fa9de78076e9b6",
-      "download_count": 23,
+      "download_count": 25,
       "created_at": "2026-09-01T21:04:30Z",
       "updated_at": "2026-09-01T21:04:30Z",
       "browser_download_url": "https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_route53-5.8.0.tar.gz"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 12385,
       "digest": "sha256:ef8a4432695fab098c500b7f154855d972da9abf965fbc547a8e4824c8295d9e",
-      "download_count": 24,
+      "download_count": 25,
       "created_at": "2026-09-01T21:04:30Z",
       "updated_at": "2026-09-01T21:04:30Z",
       "browser_download_url": "https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_sakuracloud-5.8.0.tar.gz"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 6562,
       "digest": "sha256:f9ae8999012829aba42a71ff40aae75360c9d262e332aa9e6957bb95cc77bcae",
-      "download_count": 36,
+      "download_count": 39,
       "created_at": "2026-09-01T21:04:30Z",
       "updated_at": "2026-09-01T21:04:30Z",
       "browser_download_url": "https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_nginx-5.8.0.tar.gz"
@@ -679,7 +679,7 @@
       "state": "uploaded",
       "size": 1652,
       "digest": "sha256:eade4c777db47c476d3fbff2bacfbd87a3762cec3e584348c9f43466522523e7",
-      "download_count": 23,
+      "download_count": 25,
       "created_at": "2026-09-01T21:04:30Z",
       "updated_at": "2026-09-01T21:04:30Z",
       "browser_download_url": "https://github.com/certbot/certbot/releases/download/v5.8.0/SHA256SUMS"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 659,
       "digest": "sha256:bbfcc25adfcb622a95ea73994b91bc8193d6a119e636b8a69debc6714ef6b2e9",
-      "download_count": 23,
+      "download_count": 24,
       "created_at": "2026-09-01T21:04:30Z",
       "updated_at": "2026-09-01T21:04:31Z",
       "browser_download_url": "https://github.com/certbot/certbot/releases/download/v5.8.0/SHA256SUMS.asc"
