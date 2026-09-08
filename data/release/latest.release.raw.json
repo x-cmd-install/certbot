@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 6562,
       "digest": "sha256:f9ae8999012829aba42a71ff40aae75360c9d262e332aa9e6957bb95cc77bcae",
-      "download_count": 35,
+      "download_count": 36,
       "created_at": "2026-09-01T21:04:30Z",
       "updated_at": "2026-09-01T21:04:30Z",
       "browser_download_url": "https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_nginx-5.8.0.tar.gz"

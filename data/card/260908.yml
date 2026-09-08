@@ -5,13 +5,13 @@ about:
   head: 56ee049
   archived: false
   latestVersion: "v5.8.0"
-  collectedAt: 2026-09-08T02:01:37Z
+  collectedAt: 2026-09-08T04:49:40Z
 timeline:
   created: 2014-11-12
   lastCommit: 2026-09-01
   lastRelease: 2026-09-01
 popularity:
-  star: 33233
+  star: 33234
   watcher: 738
   fork: 3511
   release: 73
@@ -87,7 +87,7 @@ total:
   commit: 11435
 ---
 path: /home/runner/.x-repo/github.com/certbot/certbot
-collectedAt: 2026-09-08T02:01:45Z
+collectedAt: 2026-09-08T04:49:46Z
 loc:
   Python:
     code: 57754
