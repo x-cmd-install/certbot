@@ -7,7 +7,7 @@ about:
   latestVersion: "v5.8.0"
   latestRelease: "v5.8.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T04:51:03Z
+  collectedAt: 2026-09-09T19:02:54Z
 timeline:
   created: 2014-11-12
   lastCommit: 2026-09-01
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-09-01
   lastPrerelease: 
 popularity:
-  star: 33233
+  star: 33232
   watcher: 738
   fork: 3511
   release: 73
@@ -91,7 +91,7 @@ total:
   commit: 11435
 ---
 path: /home/runner/.x-repo/github.com/certbot/certbot
-collectedAt: 2026-09-09T04:51:10Z
+collectedAt: 2026-09-09T19:03:02Z
 loc:
   Python:
     code: 57754
