@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 12592,
       "digest": "sha256:6f8d22e530fe68e28d7d612b8acbd85d34c1f9d77e96032cd4821f56cfc6dda9",
-      "download_count": 29,
+      "download_count": 30,
       "created_at": "2026-09-01T21:04:29Z",
       "updated_at": "2026-09-01T21:04:30Z",
       "browser_download_url": "https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_linode-5.8.0.tar.gz"
