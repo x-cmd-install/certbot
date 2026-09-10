@@ -22,11 +22,34 @@ x install certbot
 - **Latest**: `v5.8.0` (2026-09-01)
 - **Last commit**: 2026-09-09
 - **Assets in release**: 19
-- **Published**: 2026-09-01T21:04:31Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [acme-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/acme-5.8.0.tar.gz) | 89.0 KiB | `native/unknown` |
+| [certbot-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot-5.8.0.tar.gz) | 691.9 KiB | `native/unknown` |
+| [certbot_apache-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_apache-5.8.0.tar.gz) | 5.9 KiB | `native/unknown` |
+| [certbot_dns_cloudflare-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_cloudflare-5.8.0.tar.gz) | 17.6 KiB | `native/unknown` |
+| [certbot_dns_digitalocean-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_digitalocean-5.8.0.tar.gz) | 14.2 KiB | `native/unknown` |
+| [certbot_dns_dnsimple-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_dnsimple-5.8.0.tar.gz) | 12.0 KiB | `native/unknown` |
+| [certbot_dns_dnsmadeeasy-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_dnsmadeeasy-5.8.0.tar.gz) | 12.2 KiB | `native/unknown` |
+| [certbot_dns_gehirn-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_gehirn-5.8.0.tar.gz) | 12.1 KiB | `native/unknown` |
+| [certbot_dns_google-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_google-5.8.0.tar.gz) | 24.6 KiB | `native/unknown` |
+| [certbot_dns_linode-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_linode-5.8.0.tar.gz) | 12.3 KiB | `native/unknown` |
+| [certbot_dns_luadns-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_luadns-5.8.0.tar.gz) | 12.0 KiB | `native/unknown` |
+| [certbot_dns_nsone-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_nsone-5.8.0.tar.gz) | 12.1 KiB | `native/unknown` |
+| [certbot_dns_ovh-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_ovh-5.8.0.tar.gz) | 12.5 KiB | `native/unknown` |
+| [certbot_dns_rfc2136-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_rfc2136-5.8.0.tar.gz) | 16.5 KiB | `native/unknown` |
+| [certbot_dns_route53-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_route53-5.8.0.tar.gz) | 15.4 KiB | `native/unknown` |
+| [certbot_dns_sakuracloud-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_sakuracloud-5.8.0.tar.gz) | 12.1 KiB | `native/unknown` |
+| [certbot_nginx-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_nginx-5.8.0.tar.gz) | 6.4 KiB | `native/unknown` |
+| [SHA256SUMS](https://github.com/certbot/certbot/releases/download/v5.8.0/SHA256SUMS) | 1.6 KiB | `other` |
+| [SHA256SUMS.asc](https://github.com/certbot/certbot/releases/download/v5.8.0/SHA256SUMS.asc) | 659 B | `other` |
 
 ## Popularity
 
-- **Stars**: 33,231 · **Forks**: 3,511 · **Open issues**: 5,574 · **Contributors**: 490
+- **Stars**: 33,232 · **Forks**: 3,510 · **Open issues**: 5,574 · **Contributors**: 490
 
 ## Totals (cumulative)
 
@@ -67,8 +90,8 @@ Lowest-scoring checks:
 Install metadata for certbot lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `certbot` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/certbot.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/certbot.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:48:57Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:35:20Z._

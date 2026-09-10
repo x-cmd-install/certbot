@@ -4,7 +4,7 @@
 
 Certbot is EFF's tool to obtain certs from Let's Encrypt and (optionally) auto-enable HTTPS on your server.  It can also act as a client for any other CA that uses the ACME protocol.
 
-![certbot](https://repo.x-cmd.io/certbot.svg)
+![certbot](https://repo.x-cmd.io/certbot.svg?lang=zh)
 
 ## 安装
 
@@ -22,11 +22,34 @@ x install certbot
 - **最新版本**: `v5.8.0` (2026-09-01)
 - **最近提交**: 2026-09-09
 - **Release 含资产**: 19 个
-- **发布时间**: 2026-09-01T21:04:31Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [acme-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/acme-5.8.0.tar.gz) | 89.0 KiB | `native/unknown` |
+| [certbot-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot-5.8.0.tar.gz) | 691.9 KiB | `native/unknown` |
+| [certbot_apache-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_apache-5.8.0.tar.gz) | 5.9 KiB | `native/unknown` |
+| [certbot_dns_cloudflare-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_cloudflare-5.8.0.tar.gz) | 17.6 KiB | `native/unknown` |
+| [certbot_dns_digitalocean-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_digitalocean-5.8.0.tar.gz) | 14.2 KiB | `native/unknown` |
+| [certbot_dns_dnsimple-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_dnsimple-5.8.0.tar.gz) | 12.0 KiB | `native/unknown` |
+| [certbot_dns_dnsmadeeasy-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_dnsmadeeasy-5.8.0.tar.gz) | 12.2 KiB | `native/unknown` |
+| [certbot_dns_gehirn-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_gehirn-5.8.0.tar.gz) | 12.1 KiB | `native/unknown` |
+| [certbot_dns_google-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_google-5.8.0.tar.gz) | 24.6 KiB | `native/unknown` |
+| [certbot_dns_linode-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_linode-5.8.0.tar.gz) | 12.3 KiB | `native/unknown` |
+| [certbot_dns_luadns-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_luadns-5.8.0.tar.gz) | 12.0 KiB | `native/unknown` |
+| [certbot_dns_nsone-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_nsone-5.8.0.tar.gz) | 12.1 KiB | `native/unknown` |
+| [certbot_dns_ovh-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_ovh-5.8.0.tar.gz) | 12.5 KiB | `native/unknown` |
+| [certbot_dns_rfc2136-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_rfc2136-5.8.0.tar.gz) | 16.5 KiB | `native/unknown` |
+| [certbot_dns_route53-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_route53-5.8.0.tar.gz) | 15.4 KiB | `native/unknown` |
+| [certbot_dns_sakuracloud-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_sakuracloud-5.8.0.tar.gz) | 12.1 KiB | `native/unknown` |
+| [certbot_nginx-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_nginx-5.8.0.tar.gz) | 6.4 KiB | `native/unknown` |
+| [SHA256SUMS](https://github.com/certbot/certbot/releases/download/v5.8.0/SHA256SUMS) | 1.6 KiB | `other` |
+| [SHA256SUMS.asc](https://github.com/certbot/certbot/releases/download/v5.8.0/SHA256SUMS.asc) | 659 B | `other` |
 
 ## 流行度
 
-- **Star**: 33,231 · **Fork**: 3,511 · **开放 issue**: 5,574 · **贡献者**: 490
+- **Star**: 33,232 · **Fork**: 3,510 · **开放 issue**: 5,574 · **贡献者**: 490
 
 ## 累计统计
 
@@ -71,4 +94,4 @@ certbot 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:48:58Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:35:20Z._
