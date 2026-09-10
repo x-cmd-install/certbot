@@ -7,7 +7,7 @@ about:
   latestVersion: "v5.8.0"
   latestRelease: "v5.8.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T16:35:08Z
+  collectedAt: 2026-09-10T21:46:27Z
 timeline:
   created: 2014-11-12
   lastCommit: 2026-09-09
@@ -71,27 +71,27 @@ recent:
     release: 10
     mergedPR: 118
     openPR: 24
-    closedIssue: 63
-    openIssue: 42
+    closedIssue: 64
+    openIssue: 41
     commit: 184
   last720d:
     since: 2024-09-20
     release: 21
     mergedPR: 357
     openPR: 31
-    closedIssue: 188
-    openIssue: 72
+    closedIssue: 189
+    openIssue: 71
     commit: 468
 total:
   release: 73
   mergedPR: 4134
   openPR: 63
-  closedIssue: 5452
-  openIssue: 122
+  closedIssue: 5453
+  openIssue: 121
   commit: 11436
 ---
 path: /home/runner/.x-repo/github.com/certbot/certbot
-collectedAt: 2026-09-10T16:35:15Z
+collectedAt: 2026-09-10T21:46:34Z
 loc:
   Python:
     code: 57786
