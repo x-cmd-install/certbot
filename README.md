@@ -1,24 +1,74 @@
 # certbot
 
+[中文版本](./README.cn.md)
+
 Certbot is EFF's tool to obtain certs from Let's Encrypt and (optionally) auto-enable HTTPS on your server.  It can also act as a client for any other CA that uses the ACME protocol.
 
-- **Upstream**: <https://github.com/certbot/certbot>
-- **Homepage**: <>
-- **Latest release**: `v5.8.0` (2026-09-01)
-- **Last commit**: 2026-09-01
-- **License**: NOASSERTION
-- **Stars**: 33232 · **Forks**: 3511 · **Open issues**: 5574 · **Contributors**: 490
+![certbot](https://repo.x-cmd.io/certbot.svg)
 
-## Installation
+## Install
 
 ```sh
 x install certbot
 ```
 
-See <https://x-cmd.com/install/certbot> for details.
+## Source
 
-## Data
+- **Upstream**: <https://github.com/certbot/certbot>
+- **License**: NOASSERTION
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
+## Release
 
-_Last regenerated: 2026-09-09T19:03:08Z._
+- **Latest**: `v5.8.0` (2026-09-01)
+- **Last commit**: 2026-09-09
+- **Assets in release**: 19
+- **Published**: 2026-09-01T21:04:31Z
+
+## Popularity
+
+- **Stars**: 33,231 · **Forks**: 3,511 · **Open issues**: 5,574 · **Contributors**: 490
+
+## Totals (cumulative)
+
+- **Releases**: 73 · **Merged PRs**: 4134 · **Open PRs**: 63 · **Closed issues**: 5452 · **Open issues**: 122 · **Commits**: 11436
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 1 | 4 | 2 | 3 | 1 | 9 |
+| 90d | 2026-06-12 | 2 | 18 | 8 | 15 | 8 | 31 |
+| 360d | 2025-09-15 | 10 | 118 | 24 | 63 | 42 | 184 |
+
+## Code size
+
+Total: **73,351** lines of code across **725** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Python | 57,786 | 5,348 | 11,791 | 366 |
+| Bitbake | 6,296 | 3,415 | 1,706 | 237 |
+| ReStructuredText | 2,660 | 0 | 928 | 97 |
+| Sh | 2,066 | 520 | 346 | 20 |
+| Json | 1,446 | 0 | 0 | 5 |
+
+## OpenSSF Scorecard
+
+Overall score: **6.9 / 10**
+
+Lowest-scoring checks:
+
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+
+## Improve this data
+
+Install metadata for certbot lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `certbot` is missing, out of date, or installs incorrectly, please open an issue or PR there:
+
+- **Open an issue**: <https://github.com/x-cmd/install/issues/new>
+- **Edit the package entry**: <https://github.com/x-cmd/edit/main/certbot.yml> (or whichever path the index uses)
+
+The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
+
+_Snapshot: `data/card/260910.yml` · 2026-09-10T04:48:57Z._
