@@ -12,6 +12,28 @@ Certbot is EFF's tool to obtain certs from Let's Encrypt and (optionally) auto-e
 x install certbot
 ```
 
+## Code insight
+
+Total: **73,351** lines of code across **725** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Python | 57,786 | 5,348 | 11,791 | 366 |
+| Bitbake | 6,296 | 3,415 | 1,706 | 237 |
+| ReStructuredText | 2,660 | 0 | 928 | 97 |
+| Sh | 2,066 | 520 | 346 | 20 |
+| Json | 1,446 | 0 | 0 | 5 |
+
+## OpenSSF Scorecard
+
+Overall score: **6.9 / 10**
+
+Lowest-scoring checks:
+
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+
 ## Source
 
 - **Upstream**: <https://github.com/certbot/certbot>
@@ -22,6 +44,25 @@ x install certbot
 - **Latest**: `v5.8.0` (2026-09-01)
 - **Last commit**: 2026-09-09
 - **Assets in release**: 19
+
+## Popularity
+
+- **Stars**: 33,232 · **Forks**: 3,510 · **Open issues**: 5,574 · **Contributors**: 490
+
+## Totals (cumulative)
+
+- **Releases**: 73 · **Merged PRs**: 4134 · **Open PRs**: 63 · **Closed issues**: 5453 · **Open issues**: 121 · **Commits**: 11436
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 1 | 4 | 2 | 3 | 1 | 9 |
+| last60d | 2026-07-12 | 2 | 13 | 2 | 10 | 3 | 25 |
+| 90d | 2026-06-12 | 2 | 18 | 8 | 15 | 8 | 31 |
+| last180d | 2026-03-14 | 4 | 50 | 14 | 30 | 19 | 85 |
+| 360d | 2025-09-15 | 10 | 118 | 24 | 64 | 41 | 184 |
+| last720d | 2024-09-20 | 21 | 357 | 31 | 189 | 71 | 468 |
 
 ## Release assets
 
@@ -47,43 +88,24 @@ x install certbot
 | [SHA256SUMS](https://github.com/certbot/certbot/releases/download/v5.8.0/SHA256SUMS) | 1.6 KiB | `other` |
 | [SHA256SUMS.asc](https://github.com/certbot/certbot/releases/download/v5.8.0/SHA256SUMS.asc) | 659 B | `other` |
 
-## Popularity
+## Distribution status
 
-- **Stars**: 33,232 · **Forks**: 3,510 · **Open issues**: 5,574 · **Contributors**: 490
+Reported by **935** distros on [repology.org](https://repology.org/project/certbot). **138** are ✅ on the latest upstream release, **765** are ⚠️ on an older version.
 
-## Totals (cumulative)
-
-- **Releases**: 73 · **Merged PRs**: 4134 · **Open PRs**: 63 · **Closed issues**: 5452 · **Open issues**: 122 · **Commits**: 11436
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 1 | 4 | 2 | 3 | 1 | 9 |
-| 90d | 2026-06-12 | 2 | 18 | 8 | 15 | 8 | 31 |
-| 360d | 2025-09-15 | 10 | 118 | 24 | 63 | 42 | 184 |
-
-## Code size
-
-Total: **73,351** lines of code across **725** files in the top 5 languages.
-
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Python | 57,786 | 5,348 | 11,791 | 366 |
-| Bitbake | 6,296 | 3,415 | 1,706 | 237 |
-| ReStructuredText | 2,660 | 0 | 928 | 97 |
-| Sh | 2,066 | 520 | 346 | 20 |
-| Json | 1,446 | 0 | 0 | 5 |
-
-## OpenSSF Scorecard
-
-Overall score: **6.9 / 10**
-
-Lowest-scoring checks:
-
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `5.5.0` | ⚠️ outdated |
+| Debian 14 | `5.5.0` | ⚠️ outdated |
+| Debian 13 | `4.0.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `4.0.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `2.9.0` | ⚠️ outdated |
+| Arch | `5.8.0` | ✅ latest |
+| Homebrew | `5.8.0` | ✅ latest |
+| Fedora rawhide | `5.7.0` | ⚠️ outdated |
+| Nix unstable | `5.6.0` | ⚠️ outdated |
+| Void | `5.1.0` | ⚠️ outdated |
+| Alpine edge | `5.8.0` | ✅ latest |
+| openSUSE Tumbleweed | `5.7.0` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -94,4 +116,4 @@ Install metadata for certbot lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:35:20Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:46:41Z._
