@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 33,232 · **Forks**: 3,510 · **Open issues**: 5,574 · **Contributors**: 490
+- **Stars**: 33,233 · **Forks**: 3,510 · **Open issues**: 5,574 · **Contributors**: 490
 
 ## Totals (cumulative)
 
@@ -90,7 +90,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **935** distros on [repology.org](https://repology.org/project/certbot). **138** are ✅ on the latest upstream release, **765** are ⚠️ on an older version.
+Reported by **935** distros on [repology.org](https://repology.org/project/certbot). **155** are ✅ on the latest upstream release, **748** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -116,4 +116,4 @@ Install metadata for certbot lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T04:50:33Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T20:11:43Z._
