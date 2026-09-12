@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 33,233 · **Forks**: 3,510 · **Open issues**: 5,574 · **Contributors**: 490
+- **Stars**: 33,231 · **Forks**: 3,511 · **Open issues**: 5,574 · **Contributors**: 490
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 1 | 3 | 2 | 3 | 1 | 9 |
-| last60d | 2026-07-13 | 2 | 13 | 2 | 10 | 3 | 25 |
-| 90d | 2026-06-13 | 2 | 18 | 8 | 14 | 7 | 31 |
-| last180d | 2026-03-15 | 4 | 50 | 14 | 30 | 19 | 85 |
-| 360d | 2025-09-16 | 10 | 118 | 23 | 64 | 40 | 184 |
-| last720d | 2024-09-21 | 21 | 357 | 31 | 189 | 71 | 468 |
+| 30d | 2026-08-13 | 1 | 3 | 2 | 3 | 1 | 9 |
+| last60d | 2026-07-14 | 2 | 13 | 2 | 9 | 3 | 25 |
+| 90d | 2026-06-14 | 2 | 18 | 8 | 13 | 7 | 31 |
+| last180d | 2026-03-16 | 4 | 48 | 14 | 30 | 19 | 85 |
+| 360d | 2025-09-17 | 10 | 118 | 23 | 64 | 40 | 184 |
+| last720d | 2024-09-22 | 21 | 357 | 31 | 189 | 71 | 468 |
 
 ## Release assets
 
@@ -90,7 +90,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **935** distros on [repology.org](https://repology.org/project/certbot). **155** are ✅ on the latest upstream release, **748** are ⚠️ on an older version.
+Reported by **934** distros on [repology.org](https://repology.org/project/certbot). **155** are ✅ on the latest upstream release, **747** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -104,7 +104,7 @@ Reported by **935** distros on [repology.org](https://repology.org/project/certb
 | Fedora rawhide | `5.7.0` | ⚠️ outdated |
 | Nix unstable | `5.6.0` | ⚠️ outdated |
 | Void | `5.1.0` | ⚠️ outdated |
-| Alpine edge | `5.8.0` | ✅ latest |
+| Alpine edge | `5.7.0` | ⚠️ outdated |
 | openSUSE Tumbleweed | `5.7.0` | ⚠️ outdated |
 
 ## Improve this data
@@ -116,4 +116,4 @@ Install metadata for certbot lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T20:11:43Z._
+_Snapshot: `data/card/260912.yml` · 2026-09-12T04:46:41Z._
