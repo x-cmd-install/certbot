@@ -4,7 +4,7 @@
 
 Certbot is EFF's tool to obtain certs from Let's Encrypt and (optionally) auto-enable HTTPS on your server.  It can also act as a client for any other CA that uses the ACME protocol.
 
-![certbot](https://repo.x-cmd.io/certbot.svg?lang=zh)
+[![x-cmd/install — certbot Code Quality Monitoring Repo Card](https://repo.x-cmd.io/certbot.svg?lang=zh)](https://x-cmd.com/install/certbot)
 
 ## 安装
 
@@ -47,7 +47,7 @@ x install certbot
 
 ## 流行度
 
-- **Star**: 33,237 · **Fork**: 3,506 · **开放 issue**: 5,574 · **贡献者**: 490
+- **Star**: 33,242 · **Fork**: 3,504 · **开放 issue**: 5,574 · **贡献者**: 490
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install certbot
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 1 | 3 | 1 | 2 | 1 | 8 |
-| last60d | 2026-07-20 | 2 | 11 | 1 | 8 | 2 | 18 |
-| 90d | 2026-06-20 | 2 | 15 | 5 | 13 | 5 | 30 |
-| last180d | 2026-03-22 | 4 | 46 | 10 | 32 | 15 | 78 |
-| 360d | 2025-09-23 | 10 | 115 | 19 | 66 | 36 | 181 |
-| last720d | 2024-09-28 | 21 | 356 | 27 | 193 | 67 | 466 |
+| 30d | 2026-08-21 | 1 | 2 | 1 | 0 | 1 | 7 |
+| last60d | 2026-07-22 | 1 | 9 | 1 | 7 | 2 | 15 |
+| 90d | 2026-06-22 | 2 | 15 | 5 | 12 | 4 | 26 |
+| last180d | 2026-03-24 | 4 | 46 | 10 | 32 | 15 | 77 |
+| 360d | 2025-09-25 | 10 | 112 | 19 | 66 | 36 | 178 |
+| last720d | 2024-09-30 | 21 | 356 | 27 | 193 | 67 | 466 |
 
 ## Release 资产
 
@@ -97,4 +97,4 @@ certbot 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T04:50:20Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T04:59:54Z._
