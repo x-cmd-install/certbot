@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 33,250 · **Forks**: 3,504 · **Open issues**: 5,574 · **Contributors**: 490
+- **Stars**: 33,251 · **Forks**: 3,502 · **Open issues**: 5,574 · **Contributors**: 490
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-25 | 1 | 1 | 2 | 0 | 1 | 7 |
-| last60d | 2026-07-26 | 1 | 7 | 2 | 6 | 2 | 15 |
-| 90d | 2026-06-26 | 2 | 15 | 5 | 12 | 4 | 26 |
-| last180d | 2026-03-28 | 4 | 45 | 11 | 30 | 15 | 77 |
-| 360d | 2025-09-29 | 10 | 111 | 19 | 65 | 36 | 178 |
-| last720d | 2024-10-04 | 21 | 354 | 28 | 192 | 67 | 466 |
+| 30d | 2026-08-26 | 1 | 1 | 2 | 0 | 0 | 7 |
+| last60d | 2026-07-27 | 1 | 7 | 2 | 6 | 2 | 15 |
+| 90d | 2026-06-27 | 2 | 15 | 2 | 12 | 4 | 26 |
+| last180d | 2026-03-29 | 4 | 45 | 11 | 30 | 15 | 77 |
+| 360d | 2025-09-30 | 10 | 111 | 19 | 65 | 36 | 178 |
+| last720d | 2024-10-05 | 21 | 354 | 28 | 191 | 67 | 464 |
 
 ## Release assets
 
@@ -97,4 +97,4 @@ Install metadata for certbot lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260924.yml` · 2026-09-24T04:45:47Z._
+_Snapshot: `data/card/260925.yml` · 2026-09-25T04:59:13Z._
