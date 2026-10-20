@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v5.8.0` (2026-09-01)
-- **Last commit**: 2026-10-15
+- **Last commit**: 2026-10-19
 - **Assets in release**: 19
 
 ## Popularity
 
-- **Stars**: 33,277 · **Forks**: 3,508 · **Open issues**: 5,577 · **Contributors**: 491
+- **Stars**: 33,279 · **Forks**: 3,508 · **Open issues**: 5,577 · **Contributors**: 491
 
 ## Totals (cumulative)
 
-- **Releases**: 73 · **Merged PRs**: 4137 · **Open PRs**: 70 · **Closed issues**: 5457 · **Open issues**: 120 · **Commits**: 11440
+- **Releases**: 73 · **Merged PRs**: 4138 · **Open PRs**: 68 · **Closed issues**: 5457 · **Open issues**: 120 · **Commits**: 11441
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-19 | 0 | 3 | 11 | 0 | 3 | 4 |
-| last60d | 2026-08-20 | 1 | 6 | 12 | 2 | 4 | 11 |
-| 90d | 2026-07-21 | 2 | 13 | 12 | 8 | 5 | 20 |
-| last180d | 2026-04-22 | 3 | 43 | 18 | 24 | 17 | 72 |
-| 360d | 2025-10-24 | 9 | 111 | 28 | 59 | 39 | 176 |
-| last720d | 2024-10-29 | 21 | 356 | 38 | 186 | 70 | 467 |
+| 30d | 2026-09-20 | 0 | 4 | 9 | 0 | 3 | 5 |
+| last60d | 2026-08-21 | 1 | 6 | 10 | 0 | 4 | 12 |
+| 90d | 2026-07-22 | 1 | 13 | 10 | 7 | 5 | 21 |
+| last180d | 2026-04-23 | 3 | 44 | 16 | 24 | 17 | 73 |
+| 360d | 2025-10-25 | 9 | 112 | 26 | 59 | 39 | 177 |
+| last720d | 2024-10-30 | 21 | 357 | 36 | 186 | 70 | 468 |
 
 ## Release assets
 
@@ -97,4 +97,4 @@ Install metadata for certbot lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261019.yml` · 2026-10-19T04:45:46Z._
+_Snapshot: `data/card/261020.yml` · 2026-10-20T04:49:03Z._
