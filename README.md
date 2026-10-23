@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 7 | 7 | 0 | 3 | 11 |
-| last60d | 2026-08-23 | 1 | 9 | 9 | 0 | 4 | 18 |
-| 90d | 2026-07-24 | 1 | 14 | 9 | 6 | 5 | 27 |
-| last180d | 2026-04-25 | 3 | 47 | 15 | 24 | 17 | 79 |
-| 360d | 2025-10-27 | 9 | 115 | 25 | 59 | 39 | 183 |
-| last720d | 2024-11-01 | 21 | 357 | 35 | 185 | 70 | 473 |
+| 30d | 2026-09-23 | 0 | 7 | 7 | 0 | 3 | 11 |
+| last60d | 2026-08-24 | 1 | 9 | 9 | 0 | 4 | 18 |
+| 90d | 2026-07-25 | 1 | 14 | 9 | 6 | 5 | 27 |
+| last180d | 2026-04-26 | 3 | 47 | 15 | 24 | 17 | 79 |
+| 360d | 2025-10-28 | 9 | 115 | 25 | 59 | 39 | 183 |
+| last720d | 2024-11-02 | 21 | 357 | 35 | 185 | 70 | 469 |
 
 ## Release assets
 
@@ -88,6 +88,25 @@ Lowest-scoring checks:
 | [SHA256SUMS](https://github.com/certbot/certbot/releases/download/v5.8.0/SHA256SUMS) | 1.6 KiB | `other` |
 | [SHA256SUMS.asc](https://github.com/certbot/certbot/releases/download/v5.8.0/SHA256SUMS.asc) | 659 B | `other` |
 
+## Distribution status
+
+Reported by **893** distros on [repology.org](https://repology.org/project/certbot). **196** are ✅ on the latest upstream release, **666** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `5.5.0` | ⚠️ outdated |
+| Debian 14 | `5.5.0` | ⚠️ outdated |
+| Debian 13 | `4.0.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `4.0.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `2.9.0` | ⚠️ outdated |
+| Arch | `5.8.0` | ✅ latest |
+| Homebrew | `5.8.0` | ✅ latest |
+| Fedora rawhide | `5.8.0` | ✅ latest |
+| Nix unstable | `5.6.0` | ⚠️ outdated |
+| Void | `5.1.0` | ⚠️ outdated |
+| Alpine edge | `5.8.0` | ✅ latest |
+| openSUSE Tumbleweed | `5.8.0` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for certbot lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `certbot` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -97,4 +116,4 @@ Install metadata for certbot lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T04:43:24Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T04:48:39Z._
