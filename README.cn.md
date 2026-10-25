@@ -47,7 +47,7 @@ x install certbot
 
 ## 流行度
 
-- **Star**: 33,292 · **Fork**: 3,509 · **开放 issue**: 5,577 · **贡献者**: 494
+- **Star**: 33,296 · **Fork**: 3,507 · **开放 issue**: 5,577 · **贡献者**: 494
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install certbot
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-24 | 0 | 7 | 7 | 0 | 3 | 11 |
-| last60d | 2026-08-25 | 1 | 8 | 9 | 0 | 4 | 18 |
-| 90d | 2026-07-26 | 1 | 14 | 9 | 6 | 5 | 27 |
-| last180d | 2026-04-27 | 3 | 47 | 15 | 24 | 17 | 79 |
-| 360d | 2025-10-29 | 9 | 114 | 25 | 59 | 39 | 183 |
-| last720d | 2024-11-03 | 21 | 357 | 35 | 184 | 70 | 469 |
+| 30d | 2026-09-25 | 0 | 7 | 7 | 0 | 3 | 8 |
+| last60d | 2026-08-26 | 1 | 8 | 9 | 0 | 3 | 13 |
+| 90d | 2026-07-27 | 1 | 14 | 9 | 6 | 5 | 26 |
+| last180d | 2026-04-28 | 3 | 46 | 15 | 24 | 17 | 75 |
+| 360d | 2025-10-30 | 9 | 114 | 25 | 59 | 39 | 181 |
+| last720d | 2024-11-04 | 21 | 357 | 35 | 184 | 70 | 469 |
 
 ## Release 资产
 
@@ -90,7 +90,7 @@ x install certbot
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/certbot) 上共有 **893** 个发行版报告此项目。**196** 个 ✅ 已是最新上游版本，**666** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/certbot) 上共有 **893** 个发行版报告此项目。**230** 个 ✅ 已是最新上游版本，**632** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -104,7 +104,7 @@ x install certbot
 | Fedora rawhide | `5.8.0` | ✅ latest |
 | Nix unstable | `5.6.0` | ⚠️ outdated |
 | Void | `5.1.0` | ⚠️ outdated |
-| Alpine edge | `5.8.0` | ✅ latest |
+| Alpine edge | `5.7.0` | ⚠️ outdated |
 | openSUSE Tumbleweed | `5.8.0` | ✅ latest |
 
 ## 改进这些数据
@@ -116,4 +116,4 @@ certbot 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261024.yml` · 2026-10-24T04:38:52Z._
+_数据快照: `data/card/261025.yml` · 2026-10-25T04:43:16Z._
