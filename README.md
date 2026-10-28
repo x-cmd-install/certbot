@@ -14,7 +14,7 @@ x install certbot
 
 ## Code insight
 
-Total: **73,391** lines of code across **725** files in the top 5 languages.
+Total: **73,392** lines of code across **725** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -26,7 +26,7 @@ Total: **73,391** lines of code across **725** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **6.9 / 10**
+Overall score: **6.8 / 10**
 
 Lowest-scoring checks:
 
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v5.8.0` (2026-09-01)
-- **Last commit**: 2026-10-21
+- **Last commit**: 2026-10-27
 - **Assets in release**: 19
 
 ## Popularity
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 73 · **Merged PRs**: 4141 · **Open PRs**: 68 · **Closed issues**: 5457 · **Open issues**: 120 · **Commits**: 11447
+- **Releases**: 73 · **Merged PRs**: 4142 · **Open PRs**: 67 · **Closed issues**: 5457 · **Open issues**: 120 · **Commits**: 11448
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 0 | 6 | 8 | 0 | 3 | 8 |
-| last60d | 2026-08-28 | 1 | 8 | 10 | 0 | 3 | 13 |
-| 90d | 2026-07-29 | 1 | 14 | 10 | 6 | 5 | 26 |
-| last180d | 2026-04-30 | 3 | 45 | 16 | 24 | 16 | 75 |
-| 360d | 2025-11-01 | 9 | 114 | 26 | 59 | 39 | 181 |
-| last720d | 2024-11-06 | 20 | 354 | 36 | 181 | 70 | 461 |
+| 30d | 2026-09-28 | 0 | 7 | 7 | 0 | 3 | 10 |
+| last60d | 2026-08-29 | 1 | 9 | 9 | 0 | 3 | 15 |
+| 90d | 2026-07-30 | 1 | 15 | 9 | 6 | 5 | 28 |
+| last180d | 2026-05-01 | 3 | 45 | 15 | 24 | 15 | 77 |
+| 360d | 2025-11-02 | 9 | 115 | 24 | 59 | 38 | 183 |
+| last720d | 2024-11-07 | 20 | 355 | 35 | 180 | 70 | 462 |
 
 ## Release assets
 
@@ -116,4 +116,4 @@ Install metadata for certbot lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T05:07:07Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T05:39:42Z._
