@@ -41,56 +41,56 @@ x install certbot
 
 ## 发布
 
-- **最新版本**: `v5.8.0` (2026-09-01)
-- **最近提交**: 2026-10-27
+- **最新版本**: `v5.9.0` (2026-10-29)
+- **最近提交**: 2026-10-28
 - **Release 含资产**: 19 个
 
 ## 流行度
 
-- **Star**: 33,300 · **Fork**: 3,506 · **开放 issue**: 5,577 · **贡献者**: 494
+- **Star**: 33,301 · **Fork**: 3,506 · **开放 issue**: 5,577 · **贡献者**: 494
 
 ## 累计统计
 
-- **发布数**: 73 · **已合并 PR**: 4142 · **开放 PR**: 67 · **已关闭 issue**: 5457 · **开放 issue**: 120 · **提交数**: 11448
+- **发布数**: 74 · **已合并 PR**: 4143 · **开放 PR**: 67 · **已关闭 issue**: 5457 · **开放 issue**: 120 · **提交数**: 11450
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-28 | 0 | 7 | 7 | 0 | 3 | 10 |
-| last60d | 2026-08-29 | 1 | 9 | 9 | 0 | 3 | 15 |
-| 90d | 2026-07-30 | 1 | 15 | 9 | 6 | 5 | 28 |
-| last180d | 2026-05-01 | 3 | 45 | 15 | 24 | 15 | 77 |
-| 360d | 2025-11-02 | 9 | 115 | 24 | 59 | 38 | 183 |
-| last720d | 2024-11-07 | 20 | 355 | 35 | 180 | 70 | 462 |
+| 30d | 2026-09-29 | 1 | 7 | 7 | 0 | 2 | 12 |
+| last60d | 2026-08-30 | 2 | 10 | 9 | 0 | 3 | 17 |
+| 90d | 2026-07-31 | 2 | 16 | 9 | 6 | 5 | 30 |
+| last180d | 2026-05-02 | 4 | 46 | 15 | 23 | 15 | 79 |
+| 360d | 2025-11-03 | 10 | 116 | 24 | 59 | 38 | 185 |
+| last720d | 2024-11-08 | 21 | 356 | 34 | 176 | 70 | 464 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [acme-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/acme-5.8.0.tar.gz) | 89.0 KiB | `native/unknown` |
-| [certbot-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot-5.8.0.tar.gz) | 691.9 KiB | `native/unknown` |
-| [certbot_apache-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_apache-5.8.0.tar.gz) | 5.9 KiB | `native/unknown` |
-| [certbot_dns_cloudflare-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_cloudflare-5.8.0.tar.gz) | 17.6 KiB | `native/unknown` |
-| [certbot_dns_digitalocean-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_digitalocean-5.8.0.tar.gz) | 14.2 KiB | `native/unknown` |
-| [certbot_dns_dnsimple-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_dnsimple-5.8.0.tar.gz) | 12.0 KiB | `native/unknown` |
-| [certbot_dns_dnsmadeeasy-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_dnsmadeeasy-5.8.0.tar.gz) | 12.2 KiB | `native/unknown` |
-| [certbot_dns_gehirn-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_gehirn-5.8.0.tar.gz) | 12.1 KiB | `native/unknown` |
-| [certbot_dns_google-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_google-5.8.0.tar.gz) | 24.6 KiB | `native/unknown` |
-| [certbot_dns_linode-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_linode-5.8.0.tar.gz) | 12.3 KiB | `native/unknown` |
-| [certbot_dns_luadns-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_luadns-5.8.0.tar.gz) | 12.0 KiB | `native/unknown` |
-| [certbot_dns_nsone-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_nsone-5.8.0.tar.gz) | 12.1 KiB | `native/unknown` |
-| [certbot_dns_ovh-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_ovh-5.8.0.tar.gz) | 12.5 KiB | `native/unknown` |
-| [certbot_dns_rfc2136-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_rfc2136-5.8.0.tar.gz) | 16.5 KiB | `native/unknown` |
-| [certbot_dns_route53-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_route53-5.8.0.tar.gz) | 15.4 KiB | `native/unknown` |
-| [certbot_dns_sakuracloud-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_dns_sakuracloud-5.8.0.tar.gz) | 12.1 KiB | `native/unknown` |
-| [certbot_nginx-5.8.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.8.0/certbot_nginx-5.8.0.tar.gz) | 6.4 KiB | `native/unknown` |
-| [SHA256SUMS](https://github.com/certbot/certbot/releases/download/v5.8.0/SHA256SUMS) | 1.6 KiB | `other` |
-| [SHA256SUMS.asc](https://github.com/certbot/certbot/releases/download/v5.8.0/SHA256SUMS.asc) | 659 B | `other` |
+| [acme-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/acme-5.9.0.tar.gz) | 88.6 KiB | `native/unknown` |
+| [certbot-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot-5.9.0.tar.gz) | 689.6 KiB | `native/unknown` |
+| [certbot_apache-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_apache-5.9.0.tar.gz) | 5.8 KiB | `native/unknown` |
+| [certbot_dns_cloudflare-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_cloudflare-5.9.0.tar.gz) | 17.5 KiB | `native/unknown` |
+| [certbot_dns_digitalocean-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_digitalocean-5.9.0.tar.gz) | 14.1 KiB | `native/unknown` |
+| [certbot_dns_dnsimple-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_dnsimple-5.9.0.tar.gz) | 11.9 KiB | `native/unknown` |
+| [certbot_dns_dnsmadeeasy-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_dnsmadeeasy-5.9.0.tar.gz) | 12.1 KiB | `native/unknown` |
+| [certbot_dns_gehirn-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_gehirn-5.9.0.tar.gz) | 12.0 KiB | `native/unknown` |
+| [certbot_dns_google-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_google-5.9.0.tar.gz) | 24.4 KiB | `native/unknown` |
+| [certbot_dns_linode-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_linode-5.9.0.tar.gz) | 12.2 KiB | `native/unknown` |
+| [certbot_dns_luadns-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_luadns-5.9.0.tar.gz) | 11.9 KiB | `native/unknown` |
+| [certbot_dns_nsone-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_nsone-5.9.0.tar.gz) | 12.0 KiB | `native/unknown` |
+| [certbot_dns_ovh-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_ovh-5.9.0.tar.gz) | 12.3 KiB | `native/unknown` |
+| [certbot_dns_rfc2136-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_rfc2136-5.9.0.tar.gz) | 16.4 KiB | `native/unknown` |
+| [certbot_dns_route53-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_route53-5.9.0.tar.gz) | 15.2 KiB | `native/unknown` |
+| [certbot_dns_sakuracloud-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_sakuracloud-5.9.0.tar.gz) | 12.0 KiB | `native/unknown` |
+| [certbot_nginx-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_nginx-5.9.0.tar.gz) | 6.3 KiB | `native/unknown` |
+| [SHA256SUMS](https://github.com/certbot/certbot/releases/download/v5.9.0/SHA256SUMS) | 1.6 KiB | `other` |
+| [SHA256SUMS.asc](https://github.com/certbot/certbot/releases/download/v5.9.0/SHA256SUMS.asc) | 659 B | `other` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/certbot) 上共有 **893** 个发行版报告此项目。**230** 个 ✅ 已是最新上游版本，**632** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/certbot) 上共有 **893** 个发行版报告此项目。**229** 个 ✅ 已是最新上游版本，**632** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -116,4 +116,4 @@ certbot 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261028.yml` · 2026-10-28T05:39:43Z._
+_数据快照: `data/card/261029.yml` · 2026-10-29T05:51:44Z._
