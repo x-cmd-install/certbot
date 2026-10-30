@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v5.9.0` (2026-10-29)
-- **Last commit**: 2026-10-28
+- **Last commit**: 2026-10-29
 - **Assets in release**: 19
 
 ## Popularity
 
-- **Stars**: 33,301 · **Forks**: 3,506 · **Open issues**: 5,577 · **Contributors**: 494
+- **Stars**: 33,303 · **Forks**: 3,508 · **Open issues**: 5,577 · **Contributors**: 494
 
 ## Totals (cumulative)
 
-- **Releases**: 74 · **Merged PRs**: 4143 · **Open PRs**: 67 · **Closed issues**: 5457 · **Open issues**: 120 · **Commits**: 11450
+- **Releases**: 74 · **Merged PRs**: 4144 · **Open PRs**: 68 · **Closed issues**: 5457 · **Open issues**: 120 · **Commits**: 11455
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 1 | 7 | 7 | 0 | 2 | 12 |
-| last60d | 2026-08-30 | 2 | 10 | 9 | 0 | 3 | 17 |
-| 90d | 2026-07-31 | 2 | 16 | 9 | 6 | 5 | 30 |
-| last180d | 2026-05-02 | 4 | 46 | 15 | 23 | 15 | 79 |
-| 360d | 2025-11-03 | 10 | 116 | 24 | 59 | 38 | 185 |
-| last720d | 2024-11-08 | 21 | 356 | 34 | 176 | 70 | 464 |
+| 30d | 2026-09-30 | 1 | 8 | 8 | 0 | 2 | 17 |
+| last60d | 2026-08-31 | 2 | 11 | 10 | 0 | 3 | 22 |
+| 90d | 2026-08-01 | 2 | 17 | 10 | 6 | 5 | 35 |
+| last180d | 2026-05-03 | 4 | 47 | 16 | 23 | 15 | 84 |
+| 360d | 2025-11-04 | 10 | 117 | 25 | 59 | 38 | 190 |
+| last720d | 2024-11-09 | 21 | 357 | 35 | 176 | 70 | 469 |
 
 ## Release assets
 
@@ -90,7 +90,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **893** distros on [repology.org](https://repology.org/project/certbot). **229** are ✅ on the latest upstream release, **632** are ⚠️ on an older version.
+Reported by **893** distros on [repology.org](https://repology.org/project/certbot). **46** are ✅ on the latest upstream release, **816** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -99,13 +99,13 @@ Reported by **893** distros on [repology.org](https://repology.org/project/certb
 | Debian 13 | `4.0.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `4.0.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `2.9.0` | ⚠️ outdated |
-| Arch | `5.8.0` | ✅ latest |
-| Homebrew | `5.8.0` | ✅ latest |
-| Fedora rawhide | `5.8.0` | ✅ latest |
+| Arch | `5.8.0` | ⚠️ outdated |
+| Homebrew | `5.8.0` | ⚠️ outdated |
+| Fedora rawhide | `5.8.0` | ⚠️ outdated |
 | Nix unstable | `5.6.0` | ⚠️ outdated |
 | Void | `5.1.0` | ⚠️ outdated |
 | Alpine edge | `5.7.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `5.8.0` | ✅ latest |
+| openSUSE Tumbleweed | `5.8.0` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -116,4 +116,4 @@ Install metadata for certbot lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261029.yml` · 2026-10-29T05:51:41Z._
+_Snapshot: `data/card/261030.yml` · 2026-10-30T05:48:58Z._
