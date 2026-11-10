@@ -14,13 +14,13 @@ x install certbot
 
 ## Code insight
 
-Total: **73,392** lines of code across **725** files in the top 5 languages.
+Total: **73,394** lines of code across **725** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Python | 57,823 | 5,348 | 11,797 | 366 |
 | Bitbake | 6,296 | 3,415 | 1,706 | 237 |
-| ReStructuredText | 2,662 | 0 | 928 | 97 |
+| ReStructuredText | 2,664 | 0 | 928 | 97 |
 | Sh | 2,066 | 520 | 346 | 20 |
 | Json | 1,446 | 0 | 0 | 5 |
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v5.9.0` (2026-10-29)
-- **Last commit**: 2026-10-29
+- **Last commit**: 2026-11-09
 - **Assets in release**: 19
 
 ## Popularity
 
-- **Stars**: 33,314 · **Forks**: 3,506 · **Open issues**: 5,577 · **Contributors**: 493
+- **Stars**: 33,319 · **Forks**: 3,508 · **Open issues**: 5,577 · **Contributors**: 494
 
 ## Totals (cumulative)
 
-- **Releases**: 74 · **Merged PRs**: 4143 · **Open PRs**: 70 · **Closed issues**: 5457 · **Open issues**: 120 · **Commits**: 11455
+- **Releases**: 74 · **Merged PRs**: 4145 · **Open PRs**: 72 · **Closed issues**: 5457 · **Open issues**: 120 · **Commits**: 11458
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 1 | 7 | 5 | 0 | 2 | 15 |
-| last60d | 2026-09-10 | 1 | 10 | 11 | 0 | 3 | 20 |
-| 90d | 2026-08-11 | 2 | 14 | 12 | 3 | 4 | 29 |
-| last180d | 2026-05-13 | 3 | 44 | 17 | 23 | 14 | 70 |
-| 360d | 2025-11-14 | 10 | 113 | 27 | 57 | 38 | 190 |
-| last720d | 2024-11-19 | 20 | 348 | 37 | 170 | 70 | 454 |
+| 30d | 2026-10-11 | 1 | 9 | 7 | 0 | 2 | 18 |
+| last60d | 2026-09-11 | 1 | 12 | 13 | 0 | 3 | 23 |
+| 90d | 2026-08-12 | 2 | 15 | 14 | 3 | 4 | 32 |
+| last180d | 2026-05-14 | 3 | 46 | 19 | 23 | 14 | 73 |
+| 360d | 2025-11-15 | 10 | 115 | 29 | 57 | 38 | 193 |
+| last720d | 2024-11-20 | 20 | 350 | 39 | 169 | 70 | 457 |
 
 ## Release assets
 
@@ -116,4 +116,4 @@ Install metadata for certbot lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261109.yml` · 2026-11-09T06:21:26Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T07:23:24Z._
