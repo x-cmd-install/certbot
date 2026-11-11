@@ -14,11 +14,11 @@ x install certbot
 
 ## Code insight
 
-Total: **73,394** lines of code across **725** files in the top 5 languages.
+Total: **73,603** lines of code across **725** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 57,823 | 5,348 | 11,797 | 366 |
+| Python | 58,032 | 5,366 | 11,828 | 366 |
 | Bitbake | 6,296 | 3,415 | 1,706 | 237 |
 | ReStructuredText | 2,664 | 0 | 928 | 97 |
 | Sh | 2,066 | 520 | 346 | 20 |
@@ -41,56 +41,56 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v5.9.0` (2026-10-29)
-- **Last commit**: 2026-11-09
+- **Latest**: `v5.10.0` (2026-11-10)
+- **Last commit**: 2026-11-11
 - **Assets in release**: 19
 
 ## Popularity
 
-- **Stars**: 33,319 · **Forks**: 3,508 · **Open issues**: 5,577 · **Contributors**: 494
+- **Stars**: 33,325 · **Forks**: 3,508 · **Open issues**: 5,577 · **Contributors**: 496
 
 ## Totals (cumulative)
 
-- **Releases**: 74 · **Merged PRs**: 4145 · **Open PRs**: 72 · **Closed issues**: 5457 · **Open issues**: 120 · **Commits**: 11458
+- **Releases**: 75 · **Merged PRs**: 4148 · **Open PRs**: 70 · **Closed issues**: 5457 · **Open issues**: 120 · **Commits**: 11465
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 1 | 9 | 7 | 0 | 2 | 18 |
-| last60d | 2026-09-11 | 1 | 12 | 13 | 0 | 3 | 23 |
-| 90d | 2026-08-12 | 2 | 15 | 14 | 3 | 4 | 32 |
-| last180d | 2026-05-14 | 3 | 46 | 19 | 23 | 14 | 73 |
-| 360d | 2025-11-15 | 10 | 115 | 29 | 57 | 38 | 193 |
-| last720d | 2024-11-20 | 20 | 350 | 39 | 169 | 70 | 457 |
+| 30d | 2026-10-12 | 2 | 11 | 6 | 0 | 2 | 25 |
+| last60d | 2026-09-12 | 2 | 15 | 11 | 0 | 3 | 30 |
+| 90d | 2026-08-13 | 3 | 18 | 12 | 3 | 4 | 39 |
+| last180d | 2026-05-15 | 4 | 49 | 17 | 23 | 14 | 80 |
+| 360d | 2025-11-16 | 11 | 118 | 27 | 57 | 38 | 200 |
+| last720d | 2024-11-21 | 21 | 352 | 37 | 169 | 70 | 464 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [acme-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/acme-5.9.0.tar.gz) | 88.6 KiB | `native/unknown` |
-| [certbot-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot-5.9.0.tar.gz) | 689.6 KiB | `native/unknown` |
-| [certbot_apache-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_apache-5.9.0.tar.gz) | 5.8 KiB | `native/unknown` |
-| [certbot_dns_cloudflare-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_cloudflare-5.9.0.tar.gz) | 17.5 KiB | `native/unknown` |
-| [certbot_dns_digitalocean-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_digitalocean-5.9.0.tar.gz) | 14.1 KiB | `native/unknown` |
-| [certbot_dns_dnsimple-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_dnsimple-5.9.0.tar.gz) | 11.9 KiB | `native/unknown` |
-| [certbot_dns_dnsmadeeasy-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_dnsmadeeasy-5.9.0.tar.gz) | 12.1 KiB | `native/unknown` |
-| [certbot_dns_gehirn-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_gehirn-5.9.0.tar.gz) | 12.0 KiB | `native/unknown` |
-| [certbot_dns_google-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_google-5.9.0.tar.gz) | 24.4 KiB | `native/unknown` |
-| [certbot_dns_linode-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_linode-5.9.0.tar.gz) | 12.2 KiB | `native/unknown` |
-| [certbot_dns_luadns-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_luadns-5.9.0.tar.gz) | 11.9 KiB | `native/unknown` |
-| [certbot_dns_nsone-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_nsone-5.9.0.tar.gz) | 12.0 KiB | `native/unknown` |
-| [certbot_dns_ovh-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_ovh-5.9.0.tar.gz) | 12.3 KiB | `native/unknown` |
-| [certbot_dns_rfc2136-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_rfc2136-5.9.0.tar.gz) | 16.4 KiB | `native/unknown` |
-| [certbot_dns_route53-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_route53-5.9.0.tar.gz) | 15.2 KiB | `native/unknown` |
-| [certbot_dns_sakuracloud-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_dns_sakuracloud-5.9.0.tar.gz) | 12.0 KiB | `native/unknown` |
-| [certbot_nginx-5.9.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.9.0/certbot_nginx-5.9.0.tar.gz) | 6.3 KiB | `native/unknown` |
-| [SHA256SUMS](https://github.com/certbot/certbot/releases/download/v5.9.0/SHA256SUMS) | 1.6 KiB | `other` |
-| [SHA256SUMS.asc](https://github.com/certbot/certbot/releases/download/v5.9.0/SHA256SUMS.asc) | 659 B | `other` |
+| [acme-5.10.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.10.0/acme-5.10.0.tar.gz) | 89.0 KiB | `native/unknown` |
+| [certbot-5.10.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.10.0/certbot-5.10.0.tar.gz) | 692.0 KiB | `native/unknown` |
+| [certbot_apache-5.10.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.10.0/certbot_apache-5.10.0.tar.gz) | 5.8 KiB | `native/unknown` |
+| [certbot_dns_cloudflare-5.10.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.10.0/certbot_dns_cloudflare-5.10.0.tar.gz) | 17.4 KiB | `native/unknown` |
+| [certbot_dns_digitalocean-5.10.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.10.0/certbot_dns_digitalocean-5.10.0.tar.gz) | 14.1 KiB | `native/unknown` |
+| [certbot_dns_dnsimple-5.10.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.10.0/certbot_dns_dnsimple-5.10.0.tar.gz) | 11.9 KiB | `native/unknown` |
+| [certbot_dns_dnsmadeeasy-5.10.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.10.0/certbot_dns_dnsmadeeasy-5.10.0.tar.gz) | 12.0 KiB | `native/unknown` |
+| [certbot_dns_gehirn-5.10.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.10.0/certbot_dns_gehirn-5.10.0.tar.gz) | 12.0 KiB | `native/unknown` |
+| [certbot_dns_google-5.10.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.10.0/certbot_dns_google-5.10.0.tar.gz) | 24.5 KiB | `native/unknown` |
+| [certbot_dns_linode-5.10.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.10.0/certbot_dns_linode-5.10.0.tar.gz) | 12.2 KiB | `native/unknown` |
+| [certbot_dns_luadns-5.10.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.10.0/certbot_dns_luadns-5.10.0.tar.gz) | 11.9 KiB | `native/unknown` |
+| [certbot_dns_nsone-5.10.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.10.0/certbot_dns_nsone-5.10.0.tar.gz) | 12.0 KiB | `native/unknown` |
+| [certbot_dns_ovh-5.10.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.10.0/certbot_dns_ovh-5.10.0.tar.gz) | 12.3 KiB | `native/unknown` |
+| [certbot_dns_rfc2136-5.10.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.10.0/certbot_dns_rfc2136-5.10.0.tar.gz) | 16.4 KiB | `native/unknown` |
+| [certbot_dns_route53-5.10.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.10.0/certbot_dns_route53-5.10.0.tar.gz) | 15.2 KiB | `native/unknown` |
+| [certbot_dns_sakuracloud-5.10.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.10.0/certbot_dns_sakuracloud-5.10.0.tar.gz) | 12.0 KiB | `native/unknown` |
+| [certbot_nginx-5.10.0.tar.gz](https://github.com/certbot/certbot/releases/download/v5.10.0/certbot_nginx-5.10.0.tar.gz) | 6.4 KiB | `native/unknown` |
+| [SHA256SUMS](https://github.com/certbot/certbot/releases/download/v5.10.0/SHA256SUMS) | 1.6 KiB | `other` |
+| [SHA256SUMS.asc](https://github.com/certbot/certbot/releases/download/v5.10.0/SHA256SUMS.asc) | 659 B | `other` |
 
 ## Distribution status
 
-Reported by **898** distros on [repology.org](https://repology.org/project/certbot). **130** are ✅ on the latest upstream release, **733** are ⚠️ on an older version.
+Reported by **899** distros on [repology.org](https://repology.org/project/certbot). **18** are ✅ on the latest upstream release, **845** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -99,12 +99,12 @@ Reported by **898** distros on [repology.org](https://repology.org/project/certb
 | Debian 13 | `4.0.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `4.0.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `2.9.0` | ⚠️ outdated |
-| Arch | `5.9.0` | ✅ latest |
-| Homebrew | `5.9.0` | ✅ latest |
+| Arch | `5.9.0` | ⚠️ outdated |
+| Homebrew | `5.9.0` | ⚠️ outdated |
 | Fedora rawhide | `5.8.0` | ⚠️ outdated |
 | Nix unstable | `5.6.0` | ⚠️ outdated |
 | Void | `5.1.0` | ⚠️ outdated |
-| Alpine edge | `5.9.0` | ✅ latest |
+| Alpine edge | `5.9.0` | ⚠️ outdated |
 | openSUSE Tumbleweed | `5.8.0` | ⚠️ outdated |
 
 ## Improve this data
@@ -116,4 +116,4 @@ Install metadata for certbot lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T07:23:24Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T06:16:09Z._
