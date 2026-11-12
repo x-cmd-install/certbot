@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 33,325 · **Forks**: 3,508 · **Open issues**: 5,577 · **Contributors**: 496
+- **Stars**: 33,329 · **Forks**: 3,509 · **Open issues**: 5,577 · **Contributors**: 496
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 2 | 11 | 6 | 0 | 2 | 25 |
-| last60d | 2026-09-12 | 2 | 15 | 11 | 0 | 3 | 30 |
-| 90d | 2026-08-13 | 3 | 18 | 12 | 3 | 4 | 39 |
-| last180d | 2026-05-15 | 4 | 49 | 17 | 23 | 14 | 80 |
-| 360d | 2025-11-16 | 11 | 118 | 27 | 57 | 38 | 200 |
-| last720d | 2024-11-21 | 21 | 352 | 37 | 169 | 70 | 464 |
+| 30d | 2026-10-13 | 2 | 11 | 5 | 0 | 1 | 25 |
+| last60d | 2026-09-13 | 2 | 15 | 11 | 0 | 3 | 30 |
+| 90d | 2026-08-14 | 3 | 18 | 12 | 3 | 4 | 39 |
+| last180d | 2026-05-16 | 4 | 49 | 17 | 23 | 14 | 80 |
+| 360d | 2025-11-17 | 11 | 117 | 27 | 57 | 38 | 200 |
+| last720d | 2024-11-22 | 21 | 351 | 37 | 168 | 70 | 464 |
 
 ## Release assets
 
@@ -90,7 +90,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **899** distros on [repology.org](https://repology.org/project/certbot). **18** are ✅ on the latest upstream release, **845** are ⚠️ on an older version.
+Reported by **915** distros on [repology.org](https://repology.org/project/certbot). **66** are ✅ on the latest upstream release, **814** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -100,9 +100,9 @@ Reported by **899** distros on [repology.org](https://repology.org/project/certb
 | Ubuntu 26.04 LTS | `4.0.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `2.9.0` | ⚠️ outdated |
 | Arch | `5.9.0` | ⚠️ outdated |
-| Homebrew | `5.9.0` | ⚠️ outdated |
+| Homebrew | `5.10.0` | ✅ latest |
 | Fedora rawhide | `5.8.0` | ⚠️ outdated |
-| Nix unstable | `5.6.0` | ⚠️ outdated |
+| Nix unstable | `5.9.0` | ⚠️ outdated |
 | Void | `5.1.0` | ⚠️ outdated |
 | Alpine edge | `5.9.0` | ⚠️ outdated |
 | openSUSE Tumbleweed | `5.8.0` | ⚠️ outdated |
@@ -116,4 +116,4 @@ Install metadata for certbot lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T06:16:09Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T07:30:09Z._
