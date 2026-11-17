@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 33,338 · **Forks**: 3,510 · **Open issues**: 5,577 · **Contributors**: 496
+- **Stars**: 33,337 · **Forks**: 3,510 · **Open issues**: 5,577 · **Contributors**: 496
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 4148 · **Open PRs**: 74 · **Closed issues**: 5457 · **Open issues**: 120 · **Commits**: 11465
+- **Releases**: 75 · **Merged PRs**: 4148 · **Open PRs**: 71 · **Closed issues**: 5457 · **Open issues**: 120 · **Commits**: 11465
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 2 | 8 | 9 | 0 | 0 | 19 |
-| last60d | 2026-09-17 | 2 | 15 | 15 | 0 | 3 | 30 |
-| 90d | 2026-08-18 | 3 | 18 | 16 | 2 | 4 | 38 |
-| last180d | 2026-05-20 | 4 | 45 | 21 | 23 | 14 | 78 |
-| 360d | 2025-11-21 | 11 | 114 | 31 | 56 | 36 | 194 |
-| last720d | 2024-11-26 | 21 | 350 | 41 | 167 | 70 | 461 |
+| 30d | 2026-10-18 | 2 | 8 | 9 | 0 | 0 | 19 |
+| last60d | 2026-09-18 | 2 | 15 | 12 | 0 | 3 | 30 |
+| 90d | 2026-08-19 | 3 | 18 | 13 | 2 | 4 | 38 |
+| last180d | 2026-05-21 | 4 | 45 | 18 | 23 | 13 | 78 |
+| 360d | 2025-11-22 | 11 | 113 | 28 | 56 | 36 | 194 |
+| last720d | 2024-11-27 | 21 | 350 | 38 | 167 | 70 | 461 |
 
 ## Release assets
 
@@ -90,7 +90,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **898** distros on [repology.org](https://repology.org/project/certbot). **104** are ✅ on the latest upstream release, **759** are ⚠️ on an older version.
+Reported by **899** distros on [repology.org](https://repology.org/project/certbot). **121** are ✅ on the latest upstream release, **743** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -116,4 +116,4 @@ Install metadata for certbot lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T06:33:43Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T09:05:15Z._
