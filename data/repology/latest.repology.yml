@@ -1,5 +1,38 @@
 - repo: manjaro_stable
   subrepo: extra
+  srcname: certbot-dns-gehirn
+  binname: certbot-dns-gehirn
+  visiblename: certbot-dns-gehirn
+  version: 5.8.0
+  origversion: 5.8.0-1
+  status: outdated
+  summary: Gehirn DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: python-acme
+  binname: python-acme
+  visiblename: python-acme
+  version: 5.8.0
+  origversion: 5.8.0-1
+  status: outdated
+  summary: ACME protocol implementation in Python
+  licenses:
+    - Apache-2.0
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: certbot-dns-sakuracloud
+  binname: certbot-dns-sakuracloud
+  visiblename: certbot-dns-sakuracloud
+  version: 5.8.0
+  origversion: 5.8.0-1
+  status: outdated
+  summary: Sakura Cloud DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_stable
+  subrepo: extra
   srcname: certbot-dns-nsone
   binname: certbot-dns-nsone
   visiblename: certbot-dns-nsone
@@ -20,7 +53,106 @@
   summary: Route53 DNS Authenticator plugin for Certbot
   licenses:
     - Apache-2.0
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: certbot-dns-linode
+  binname: certbot-dns-linode
+  visiblename: certbot-dns-linode
+  version: 5.8.0
+  origversion: 5.8.0-1
+  status: outdated
+  summary: Linode DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: certbot-dns-luadns
+  binname: certbot-dns-luadns
+  visiblename: certbot-dns-luadns
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: LuaDNS DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: certbot
+  binname: certbot
+  visiblename: certbot
+  version: 5.8.0
+  origversion: 5.8.0-1
+  status: outdated
+  summary: An ACME client
+  licenses:
+    - Apache-2.0
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: certbot-dns-rfc2136
+  binname: certbot-dns-rfc2136
+  visiblename: certbot-dns-rfc2136
+  version: 5.8.0
+  origversion: 5.8.0-1
+  status: outdated
+  summary: RFC2136 DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: certbot-dns-dnsimple
+  binname: certbot-dns-dnsimple
+  visiblename: certbot-dns-dnsimple
+  version: 5.8.0
+  origversion: 5.8.0-1
+  status: outdated
+  summary: DNSimple DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
 - repo: manjaro_testing
+  subrepo: extra
+  srcname: certbot-dns-luadns
+  binname: certbot-dns-luadns
+  visiblename: certbot-dns-luadns
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: LuaDNS DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: certbot-dns-dnsmadeeasy
+  binname: certbot-dns-dnsmadeeasy
+  visiblename: certbot-dns-dnsmadeeasy
+  version: 5.8.0
+  origversion: 5.8.0-1
+  status: outdated
+  summary: DNS Made Easy DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: certbot-nginx
+  binname: certbot-nginx
+  visiblename: certbot-nginx
+  version: 5.8.0
+  origversion: 5.8.0-1
+  status: outdated
+  summary: Nginx plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: certbot-dns-cloudflare
+  binname: certbot-dns-cloudflare
+  visiblename: certbot-dns-cloudflare
+  version: 5.8.0
+  origversion: 5.8.0-1
+  status: outdated
+  summary: Cloudflare DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
   subrepo: extra
   srcname: certbot-dns-google
   binname: certbot-dns-google
@@ -29,6 +161,84 @@
   origversion: 5.10.0-1
   status: newest
   summary: Google Cloud DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: certbot-dns-ovh
+  binname: certbot-dns-ovh
+  visiblename: certbot-dns-ovh
+  version: 5.8.0
+  origversion: 5.8.0-1
+  status: outdated
+  summary: OVH DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: certbot-dns-luadns
+  binname: certbot-dns-luadns
+  visiblename: certbot-dns-luadns
+  version: 5.8.0
+  origversion: 5.8.0-1
+  status: outdated
+  summary: LuaDNS DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: certbot-dns-google
+  binname: certbot-dns-google
+  visiblename: certbot-dns-google
+  version: 5.8.0
+  origversion: 5.8.0-1
+  status: outdated
+  summary: Google Cloud DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: python-acme
+  visiblename: python-acme
+  version: 1.22.0
+  origversion: 1.22.0-bp156.2.2
+  status: outdated
+  summary: Python library for the ACME protocol
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: python-acme
+  binname: python-acme
+  visiblename: python-acme
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: ACME protocol implementation in Python
+  licenses:
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: certbot-nginx
+  binname: certbot-nginx
+  visiblename: certbot-nginx
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: Nginx plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: certbot-apache
+  binname: certbot-apache
+  visiblename: certbot-apache
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: Apache plugin for Certbot
   licenses:
     - Apache-2.0
 - repo: manjaro_testing
@@ -44,6 +254,88 @@
     - Apache-2.0
 - repo: manjaro_testing
   subrepo: extra
+  srcname: certbot-dns-gehirn
+  binname: certbot-dns-gehirn
+  visiblename: certbot-dns-gehirn
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: Gehirn DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: deepin_unstable
+  subrepo: main
+  srcname: python-certbot-dns-dnsimple
+  binnames:
+    - python3-certbot-dns-dnsimple
+    - python-certbot-dns-dnsimple-doc
+  visiblename: python-certbot-dns-dnsimple
+  version: 0.31.0
+  origversion: 0.31.0-1
+  status: outdated
+  maintainers:
+    - team+letsencrypt@tracker.debian.org
+    - asb@debian.org
+    - hlieberman@debian.org
+- repo: deepin_unstable
+  subrepo: main
+  srcname: python-certbot-dns-gehirn
+  binnames:
+    - python3-certbot-dns-gehirn
+    - python-certbot-dns-gehirn-doc
+  visiblename: python-certbot-dns-gehirn
+  version: 0.31.0
+  origversion: 0.31.0-1
+  status: outdated
+  maintainers:
+    - team+letsencrypt@tracker.debian.org
+    - hlieberman@debian.org
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: certbot-dns-rfc2136
+  binname: certbot-dns-rfc2136
+  visiblename: certbot-dns-rfc2136
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: RFC2136 DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: certbot-dns-dnsmadeeasy
+  binname: certbot-dns-dnsmadeeasy
+  visiblename: certbot-dns-dnsmadeeasy
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: DNS Made Easy DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: certbot-dns-route53
+  binname: certbot-dns-route53
+  visiblename: certbot-dns-route53
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: Route53 DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: certbot-dns-linode
+  binname: certbot-dns-linode
+  visiblename: certbot-dns-linode
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: Linode DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
   srcname: certbot-dns-dnsimple
   binname: certbot-dns-dnsimple
   visiblename: certbot-dns-dnsimple
@@ -53,6 +345,333 @@
   summary: DNSimple DNS Authenticator plugin for Certbot
   licenses:
     - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: certbot-dns-google
+  binname: certbot-dns-google
+  visiblename: certbot-dns-google
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: Google Cloud DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: certbot-dns-digitalocean
+  binname: certbot-dns-digitalocean
+  visiblename: certbot-dns-digitalocean
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: DigitalOcean DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: certbot-dns-cloudflare
+  binname: certbot-dns-cloudflare
+  visiblename: certbot-dns-cloudflare
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: Cloudflare DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: artix
+  subrepo: galaxy
+  srcname: certbot-dns-rfc2136
+  binname: certbot-dns-rfc2136
+  visiblename: certbot-dns-rfc2136
+  version: 5.9.0
+  origversion: 5.9.0-1
+  status: outdated
+  summary: RFC2136 DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: certbot-dns-nsone
+  binname: certbot-dns-nsone
+  visiblename: certbot-dns-nsone
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: NS1 DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: certbot-dns-ovh
+  binname: certbot-dns-ovh
+  visiblename: certbot-dns-ovh
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: OVH DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: certbot-dns-sakuracloud
+  binname: certbot-dns-sakuracloud
+  visiblename: certbot-dns-sakuracloud
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: Sakura Cloud DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: certbot-dns-nsone
+  binname: certbot-dns-nsone
+  visiblename: certbot-dns-nsone
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: NS1 DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: certbot-dns-dnsmadeeasy
+  binname: certbot-dns-dnsmadeeasy
+  visiblename: certbot-dns-dnsmadeeasy
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: DNS Made Easy DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: certbot-dns-rfc2136
+  binname: certbot-dns-rfc2136
+  visiblename: certbot-dns-rfc2136
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: RFC2136 DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: chimera
+  subrepo: main
+  srcname: python-acme
+  binname: python-acme
+  visiblename: python-acme
+  version: 5.8.0
+  origversion: 5.8.0-r0
+  status: outdated
+  summary: ACME protocol implementation
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: certbot-dns-route53
+  binname: certbot-dns-route53
+  visiblename: certbot-dns-route53
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: Route53 DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: pypi
+  srcname: certbot-dns-linode
+  binname: certbot-dns-linode
+  visiblename: certbot-dns-linode
+  version: 5.10.0
+  origversion: null
+  status: newest
+  summary: Linode DNS Authenticator plugin for Certbot
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: certbot-nginx
+  binname: certbot-nginx
+  visiblename: certbot-nginx
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: Nginx plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: certbot-apache
+  binname: certbot-apache
+  visiblename: certbot-apache
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: Apache plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: python-certbot
+  visiblename: python-certbot
+  version: 1.22.0
+  origversion: 1.22.0-bp156.2.2
+  status: outdated
+  summary: ACME client
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: pkgsrc_current
+  srcname: security/py-certbot
+  binname: py314-certbot
+  visiblename: security/py-certbot
+  version: 5.10.0
+  origversion: null
+  status: newest
+  summary: Client for the Let's Encrypt CA
+  maintainers:
+    - adam@netbsd.org
+  categories:
+    - security
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: certbot-dns-digitalocean
+  binname: certbot-dns-digitalocean
+  visiblename: certbot-dns-digitalocean
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: DigitalOcean DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: certbot-dns-gehirn
+  binname: certbot-dns-gehirn
+  visiblename: certbot-dns-gehirn
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: Gehirn DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: pypi
+  srcname: acme
+  binname: acme
+  visiblename: acme
+  version: 5.10.0
+  origversion: null
+  status: newest
+  summary: ACME protocol implementation in Python
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: certbot-dns-sakuracloud
+  binname: certbot-dns-sakuracloud
+  visiblename: certbot-dns-sakuracloud
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: Sakura Cloud DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: python-acme
+  binname: python-acme
+  visiblename: python-acme
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: ACME protocol implementation in Python
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: certbot-dns-linode
+  binname: certbot-dns-linode
+  visiblename: certbot-dns-linode
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: Linode DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: certbot-dns-cloudflare
+  binname: certbot-dns-cloudflare
+  visiblename: certbot-dns-cloudflare
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: Cloudflare DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: certbot-dns-ovh
+  binname: certbot-dns-ovh
+  visiblename: certbot-dns-ovh
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: OVH DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: aosc
+  srcname: app-web/certbot
+  binname: certbot
+  visiblename: certbot
+  version: 5.5.0
+  origversion: null
+  status: outdated
+  summary: tool to obtain certs from Let's Encrypt and auto-enable HTTPS on your server
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - net
+- repo: chimera
+  subrepo: main
+  srcname: certbot
+  binname: certbot-nginx
+  visiblename: certbot-nginx
+  version: 5.8.0
+  origversion: 5.8.0-r0
+  status: outdated
+  summary: Nginx plugin for certbot
+  licenses:
+    - Apache-2.0 AND MIT
+- repo: aosc
+  srcname: app-web/certbot-apache
+  binname: certbot-apache
+  visiblename: certbot-apache
+  version: 5.5.0
+  origversion: null
+  status: outdated
+  summary: Apache plugin for CertBot
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - net
+- repo: pypi
+  srcname: certbot-dns-digitalocean
+  binname: certbot-dns-digitalocean
+  visiblename: certbot-dns-digitalocean
+  version: 5.10.0
+  origversion: null
+  status: newest
+  summary: DigitalOcean DNS Authenticator plugin for Certbot
+- repo: deepin_unstable
+  subrepo: main
+  srcname: python-certbot-dns-linode
+  binnames:
+    - python3-certbot-dns-linode
+    - python-certbot-dns-linode-doc
+  visiblename: python-certbot-dns-linode
+  version: 0.31.0
+  origversion: 0.31.0-1
+  status: outdated
+  maintainers:
+    - team+letsencrypt@tracker.debian.org
+    - hlieberman@debian.org
 - repo: adelie_current
   subrepo: user
   srcname: certbot
@@ -64,17 +683,6 @@
   summary: The EFF's reference ACME client
   maintainers:
     - fallback-mnt-adelie@repology
-  licenses:
-    - Apache-2.0
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: certbot-dns-luadns
-  binname: certbot-dns-luadns
-  visiblename: certbot-dns-luadns
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: LuaDNS DNS Authenticator plugin for Certbot
   licenses:
     - Apache-2.0
 - repo: adelie_current
@@ -194,6 +802,17 @@
     - fcolista@alpinelinux.org
   licenses:
     - Apache-2.0
+- repo: arch
+  subrepo: extra
+  srcname: certbot-dns-google
+  binname: certbot-dns-google
+  visiblename: certbot-dns-google
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: Google Cloud DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
 - repo: alpine_3_18
   subrepo: community
   srcname: certbot-nginx
@@ -216,101 +835,135 @@
   origversion: 2.6.0-r0
   status: outdated
   summary: Precompiled Python bytecode for certbot
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: py3-acme
+  binname: py3-acme
+  visiblename: py3-acme
+  version: 2.6.0
+  origversion: 2.6.0-r0
+  status: outdated
+  summary: ACME protocol implementation in Python
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: py3-acme
+  binname: py3-acme-pyc
+  visiblename: py3-acme-pyc
+  version: 2.6.0
+  origversion: 2.6.0-r0
+  status: outdated
+  summary: Precompiled Python bytecode for py3-acme
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: py3-acme
+  binname: py3-acme
+  visiblename: py3-acme
+  version: 2.7.4
+  origversion: 2.7.4-r0
+  status: outdated
+  summary: ACME protocol implementation in Python
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: py3-acme
+  binname: py3-acme-pyc
+  visiblename: py3-acme-pyc
+  version: 2.7.4
+  origversion: 2.7.4-r0
+  status: outdated
+  summary: Precompiled Python bytecode for py3-acme
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: certbot
+  binname: certbot
+  visiblename: certbot
+  version: 2.7.4
+  origversion: 2.7.4-r0
+  status: outdated
+  summary: An ACME client that can update Apache/Nginx configurations
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: pypi
+  srcname: certbot-dns-nsone
+  binname: certbot-dns-nsone
+  visiblename: certbot-dns-nsone
+  version: 5.10.0
+  origversion: null
+  status: newest
+  summary: NS1 DNS Authenticator plugin for Certbot
+- repo: alpine_3_19
+  subrepo: community
+  srcname: certbot-apache
+  binname: certbot-apache
+  visiblename: certbot-apache
+  version: 2.7.4
+  origversion: 2.7.4-r0
+  status: outdated
+  summary: Apache plugin for Certbot client
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: certbot-apache
+  binname: certbot-apache-pyc
+  visiblename: certbot-apache-pyc
+  version: 2.7.4
+  origversion: 2.7.4-r0
+  status: outdated
+  summary: Precompiled Python bytecode for certbot-apache
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: certbot-nginx
+  binname: certbot-nginx
+  visiblename: certbot-nginx
+  version: 2.7.4
+  origversion: 2.7.4-r0
+  status: outdated
+  summary: Nginx plugin for Certbot client
   maintainers:
     - fcolista@alpinelinux.org
   licenses:
     - Apache-2.0
 - repo: deepin_unstable
   subrepo: main
-  srcname: python-certbot-dns-gehirn
+  srcname: python-certbot-dns-ovh
   binnames:
-    - python3-certbot-dns-gehirn
-    - python-certbot-dns-gehirn-doc
-  visiblename: python-certbot-dns-gehirn
+    - python3-certbot-dns-ovh
+    - python-certbot-dns-ovh-doc
+  visiblename: python-certbot-dns-ovh
   version: 0.31.0
   origversion: 0.31.0-1
   status: outdated
   maintainers:
     - team+letsencrypt@tracker.debian.org
     - hlieberman@debian.org
-- repo: alpine_3_18
-  subrepo: community
-  srcname: py3-acme
-  binname: py3-acme
-  visiblename: py3-acme
-  version: 2.6.0
-  origversion: 2.6.0-r0
-  status: outdated
-  summary: ACME protocol implementation in Python
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_18
-  subrepo: community
-  srcname: py3-acme
-  binname: py3-acme-pyc
-  visiblename: py3-acme-pyc
-  version: 2.6.0
-  origversion: 2.6.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for py3-acme
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_19
-  subrepo: community
-  srcname: certbot
-  binname: certbot
-  visiblename: certbot
-  version: 2.7.4
-  origversion: 2.7.4-r0
-  status: outdated
-  summary: An ACME client that can update Apache/Nginx configurations
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_19
-  subrepo: community
-  srcname: certbot-apache
-  binname: certbot-apache
-  visiblename: certbot-apache
-  version: 2.7.4
-  origversion: 2.7.4-r0
-  status: outdated
-  summary: Apache plugin for Certbot client
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_19
-  subrepo: community
-  srcname: certbot-apache
-  binname: certbot-apache-pyc
-  visiblename: certbot-apache-pyc
-  version: 2.7.4
-  origversion: 2.7.4-r0
-  status: outdated
-  summary: Precompiled Python bytecode for certbot-apache
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_19
-  subrepo: community
-  srcname: certbot-nginx
-  binname: certbot-nginx
-  visiblename: certbot-nginx
-  version: 2.7.4
-  origversion: 2.7.4-r0
-  status: outdated
-  summary: Nginx plugin for Certbot client
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
 - repo: alpine_3_19
   subrepo: community
   srcname: certbot-nginx
@@ -337,299 +990,658 @@
     - fcolista@alpinelinux.org
   licenses:
     - Apache-2.0
-- repo: alpine_3_19
+- repo: alpine_3_20
   subrepo: community
   srcname: py3-acme
   binname: py3-acme
   visiblename: py3-acme
-  version: 2.7.4
-  origversion: 2.7.4-r0
+  version: 2.10.0
+  origversion: 2.10.0-r1
   status: outdated
   summary: ACME protocol implementation in Python
   maintainers:
     - fcolista@alpinelinux.org
   licenses:
     - Apache-2.0
-- repo: alpine_3_19
+- repo: alpine_3_20
   subrepo: community
   srcname: py3-acme
   binname: py3-acme-pyc
   visiblename: py3-acme-pyc
-  version: 2.7.4
-  origversion: 2.7.4-r0
+  version: 2.10.0
+  origversion: 2.10.0-r1
   status: outdated
   summary: Precompiled Python bytecode for py3-acme
   maintainers:
     - fcolista@alpinelinux.org
   licenses:
     - Apache-2.0
-- repo: manjaro_testing
-  subrepo: extra
+- repo: alpine_3_20
+  subrepo: community
+  srcname: certbot
+  binname: certbot
+  visiblename: certbot
+  version: 2.10.0
+  origversion: 2.10.0-r1
+  status: outdated
+  summary: An ACME client that can update Apache/Nginx configurations
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: certbot-apache
+  binname: certbot-apache
+  visiblename: certbot-apache
+  version: 2.10.0
+  origversion: 2.10.0-r1
+  status: outdated
+  summary: Apache plugin for Certbot client
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: certbot-apache
+  binname: certbot-apache-pyc
+  visiblename: certbot-apache-pyc
+  version: 2.10.0
+  origversion: 2.10.0-r1
+  status: outdated
+  summary: Precompiled Python bytecode for certbot-apache
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
   srcname: certbot-nginx
   binname: certbot-nginx
   visiblename: certbot-nginx
+  version: 2.10.0
+  origversion: 2.10.0-r1
+  status: outdated
+  summary: Nginx plugin for Certbot client
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: certbot-nginx
+  binname: certbot-nginx-pyc
+  visiblename: certbot-nginx-pyc
+  version: 2.10.0
+  origversion: 2.10.0-r1
+  status: outdated
+  summary: Precompiled Python bytecode for certbot-nginx
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: certbot
+  binname: certbot-pyc
+  visiblename: certbot-pyc
+  version: 2.10.0
+  origversion: 2.10.0-r1
+  status: outdated
+  summary: Precompiled Python bytecode for certbot
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: py3-acme
+  binname: py3-acme
+  visiblename: py3-acme
+  version: 3.0.1
+  origversion: 3.0.1-r0
+  status: outdated
+  summary: ACME protocol implementation in Python
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: py3-acme
+  binname: py3-acme-pyc
+  visiblename: py3-acme-pyc
+  version: 3.0.1
+  origversion: 3.0.1-r0
+  status: outdated
+  summary: Precompiled Python bytecode for py3-acme
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: certbot
+  binname: certbot
+  visiblename: certbot
+  version: 3.0.1
+  origversion: 3.0.1-r0
+  status: outdated
+  summary: An ACME client that can update Apache/Nginx configurations
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: certbot-apache
+  binname: certbot-apache
+  visiblename: certbot-apache
+  version: 3.0.1
+  origversion: 3.0.1-r0
+  status: outdated
+  summary: Apache plugin for Certbot client
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: certbot-apache
+  binname: certbot-apache-pyc
+  visiblename: certbot-apache-pyc
+  version: 3.0.1
+  origversion: 3.0.1-r0
+  status: outdated
+  summary: Precompiled Python bytecode for certbot-apache
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: certbot-nginx
+  binname: certbot-nginx
+  visiblename: certbot-nginx
+  version: 3.0.1
+  origversion: 3.0.1-r0
+  status: outdated
+  summary: Nginx plugin for Certbot client
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: certbot-nginx
+  binname: certbot-nginx-pyc
+  visiblename: certbot-nginx-pyc
+  version: 3.0.1
+  origversion: 3.0.1-r0
+  status: outdated
+  summary: Precompiled Python bytecode for certbot-nginx
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: certbot
+  binname: certbot-pyc
+  visiblename: certbot-pyc
+  version: 3.0.1
+  origversion: 3.0.1-r0
+  status: outdated
+  summary: Precompiled Python bytecode for certbot
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: py3-acme
+  binname: py3-acme
+  visiblename: py3-acme
+  version: 4.0.0
+  origversion: 4.0.0-r0
+  status: outdated
+  summary: ACME protocol implementation in Python
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: py3-acme
+  binname: py3-acme-pyc
+  visiblename: py3-acme-pyc
+  version: 4.0.0
+  origversion: 4.0.0-r0
+  status: outdated
+  summary: Precompiled Python bytecode for py3-acme
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: certbot
+  binname: certbot
+  visiblename: certbot
+  version: 4.0.0
+  origversion: 4.0.0-r0
+  status: outdated
+  summary: An ACME client that can update Apache/Nginx configurations
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: certbot-apache
+  binname: certbot-apache
+  visiblename: certbot-apache
+  version: 4.0.0
+  origversion: 4.0.0-r0
+  status: outdated
+  summary: Apache plugin for Certbot client
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: certbot-apache
+  binname: certbot-apache-pyc
+  visiblename: certbot-apache-pyc
+  version: 4.0.0
+  origversion: 4.0.0-r0
+  status: outdated
+  summary: Precompiled Python bytecode for certbot-apache
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: certbot-nginx
+  binname: certbot-nginx
+  visiblename: certbot-nginx
+  version: 4.0.0
+  origversion: 4.0.0-r1
+  status: outdated
+  summary: Nginx plugin for Certbot client
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: certbot-nginx
+  binname: certbot-nginx-pyc
+  visiblename: certbot-nginx-pyc
+  version: 4.0.0
+  origversion: 4.0.0-r1
+  status: outdated
+  summary: Precompiled Python bytecode for certbot-nginx
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: certbot
+  binname: certbot-pyc
+  visiblename: certbot-pyc
+  version: 4.0.0
+  origversion: 4.0.0-r0
+  status: outdated
+  summary: Precompiled Python bytecode for certbot
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: py3-acme
+  binname: py3-acme
+  visiblename: py3-acme
+  version: 5.2.0
+  origversion: 5.2.0-r0
+  status: outdated
+  summary: ACME protocol implementation in Python
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: py3-acme
+  binname: py3-acme-pyc
+  visiblename: py3-acme-pyc
+  version: 5.2.0
+  origversion: 5.2.0-r0
+  status: outdated
+  summary: Precompiled Python bytecode for py3-acme
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: certbot
+  binname: certbot
+  visiblename: certbot
+  version: 5.1.0
+  origversion: 5.1.0-r0
+  status: outdated
+  summary: An ACME client that can update Apache/Nginx configurations
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: certbot-apache
+  binname: certbot-apache
+  visiblename: certbot-apache
+  version: 5.1.0
+  origversion: 5.1.0-r0
+  status: outdated
+  summary: Apache plugin for Certbot client
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: certbot-apache
+  binname: certbot-apache-pyc
+  visiblename: certbot-apache-pyc
+  version: 5.1.0
+  origversion: 5.1.0-r0
+  status: outdated
+  summary: Precompiled Python bytecode for certbot-apache
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: certbot-nginx
+  binname: certbot-nginx
+  visiblename: certbot-nginx
+  version: 5.1.0
+  origversion: 5.1.0-r0
+  status: outdated
+  summary: Nginx plugin for Certbot client
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: certbot-nginx
+  binname: certbot-nginx-pyc
+  visiblename: certbot-nginx-pyc
+  version: 5.1.0
+  origversion: 5.1.0-r0
+  status: outdated
+  summary: Precompiled Python bytecode for certbot-nginx
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: certbot
+  binname: certbot-pyc
+  visiblename: certbot-pyc
+  version: 5.1.0
+  origversion: 5.1.0-r0
+  status: outdated
+  summary: Precompiled Python bytecode for certbot
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: certbot
+  binname: certbot
+  visiblename: certbot
+  version: 5.6.0
+  origversion: 5.6.0-r0
+  status: outdated
+  summary: An ACME client that can update Apache/Nginx configurations
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: certbot-apache
+  binname: certbot-apache
+  visiblename: certbot-apache
+  version: 5.6.0
+  origversion: 5.6.0-r0
+  status: outdated
+  summary: Apache plugin for Certbot client
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: pypi
+  srcname: certbot-dns-cloudflare
+  binname: certbot-dns-cloudflare
+  visiblename: certbot-dns-cloudflare
   version: 5.10.0
-  origversion: 5.10.0-1
+  origversion: null
   status: newest
-  summary: Nginx plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
-  subrepo: community
-  srcname: certbot
-  binname: certbot
-  visiblename: certbot
-  version: 2.10.0
-  origversion: 2.10.0-r1
-  status: outdated
-  summary: An ACME client that can update Apache/Nginx configurations
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
-  subrepo: community
-  srcname: certbot-apache
-  binname: certbot-apache
-  visiblename: certbot-apache
-  version: 2.10.0
-  origversion: 2.10.0-r1
-  status: outdated
-  summary: Apache plugin for Certbot client
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
+  summary: Cloudflare DNS Authenticator plugin for Certbot
+- repo: alpine_3_24
   subrepo: community
   srcname: certbot-apache
   binname: certbot-apache-pyc
   visiblename: certbot-apache-pyc
-  version: 2.10.0
-  origversion: 2.10.0-r1
+  version: 5.6.0
+  origversion: 5.6.0-r0
   status: outdated
   summary: Precompiled Python bytecode for certbot-apache
   maintainers:
     - fcolista@alpinelinux.org
   licenses:
     - Apache-2.0
-- repo: alpine_3_20
+- repo: alpine_3_24
   subrepo: community
   srcname: certbot-nginx
   binname: certbot-nginx
   visiblename: certbot-nginx
-  version: 2.10.0
-  origversion: 2.10.0-r1
+  version: 5.6.0
+  origversion: 5.6.0-r0
   status: outdated
   summary: Nginx plugin for Certbot client
   maintainers:
     - fcolista@alpinelinux.org
   licenses:
     - Apache-2.0
-- repo: alpine_3_20
+- repo: alpine_3_24
   subrepo: community
   srcname: certbot-nginx
   binname: certbot-nginx-pyc
   visiblename: certbot-nginx-pyc
-  version: 2.10.0
-  origversion: 2.10.0-r1
+  version: 5.6.0
+  origversion: 5.6.0-r0
   status: outdated
   summary: Precompiled Python bytecode for certbot-nginx
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
-  subrepo: community
-  srcname: certbot
-  binname: certbot-pyc
-  visiblename: certbot-pyc
-  version: 2.10.0
-  origversion: 2.10.0-r1
-  status: outdated
-  summary: Precompiled Python bytecode for certbot
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
-  subrepo: community
-  srcname: py3-acme
-  binname: py3-acme
-  visiblename: py3-acme
-  version: 2.10.0
-  origversion: 2.10.0-r1
-  status: outdated
-  summary: ACME protocol implementation in Python
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
-  subrepo: community
-  srcname: py3-acme
-  binname: py3-acme-pyc
-  visiblename: py3-acme-pyc
-  version: 2.10.0
-  origversion: 2.10.0-r1
-  status: outdated
-  summary: Precompiled Python bytecode for py3-acme
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: py3-acme
-  binname: py3-acme
-  visiblename: py3-acme
-  version: 3.0.1
-  origversion: 3.0.1-r0
-  status: outdated
-  summary: ACME protocol implementation in Python
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: py3-acme
-  binname: py3-acme-pyc
-  visiblename: py3-acme-pyc
-  version: 3.0.1
-  origversion: 3.0.1-r0
-  status: outdated
-  summary: Precompiled Python bytecode for py3-acme
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: certbot
-  binname: certbot
-  visiblename: certbot
-  version: 3.0.1
-  origversion: 3.0.1-r0
-  status: outdated
-  summary: An ACME client that can update Apache/Nginx configurations
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: certbot-apache
-  binname: certbot-apache
-  visiblename: certbot-apache
-  version: 3.0.1
-  origversion: 3.0.1-r0
-  status: outdated
-  summary: Apache plugin for Certbot client
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: certbot-apache
-  binname: certbot-apache-pyc
-  visiblename: certbot-apache-pyc
-  version: 3.0.1
-  origversion: 3.0.1-r0
-  status: outdated
-  summary: Precompiled Python bytecode for certbot-apache
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: certbot-nginx
-  binname: certbot-nginx
-  visiblename: certbot-nginx
-  version: 3.0.1
-  origversion: 3.0.1-r0
-  status: outdated
-  summary: Nginx plugin for Certbot client
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: certbot-nginx
-  binname: certbot-nginx-pyc
-  visiblename: certbot-nginx-pyc
-  version: 3.0.1
-  origversion: 3.0.1-r0
-  status: outdated
-  summary: Precompiled Python bytecode for certbot-nginx
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: certbot
-  binname: certbot-pyc
-  visiblename: certbot-pyc
-  version: 3.0.1
-  origversion: 3.0.1-r0
-  status: outdated
-  summary: Precompiled Python bytecode for certbot
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: certbot
-  binname: certbot
-  visiblename: certbot
-  version: 4.0.0
-  origversion: 4.0.0-r0
-  status: outdated
-  summary: An ACME client that can update Apache/Nginx configurations
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: certbot-apache
-  binname: certbot-apache
-  visiblename: certbot-apache
-  version: 4.0.0
-  origversion: 4.0.0-r0
-  status: outdated
-  summary: Apache plugin for Certbot client
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: certbot-apache
-  binname: certbot-apache-pyc
-  visiblename: certbot-apache-pyc
-  version: 4.0.0
-  origversion: 4.0.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for certbot-apache
   maintainers:
     - fcolista@alpinelinux.org
   licenses:
     - Apache-2.0
 - repo: arch
   subrepo: extra
-  srcname: certbot-dns-rfc2136
-  binname: certbot-dns-rfc2136
-  visiblename: certbot-dns-rfc2136
+  srcname: certbot-dns-ovh
+  binname: certbot-dns-ovh
+  visiblename: certbot-dns-ovh
   version: 5.10.0
   origversion: 5.10.0-1
   status: newest
-  summary: RFC2136 DNS Authenticator plugin for Certbot
+  summary: OVH DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: certbot
+  binname: certbot-pyc
+  visiblename: certbot-pyc
+  version: 5.6.0
+  origversion: 5.6.0-r0
+  status: outdated
+  summary: Precompiled Python bytecode for certbot
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: py3-acme
+  binname: py3-acme
+  visiblename: py3-acme
+  version: 5.6.0
+  origversion: 5.6.0-r0
+  status: outdated
+  summary: ACME protocol implementation in Python
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: py3-acme
+  binname: py3-acme-pyc
+  visiblename: py3-acme-pyc
+  version: 5.6.0
+  origversion: 5.6.0-r0
+  status: outdated
+  summary: Precompiled Python bytecode for py3-acme
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: py3-acme
+  binname: py3-acme
+  visiblename: py3-acme
+  version: 5.9.0
+  origversion: 5.9.0-r0
+  status: outdated
+  summary: ACME protocol implementation in Python
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: py3-acme
+  binname: py3-acme-pyc
+  visiblename: py3-acme-pyc
+  version: 5.9.0
+  origversion: 5.9.0-r0
+  status: outdated
+  summary: Precompiled Python bytecode for py3-acme
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: certbot
+  binname: certbot
+  visiblename: certbot
+  version: 5.9.0
+  origversion: 5.9.0-r0
+  status: outdated
+  summary: An ACME client that can update Apache/Nginx configurations
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: certbot-apache
+  binname: certbot-apache
+  visiblename: certbot-apache
+  version: 5.9.0
+  origversion: 5.9.0-r0
+  status: outdated
+  summary: Apache plugin for Certbot client
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: certbot-apache
+  binname: certbot-apache-pyc
+  visiblename: certbot-apache-pyc
+  version: 5.9.0
+  origversion: 5.9.0-r0
+  status: outdated
+  summary: Precompiled Python bytecode for certbot-apache
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: certbot-nginx
+  binname: certbot-nginx
+  visiblename: certbot-nginx
+  version: 5.9.0
+  origversion: 5.9.0-r0
+  status: outdated
+  summary: Nginx plugin for Certbot client
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: certbot-nginx
+  binname: certbot-nginx-pyc
+  visiblename: certbot-nginx-pyc
+  version: 5.9.0
+  origversion: 5.9.0-r0
+  status: outdated
+  summary: Precompiled Python bytecode for certbot-nginx
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: certbot-dns-dnsimple
+  binname: certbot-dns-dnsimple
+  visiblename: certbot-dns-dnsimple
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: DNSimple DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: certbot
+  binname: certbot-pyc
+  visiblename: certbot-pyc
+  version: 5.9.0
+  origversion: 5.9.0-r0
+  status: outdated
+  summary: Precompiled Python bytecode for certbot
+  maintainers:
+    - fcolista@alpinelinux.org
   licenses:
     - Apache-2.0
 - repo: alt_p11
@@ -647,264 +1659,6 @@
     - Apache-2.0
   categories:
     - Development/Python3
-- repo: alpine_3_22
-  subrepo: community
-  srcname: certbot-nginx
-  binname: certbot-nginx
-  visiblename: certbot-nginx
-  version: 4.0.0
-  origversion: 4.0.0-r1
-  status: outdated
-  summary: Nginx plugin for Certbot client
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: certbot-nginx
-  binname: certbot-nginx-pyc
-  visiblename: certbot-nginx-pyc
-  version: 4.0.0
-  origversion: 4.0.0-r1
-  status: outdated
-  summary: Precompiled Python bytecode for certbot-nginx
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: certbot
-  binname: certbot-pyc
-  visiblename: certbot-pyc
-  version: 4.0.0
-  origversion: 4.0.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for certbot
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: py3-acme
-  binname: py3-acme
-  visiblename: py3-acme
-  version: 4.0.0
-  origversion: 4.0.0-r0
-  status: outdated
-  summary: ACME protocol implementation in Python
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: py3-acme
-  binname: py3-acme-pyc
-  visiblename: py3-acme-pyc
-  version: 4.0.0
-  origversion: 4.0.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for py3-acme
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: py3-acme
-  binname: py3-acme
-  visiblename: py3-acme
-  version: 5.2.0
-  origversion: 5.2.0-r0
-  status: outdated
-  summary: ACME protocol implementation in Python
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: py3-acme
-  binname: py3-acme-pyc
-  visiblename: py3-acme-pyc
-  version: 5.2.0
-  origversion: 5.2.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for py3-acme
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: certbot
-  binname: certbot
-  visiblename: certbot
-  version: 5.1.0
-  origversion: 5.1.0-r0
-  status: outdated
-  summary: An ACME client that can update Apache/Nginx configurations
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: certbot-apache
-  binname: certbot-apache
-  visiblename: certbot-apache
-  version: 5.1.0
-  origversion: 5.1.0-r0
-  status: outdated
-  summary: Apache plugin for Certbot client
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: certbot-apache
-  binname: certbot-apache-pyc
-  visiblename: certbot-apache-pyc
-  version: 5.1.0
-  origversion: 5.1.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for certbot-apache
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: certbot-nginx
-  binname: certbot-nginx
-  visiblename: certbot-nginx
-  version: 5.1.0
-  origversion: 5.1.0-r0
-  status: outdated
-  summary: Nginx plugin for Certbot client
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: certbot-nginx
-  binname: certbot-nginx-pyc
-  visiblename: certbot-nginx-pyc
-  version: 5.1.0
-  origversion: 5.1.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for certbot-nginx
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: certbot
-  binname: certbot-pyc
-  visiblename: certbot-pyc
-  version: 5.1.0
-  origversion: 5.1.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for certbot
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: community
-  srcname: certbot
-  binname: certbot
-  visiblename: certbot
-  version: 5.6.0
-  origversion: 5.6.0-r0
-  status: outdated
-  summary: An ACME client that can update Apache/Nginx configurations
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: community
-  srcname: certbot-apache
-  binname: certbot-apache
-  visiblename: certbot-apache
-  version: 5.6.0
-  origversion: 5.6.0-r0
-  status: outdated
-  summary: Apache plugin for Certbot client
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: community
-  srcname: certbot-apache
-  binname: certbot-apache-pyc
-  visiblename: certbot-apache-pyc
-  version: 5.6.0
-  origversion: 5.6.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for certbot-apache
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: community
-  srcname: certbot-nginx
-  binname: certbot-nginx
-  visiblename: certbot-nginx
-  version: 5.6.0
-  origversion: 5.6.0-r0
-  status: outdated
-  summary: Nginx plugin for Certbot client
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: community
-  srcname: certbot-nginx
-  binname: certbot-nginx-pyc
-  visiblename: certbot-nginx-pyc
-  version: 5.6.0
-  origversion: 5.6.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for certbot-nginx
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: community
-  srcname: certbot
-  binname: certbot-pyc
-  visiblename: certbot-pyc
-  version: 5.6.0
-  origversion: 5.6.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for certbot
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: certbot-dns-ovh
-  binname: certbot-dns-ovh
-  visiblename: certbot-dns-ovh
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: OVH DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
 - repo: alt_p11
   srcname: certbot
   binnames:
@@ -923,147 +1677,6 @@
     - ASL 2.0
   categories:
     - Networking/Other
-- repo: alpine_3_24
-  subrepo: community
-  srcname: py3-acme
-  binname: py3-acme
-  visiblename: py3-acme
-  version: 5.6.0
-  origversion: 5.6.0-r0
-  status: outdated
-  summary: ACME protocol implementation in Python
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: community
-  srcname: py3-acme
-  binname: py3-acme-pyc
-  visiblename: py3-acme-pyc
-  version: 5.6.0
-  origversion: 5.6.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for py3-acme
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_edge
-  subrepo: community
-  srcname: py3-acme
-  binname: py3-acme
-  visiblename: py3-acme
-  version: 5.9.0
-  origversion: 5.9.0-r0
-  status: outdated
-  summary: ACME protocol implementation in Python
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_edge
-  subrepo: community
-  srcname: py3-acme
-  binname: py3-acme-pyc
-  visiblename: py3-acme-pyc
-  version: 5.9.0
-  origversion: 5.9.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for py3-acme
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_edge
-  subrepo: community
-  srcname: certbot
-  binname: certbot
-  visiblename: certbot
-  version: 5.9.0
-  origversion: 5.9.0-r0
-  status: outdated
-  summary: An ACME client that can update Apache/Nginx configurations
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_edge
-  subrepo: community
-  srcname: certbot-apache
-  binname: certbot-apache
-  visiblename: certbot-apache
-  version: 5.9.0
-  origversion: 5.9.0-r0
-  status: outdated
-  summary: Apache plugin for Certbot client
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_edge
-  subrepo: community
-  srcname: certbot-apache
-  binname: certbot-apache-pyc
-  visiblename: certbot-apache-pyc
-  version: 5.9.0
-  origversion: 5.9.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for certbot-apache
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_edge
-  subrepo: community
-  srcname: certbot-nginx
-  binname: certbot-nginx
-  visiblename: certbot-nginx
-  version: 5.9.0
-  origversion: 5.9.0-r0
-  status: outdated
-  summary: Nginx plugin for Certbot client
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_edge
-  subrepo: community
-  srcname: certbot-nginx
-  binname: certbot-nginx-pyc
-  visiblename: certbot-nginx-pyc
-  version: 5.9.0
-  origversion: 5.9.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for certbot-nginx
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_edge
-  subrepo: community
-  srcname: certbot
-  binname: certbot-pyc
-  visiblename: certbot-pyc
-  version: 5.9.0
-  origversion: 5.9.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for certbot
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: certbot-dns-ovh
-  binname: certbot-dns-ovh
-  visiblename: certbot-dns-ovh
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: OVH DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
 - repo: altsisyphus
   srcname: certbot
   binnames:
@@ -1110,30 +1723,6 @@
   categories:
     - python
 - repo: aosc
-  srcname: app-web/certbot
-  binname: certbot
-  visiblename: certbot
-  version: 5.5.0
-  origversion: null
-  status: outdated
-  summary: tool to obtain certs from Let's Encrypt and auto-enable HTTPS on your server
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - net
-- repo: aosc
-  srcname: app-web/certbot-apache
-  binname: certbot-apache
-  visiblename: certbot-apache
-  version: 5.5.0
-  origversion: null
-  status: outdated
-  summary: Apache plugin for CertBot
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - net
-- repo: aosc
   srcname: app-web/certbot-dns-cloudflare
   binname: certbot-dns-cloudflare
   visiblename: certbot-dns-cloudflare
@@ -1159,6 +1748,28 @@
     - python
 - repo: arch
   subrepo: extra
+  srcname: certbot-dns-cloudflare
+  binname: certbot-dns-cloudflare
+  visiblename: certbot-dns-cloudflare
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: Cloudflare DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: arch
+  subrepo: extra
+  srcname: certbot-dns-dnsmadeeasy
+  binname: certbot-dns-dnsmadeeasy
+  visiblename: certbot-dns-dnsmadeeasy
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: DNS Made Easy DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: arch
+  subrepo: extra
   srcname: certbot-dns-luadns
   binname: certbot-dns-luadns
   visiblename: certbot-dns-luadns
@@ -1170,16 +1781,38 @@
     - Apache-2.0
 - repo: arch
   subrepo: extra
-  srcname: certbot-dns-cloudflare
-  binname: certbot-dns-cloudflare
-  visiblename: certbot-dns-cloudflare
+  srcname: certbot-dns-dnsimple
+  binname: certbot-dns-dnsimple
+  visiblename: certbot-dns-dnsimple
   version: 5.10.0
   origversion: 5.10.0-1
   status: newest
-  summary: Cloudflare DNS Authenticator plugin for Certbot
+  summary: DNSimple DNS Authenticator plugin for Certbot
   licenses:
     - Apache-2.0
-- repo: manjaro_unstable
+- repo: arch
+  subrepo: extra
+  srcname: certbot-dns-digitalocean
+  binname: certbot-dns-digitalocean
+  visiblename: certbot-dns-digitalocean
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: DigitalOcean DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: arch
+  subrepo: extra
+  srcname: certbot-nginx
+  binname: certbot-nginx
+  visiblename: certbot-nginx
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: Nginx plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: arch
   subrepo: extra
   srcname: certbot
   binname: certbot
@@ -1188,6 +1821,61 @@
   origversion: 5.10.0-1
   status: newest
   summary: An ACME client
+  licenses:
+    - Apache-2.0
+- repo: arch
+  subrepo: extra
+  srcname: certbot-dns-linode
+  binname: certbot-dns-linode
+  visiblename: certbot-dns-linode
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: Linode DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: arch
+  subrepo: extra
+  srcname: certbot-dns-nsone
+  binname: certbot-dns-nsone
+  visiblename: certbot-dns-nsone
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: NS1 DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: arch
+  subrepo: extra
+  srcname: certbot-dns-sakuracloud
+  binname: certbot-dns-sakuracloud
+  visiblename: certbot-dns-sakuracloud
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: Sakura Cloud DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: arch
+  subrepo: extra
+  srcname: certbot-dns-gehirn
+  binname: certbot-dns-gehirn
+  visiblename: certbot-dns-gehirn
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: Gehirn DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: arch
+  subrepo: extra
+  srcname: certbot-dns-rfc2136
+  binname: certbot-dns-rfc2136
+  visiblename: certbot-dns-rfc2136
+  version: 5.10.0
+  origversion: 5.10.0-1
+  status: newest
+  summary: RFC2136 DNS Authenticator plugin for Certbot
   licenses:
     - Apache-2.0
 - repo: arch
@@ -1212,51 +1900,7 @@
   summary: Route53 DNS Authenticator plugin for Certbot
   licenses:
     - Apache-2.0
-- repo: arch
-  subrepo: extra
-  srcname: certbot-dns-nsone
-  binname: certbot-dns-nsone
-  visiblename: certbot-dns-nsone
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: NS1 DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: arch
-  subrepo: extra
-  srcname: certbot-dns-gehirn
-  binname: certbot-dns-gehirn
-  visiblename: certbot-dns-gehirn
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: Gehirn DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: arch
-  subrepo: extra
-  srcname: certbot-dns-sakuracloud
-  binname: certbot-dns-sakuracloud
-  visiblename: certbot-dns-sakuracloud
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: Sakura Cloud DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: arch
-  subrepo: extra
-  srcname: certbot-dns-digitalocean
-  binname: certbot-dns-digitalocean
-  visiblename: certbot-dns-digitalocean
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: DigitalOcean DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: arch
+- repo: manjaro_unstable
   subrepo: extra
   srcname: certbot
   binname: certbot
@@ -1269,17 +1913,6 @@
     - Apache-2.0
 - repo: arch
   subrepo: extra
-  srcname: certbot-nginx
-  binname: certbot-nginx
-  visiblename: certbot-nginx
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: Nginx plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: arch
-  subrepo: extra
   srcname: python-acme
   binname: python-acme
   visiblename: python-acme
@@ -1287,61 +1920,6 @@
   origversion: 5.10.0-1
   status: newest
   summary: ACME protocol implementation in Python
-  licenses:
-    - Apache-2.0
-- repo: arch
-  subrepo: extra
-  srcname: certbot-dns-linode
-  binname: certbot-dns-linode
-  visiblename: certbot-dns-linode
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: Linode DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: arch
-  subrepo: extra
-  srcname: certbot-dns-dnsimple
-  binname: certbot-dns-dnsimple
-  visiblename: certbot-dns-dnsimple
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: DNSimple DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: arch
-  subrepo: extra
-  srcname: certbot-dns-dnsmadeeasy
-  binname: certbot-dns-dnsmadeeasy
-  visiblename: certbot-dns-dnsmadeeasy
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: DNS Made Easy DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: arch
-  subrepo: extra
-  srcname: certbot-dns-google
-  binname: certbot-dns-google
-  visiblename: certbot-dns-google
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: Google Cloud DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: arch
-  subrepo: extra
-  srcname: certbot-dns-ovh
-  binname: certbot-dns-ovh
-  visiblename: certbot-dns-ovh
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: OVH DNS Authenticator plugin for Certbot
   licenses:
     - Apache-2.0
 - repo: aur
@@ -1403,17 +1981,6 @@
     - Apache-2.0
 - repo: artix
   subrepo: galaxy
-  srcname: certbot-dns-rfc2136
-  binname: certbot-dns-rfc2136
-  visiblename: certbot-dns-rfc2136
-  version: 5.9.0
-  origversion: 5.9.0-1
-  status: outdated
-  summary: RFC2136 DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: artix
-  subrepo: galaxy
   srcname: certbot-dns-ovh
   binname: certbot-dns-ovh
   visiblename: certbot-dns-ovh
@@ -1445,14 +2012,6 @@
   summary: Linode DNS Authenticator plugin for Certbot
   licenses:
     - Apache-2.0
-- repo: pypi
-  srcname: certbot-dns-luadns
-  binname: certbot-dns-luadns
-  visiblename: certbot-dns-luadns
-  version: 5.10.0
-  origversion: null
-  status: newest
-  summary: LuaDNS Authenticator plugin for Certbot
 - repo: artix
   subrepo: galaxy
   srcname: certbot-dns-dnsmadeeasy
@@ -1475,6 +2034,22 @@
   summary: Gehirn DNS Authenticator plugin for Certbot
   licenses:
     - Apache-2.0
+- repo: pardus_21
+  subrepo: main
+  srcname: python-certbot-dns-rfc2136
+  binnames:
+    - python3-certbot-dns-rfc2136
+    - python-certbot-dns-rfc2136-doc
+  visiblename: python-certbot-dns-rfc2136
+  version: 1.10.1
+  origversion: 1.10.1-1
+  status: outdated
+  maintainers:
+    - team+letsencrypt@tracker.debian.org
+    - asb@debian.org
+    - hlieberman@debian.org
+  categories:
+    - misc
 - repo: artix
   subrepo: galaxy
   srcname: certbot-dns-digitalocean
@@ -1495,17 +2070,6 @@
   origversion: 5.9.0-1
   status: outdated
   summary: Nginx plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: certbot-dns-sakuracloud
-  binname: certbot-dns-sakuracloud
-  visiblename: certbot-dns-sakuracloud
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: Sakura Cloud DNS Authenticator plugin for Certbot
   licenses:
     - Apache-2.0
 - repo: artix
@@ -1885,17 +2449,6 @@
 - repo: chimera
   subrepo: main
   srcname: certbot
-  binname: certbot-nginx
-  visiblename: certbot-nginx
-  version: 5.8.0
-  origversion: 5.8.0-r0
-  status: outdated
-  summary: Nginx plugin for certbot
-  licenses:
-    - Apache-2.0 AND MIT
-- repo: chimera
-  subrepo: main
-  srcname: certbot
   binname: certbot-nginx-pycache
   visiblename: certbot-nginx-pycache
   version: 5.8.0
@@ -1915,17 +2468,6 @@
   summary: Tool to obtain certs from Let's Encrypt (Python bytecode)
   licenses:
     - Apache-2.0 AND MIT
-- repo: chimera
-  subrepo: main
-  srcname: python-acme
-  binname: python-acme
-  visiblename: python-acme
-  version: 5.8.0
-  origversion: 5.8.0-r0
-  status: outdated
-  summary: ACME protocol implementation
-  licenses:
-    - Apache-2.0
 - repo: chimera
   subrepo: main
   srcname: python-acme
@@ -2181,6 +2723,22 @@
     - hlieberman@debian.org
   categories:
     - misc
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: python-certbot
+  binnames:
+    - python3-certbot
+    - certbot
+    - python-certbot-doc
+  visiblename: python-certbot
+  version: 4.0.0
+  origversion: 4.0.0-2+deb13u1
+  status: outdated
+  maintainers:
+    - team+letsencrypt@tracker.debian.org
+    - hlieberman@debian.org
+  categories:
+    - misc
 - repo: debian_11
   subrepo: bullseye/main
   srcname: python-certbot-dns-route53
@@ -2197,20 +2755,6 @@
     - hlieberman@debian.org
   categories:
     - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: python-certbot-dns-dnsimple
-  binnames:
-    - python3-certbot-dns-dnsimple
-    - python-certbot-dns-dnsimple-doc
-  visiblename: python-certbot-dns-dnsimple
-  version: 0.31.0
-  origversion: 0.31.0-1
-  status: outdated
-  maintainers:
-    - team+letsencrypt@tracker.debian.org
-    - asb@debian.org
-    - hlieberman@debian.org
 - repo: debian_11
   subrepo: bullseye/main
   srcname: python-certbot-dns-sakuracloud
@@ -2487,22 +3031,21 @@
     - hlieberman@debian.org
   categories:
     - misc
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: python-certbot
+- repo: deepin_unstable
+  subrepo: main
+  srcname: python-certbot-apache
   binnames:
-    - python3-certbot
-    - certbot
-    - python-certbot-doc
-  visiblename: python-certbot
-  version: 4.0.0
-  origversion: 4.0.0-2+deb13u1
+    - python3-certbot-apache
+    - python-certbot-apache-doc
+    - python-certbot-apache
+  visiblename: python-certbot-apache
+  version: 0.31.0
+  origversion: 0.31.0-1
   status: outdated
   maintainers:
     - team+letsencrypt@tracker.debian.org
+    - francois@debian.org
     - hlieberman@debian.org
-  categories:
-    - misc
 - repo: debian_13
   subrepo: trixie/main
   srcname: python-certbot-apache
@@ -2683,47 +3226,6 @@
   maintainers:
     - team+letsencrypt@tracker.debian.org
     - francois@debian.org
-    - hlieberman@debian.org
-- repo: deepin_unstable
-  subrepo: main
-  srcname: python-certbot-apache
-  binnames:
-    - python3-certbot-apache
-    - python-certbot-apache-doc
-    - python-certbot-apache
-  visiblename: python-certbot-apache
-  version: 0.31.0
-  origversion: 0.31.0-1
-  status: outdated
-  maintainers:
-    - team+letsencrypt@tracker.debian.org
-    - francois@debian.org
-    - hlieberman@debian.org
-- repo: deepin_unstable
-  subrepo: main
-  srcname: python-certbot-dns-linode
-  binnames:
-    - python3-certbot-dns-linode
-    - python-certbot-dns-linode-doc
-  visiblename: python-certbot-dns-linode
-  version: 0.31.0
-  origversion: 0.31.0-1
-  status: outdated
-  maintainers:
-    - team+letsencrypt@tracker.debian.org
-    - hlieberman@debian.org
-- repo: deepin_unstable
-  subrepo: main
-  srcname: python-certbot-dns-ovh
-  binnames:
-    - python3-certbot-dns-ovh
-    - python-certbot-dns-ovh-doc
-  visiblename: python-certbot-dns-ovh
-  version: 0.31.0
-  origversion: 0.31.0-1
-  status: outdated
-  maintainers:
-    - team+letsencrypt@tracker.debian.org
     - hlieberman@debian.org
 - repo: deepin_unstable
   subrepo: main
@@ -3037,6 +3539,20 @@
     - hlieberman@debian.org
   categories:
     - misc
+- repo: pardus_21
+  subrepo: main
+  srcname: python-certbot-nginx
+  binnames:
+    - python3-certbot-nginx
+  visiblename: python-certbot-nginx
+  version: 1.10.1
+  origversion: 1.10.1-1
+  status: outdated
+  maintainers:
+    - team+letsencrypt@tracker.debian.org
+    - hlieberman@debian.org
+  categories:
+    - misc
 - repo: devuan_4_0
   subrepo: chimaera/main
   srcname: python-certbot-dns-cloudflare
@@ -3177,17 +3693,6 @@
     - hlieberman@debian.org
   categories:
     - misc
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: certbot-dns-nsone
-  binname: certbot-dns-nsone
-  visiblename: certbot-dns-nsone
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: NS1 DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: python-certbot
@@ -3327,6 +3832,19 @@
     - ASL 2.0
   categories:
     - Unspecified
+- repo: nix_stable_24_05
+  srcname: python312Packages.certbot
+  visiblename: python3.12-certbot
+  version: 2.9.0
+  origversion: null
+  status: outdated
+  summary: ACME client that can obtain certs and extensibly update server configurations
+  maintainers:
+    - domen@dev.si
+  licenses:
+    - Apache-2.0
+  categories:
+    - python312Packages
 - repo: epel_7
   srcname: python-certbot-dns-linode
   visiblename: python-certbot-dns-linode
@@ -3525,17 +4043,6 @@
     - ASL 2.0
   categories:
     - Unspecified
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: certbot-dns-gehirn
-  binname: certbot-dns-gehirn
-  visiblename: certbot-dns-gehirn
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: Gehirn DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
 - repo: epel_8
   srcname: python-certbot-dns-linode
   visiblename: python-certbot-dns-linode
@@ -3653,17 +4160,6 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: certbot-apache
-  binname: certbot-apache
-  visiblename: certbot-apache
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: Apache plugin for Certbot
-  licenses:
-    - Apache-2.0
 - repo: epel_9
   srcname: python-certbot-dns-cloudxns
   binnames:
@@ -3782,17 +4278,29 @@
   categories:
     - dev-python
 - repo: freebsd
-  srcname: security/py-certbot-dns-dnsmadeeasy
-  binname: py312-certbot-dns-dnsmadeeasy
-  visiblename: security/py-certbot-dns-dnsmadeeasy
+  srcname: security/py-certbot-dns-dnsimple
+  binname: py312-certbot-dns-dnsimple
+  visiblename: security/py-certbot-dns-dnsimple
   version: 4.2.0
   origversion: null
   status: outdated
-  summary: DNS Made Easy DNS Authenticator plugin for Certbot
+  summary: DNSimple DNS Authenticator plugin for Certbot
   maintainers:
     - python@freebsd.org
   categories:
     - security
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: python-certbot-apache
+  visiblename: python-certbot-apache
+  version: 1.22.0
+  origversion: 1.22.0-bp156.2.2
+  status: outdated
+  summary: Apache plugin for Certbot
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
 - repo: fedora_39
   subrepo: release
   srcname: certbot
@@ -3839,6 +4347,22 @@
     - Apache-2.0
   categories:
     - Unspecified
+- repo: pardus_21
+  subrepo: main
+  srcname: python-certbot-dns-cloudflare
+  binnames:
+    - python3-certbot-dns-cloudflare
+    - python-certbot-dns-cloudflare-doc
+  visiblename: python-certbot-dns-cloudflare
+  version: 1.6.0
+  origversion: 1.6.0-1
+  status: outdated
+  maintainers:
+    - team+letsencrypt@tracker.debian.org
+    - asb@debian.org
+    - hlieberman@debian.org
+  categories:
+    - misc
 - repo: fedora_39
   subrepo: updates
   srcname: certbot
@@ -3879,52 +4403,6 @@
   visiblename: certbot
   version: 2.11.0
   origversion: 2.11.0-1.fc39
-  status: outdated
-  summary: A free, automated certificate authority client
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: fedora_40
-  subrepo: updates
-  srcname: certbot
-  binnames:
-    - certbot
-    - python3-certbot
-    - python3-acme
-    - python3-certbot-apache
-    - python3-certbot-nginx
-    - python3-certbot-dns-cloudflare
-    - python3-certbot-dns-google
-    - python3-certbot-dns-digitalocean
-    - python3-certbot-dns-dnsimple
-    - python3-certbot-dns-dnsmadeeasy
-    - python3-certbot-dns-gehirn
-    - python3-certbot-dns-linode
-    - python3-certbot-dns-luadns
-    - python3-certbot-dns-nsone
-    - python3-certbot-dns-ovh
-    - python3-certbot-dns-rfc2136
-    - python3-certbot-dns-route53
-    - python3-certbot-dns-sakuracloud
-    - python-acme-doc
-    - python-certbot-doc
-    - python-certbot-dns-cloudflare-doc
-    - python-certbot-dns-digitalocean-doc
-    - python-certbot-dns-dnsimple-doc
-    - python-certbot-dns-dnsmadeeasy-doc
-    - python-certbot-dns-gehirn-doc
-    - python-certbot-dns-google-doc
-    - python-certbot-dns-linode-doc
-    - python-certbot-dns-luadns-doc
-    - python-certbot-dns-nsone-doc
-    - python-certbot-dns-ovh-doc
-    - python-certbot-dns-rfc2136-doc
-    - python-certbot-dns-route53-doc
-    - python-certbot-dns-sakuracloud-doc
-  visiblename: certbot
-  version: 3.1.0
-  origversion: 3.1.0-1.fc40
   status: outdated
   summary: A free, automated certificate authority client
   licenses:
@@ -3977,41 +4455,52 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: freebsd
-  srcname: security/py-certbot-dns-gehirn
-  binname: py312-certbot-dns-gehirn
-  visiblename: security/py-certbot-dns-gehirn
-  version: 4.2.0
-  origversion: null
+- repo: fedora_40
+  subrepo: updates
+  srcname: certbot
+  binnames:
+    - certbot
+    - python3-certbot
+    - python3-acme
+    - python3-certbot-apache
+    - python3-certbot-nginx
+    - python3-certbot-dns-cloudflare
+    - python3-certbot-dns-google
+    - python3-certbot-dns-digitalocean
+    - python3-certbot-dns-dnsimple
+    - python3-certbot-dns-dnsmadeeasy
+    - python3-certbot-dns-gehirn
+    - python3-certbot-dns-linode
+    - python3-certbot-dns-luadns
+    - python3-certbot-dns-nsone
+    - python3-certbot-dns-ovh
+    - python3-certbot-dns-rfc2136
+    - python3-certbot-dns-route53
+    - python3-certbot-dns-sakuracloud
+    - python-acme-doc
+    - python-certbot-doc
+    - python-certbot-dns-cloudflare-doc
+    - python-certbot-dns-digitalocean-doc
+    - python-certbot-dns-dnsimple-doc
+    - python-certbot-dns-dnsmadeeasy-doc
+    - python-certbot-dns-gehirn-doc
+    - python-certbot-dns-google-doc
+    - python-certbot-dns-linode-doc
+    - python-certbot-dns-luadns-doc
+    - python-certbot-dns-nsone-doc
+    - python-certbot-dns-ovh-doc
+    - python-certbot-dns-rfc2136-doc
+    - python-certbot-dns-route53-doc
+    - python-certbot-dns-sakuracloud-doc
+  visiblename: certbot
+  version: 3.1.0
+  origversion: 3.1.0-1.fc40
   status: outdated
-  summary: Gehirn Infrastructure Service DNS Authenticator plugin for Certbot
-  maintainers:
-    - python@freebsd.org
-  categories:
-    - security
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: certbot-dns-rfc2136
-  binname: certbot-dns-rfc2136
-  visiblename: certbot-dns-rfc2136
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: RFC2136 DNS Authenticator plugin for Certbot
+  summary: A free, automated certificate authority client
   licenses:
     - Apache-2.0
-- repo: freebsd
-  srcname: security/py-certbot-apache
-  binname: py312-certbot-apache
-  visiblename: security/py-certbot-apache
-  version: 4.2.0
-  origversion: null
-  status: outdated
-  summary: Apache plugin for Certbot
-  maintainers:
-    - python@freebsd.org
   categories:
-    - security
+    - Unspecified
 - repo: fedora_41
   subrepo: release
   srcname: certbot
@@ -4058,6 +4547,29 @@
     - Apache-2.0
   categories:
     - Unspecified
+- repo: freebsd
+  srcname: security/py-certbot-dns-google
+  binname: py312-certbot-dns-google
+  visiblename: security/py-certbot-dns-google
+  version: 4.2.0
+  origversion: null
+  status: outdated
+  summary: Google Cloud DNS Authenticator plugin for Certbot
+  maintainers:
+    - python@freebsd.org
+  categories:
+    - security
+- repo: nix_stable_24_05
+  srcname: certbot
+  visiblename: certbot
+  version: 2.9.0
+  origversion: null
+  status: outdated
+  summary: ACME client that can obtain certs and extensibly update server configurations
+  maintainers:
+    - domen@dev.si
+  licenses:
+    - Apache-2.0
 - repo: fedora_41
   subrepo: updates
   srcname: certbot
@@ -4098,6 +4610,52 @@
   visiblename: certbot
   version: 3.1.0
   origversion: 3.1.0-1.fc41
+  status: outdated
+  summary: A free, automated certificate authority client
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: certbot
+  binnames:
+    - certbot
+    - python3-certbot
+    - python3-acme
+    - python3-certbot-apache
+    - python3-certbot-nginx
+    - python3-certbot-dns-cloudflare
+    - python3-certbot-dns-google
+    - python3-certbot-dns-digitalocean
+    - python3-certbot-dns-dnsimple
+    - python3-certbot-dns-dnsmadeeasy
+    - python3-certbot-dns-gehirn
+    - python3-certbot-dns-linode
+    - python3-certbot-dns-luadns
+    - python3-certbot-dns-nsone
+    - python3-certbot-dns-ovh
+    - python3-certbot-dns-rfc2136
+    - python3-certbot-dns-route53
+    - python3-certbot-dns-sakuracloud
+    - python-acme-doc
+    - python-certbot-doc
+    - python-certbot-dns-cloudflare-doc
+    - python-certbot-dns-digitalocean-doc
+    - python-certbot-dns-dnsimple-doc
+    - python-certbot-dns-dnsmadeeasy-doc
+    - python-certbot-dns-gehirn-doc
+    - python-certbot-dns-google-doc
+    - python-certbot-dns-linode-doc
+    - python-certbot-dns-luadns-doc
+    - python-certbot-dns-nsone-doc
+    - python-certbot-dns-ovh-doc
+    - python-certbot-dns-rfc2136-doc
+    - python-certbot-dns-route53-doc
+    - python-certbot-dns-sakuracloud-doc
+  visiblename: certbot
+  version: 3.3.0
+  origversion: 3.3.0-1.fc42
   status: outdated
   summary: A free, automated certificate authority client
   licenses:
@@ -4150,86 +4708,6 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: fedora_42
-  subrepo: updates
-  srcname: certbot
-  binnames:
-    - certbot
-    - python3-certbot
-    - python3-acme
-    - python3-certbot-apache
-    - python3-certbot-nginx
-    - python3-certbot-dns-cloudflare
-    - python3-certbot-dns-google
-    - python3-certbot-dns-digitalocean
-    - python3-certbot-dns-dnsimple
-    - python3-certbot-dns-dnsmadeeasy
-    - python3-certbot-dns-gehirn
-    - python3-certbot-dns-linode
-    - python3-certbot-dns-luadns
-    - python3-certbot-dns-nsone
-    - python3-certbot-dns-ovh
-    - python3-certbot-dns-rfc2136
-    - python3-certbot-dns-route53
-    - python3-certbot-dns-sakuracloud
-    - python-acme-doc
-    - python-certbot-doc
-    - python-certbot-dns-cloudflare-doc
-    - python-certbot-dns-digitalocean-doc
-    - python-certbot-dns-dnsimple-doc
-    - python-certbot-dns-dnsmadeeasy-doc
-    - python-certbot-dns-gehirn-doc
-    - python-certbot-dns-google-doc
-    - python-certbot-dns-linode-doc
-    - python-certbot-dns-luadns-doc
-    - python-certbot-dns-nsone-doc
-    - python-certbot-dns-ovh-doc
-    - python-certbot-dns-rfc2136-doc
-    - python-certbot-dns-route53-doc
-    - python-certbot-dns-sakuracloud-doc
-  visiblename: certbot
-  version: 3.3.0
-  origversion: 3.3.0-1.fc42
-  status: outdated
-  summary: A free, automated certificate authority client
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: freebsd
-  srcname: security/py-certbot-dns-google
-  binname: py312-certbot-dns-google
-  visiblename: security/py-certbot-dns-google
-  version: 4.2.0
-  origversion: null
-  status: outdated
-  summary: Google Cloud DNS Authenticator plugin for Certbot
-  maintainers:
-    - python@freebsd.org
-  categories:
-    - security
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: certbot-dns-route53
-  binname: certbot-dns-route53
-  visiblename: certbot-dns-route53
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: Route53 DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: python-acme
-  binname: python-acme
-  visiblename: python-acme
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: ACME protocol implementation in Python
-  licenses:
-    - Apache-2.0
 - repo: fedora_43
   subrepo: release
   srcname: certbot
@@ -4276,6 +4754,29 @@
     - Apache-2.0
   categories:
     - Unspecified
+- repo: freebsd
+  srcname: security/py-certbot-dns-linode
+  binname: py312-certbot-dns-linode
+  visiblename: security/py-certbot-dns-linode
+  version: 4.2.0
+  origversion: null
+  status: outdated
+  summary: Linode DNS Authenticator plugin for Certbot
+  maintainers:
+    - python@freebsd.org
+  categories:
+    - security
+- repo: nix_stable_24_11
+  srcname: certbot
+  visiblename: certbot
+  version: 2.11.0
+  origversion: null
+  status: outdated
+  summary: ACME client that can obtain certs and extensibly update server configurations
+  maintainers:
+    - domen@dev.si
+  licenses:
+    - Apache-2.0
 - repo: fedora_43
   subrepo: updates
   srcname: certbot
@@ -4322,6 +4823,19 @@
     - Apache-2.0
   categories:
     - Unspecified
+- repo: liguros_stable
+  srcname: app-crypt/certbot-nginx
+  visiblename: app-crypt/certbot-nginx
+  version: 3.2.0
+  origversion: 3.2.0-r100
+  status: outdated
+  summary: Nginx plugin for Certbot (Let's Encrypt client)
+  maintainers:
+    - prometheanfire@gentoo.org
+  licenses:
+    - metapackage
+  categories:
+    - app-crypt
 - repo: fedora_44
   subrepo: release
   srcname: certbot
@@ -4414,29 +4928,6 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: freebsd
-  srcname: security/py-certbot-dns-linode
-  binname: py312-certbot-dns-linode
-  visiblename: security/py-certbot-dns-linode
-  version: 4.2.0
-  origversion: null
-  status: outdated
-  summary: Linode DNS Authenticator plugin for Certbot
-  maintainers:
-    - python@freebsd.org
-  categories:
-    - security
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: certbot-dns-cloudflare
-  binname: certbot-dns-cloudflare
-  visiblename: certbot-dns-cloudflare
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: Cloudflare DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
 - repo: fedora_45
   subrepo: release
   srcname: certbot
@@ -4483,6 +4974,18 @@
     - Apache-2.0
   categories:
     - Unspecified
+- repo: freebsd
+  srcname: security/py-certbot-dns-luadns
+  binname: py312-certbot-dns-luadns
+  visiblename: security/py-certbot-dns-luadns
+  version: 4.2.0
+  origversion: null
+  status: outdated
+  summary: LuaDNS Authenticator plugin for Certbot
+  maintainers:
+    - python@freebsd.org
+  categories:
+    - security
 - repo: fedora_rawhide
   subrepo: development
   srcname: certbot
@@ -4542,6 +5045,18 @@
   categories:
     - security
 - repo: freebsd
+  srcname: security/py-certbot-apache
+  binname: py312-certbot-apache
+  visiblename: security/py-certbot-apache
+  version: 4.2.0
+  origversion: null
+  status: outdated
+  summary: Apache plugin for Certbot
+  maintainers:
+    - python@freebsd.org
+  categories:
+    - security
+- repo: freebsd
   srcname: security/py-certbot-dns-cloudflare
   binname: py312-certbot-dns-cloudflare
   visiblename: security/py-certbot-dns-cloudflare
@@ -4566,36 +5081,25 @@
   categories:
     - security
 - repo: freebsd
-  srcname: security/py-certbot-dns-dnsimple
-  binname: py312-certbot-dns-dnsimple
-  visiblename: security/py-certbot-dns-dnsimple
+  srcname: security/py-certbot-dns-dnsmadeeasy
+  binname: py312-certbot-dns-dnsmadeeasy
+  visiblename: security/py-certbot-dns-dnsmadeeasy
   version: 4.2.0
   origversion: null
   status: outdated
-  summary: DNSimple DNS Authenticator plugin for Certbot
+  summary: DNS Made Easy DNS Authenticator plugin for Certbot
   maintainers:
     - python@freebsd.org
   categories:
     - security
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: certbot-dns-linode
-  binname: certbot-dns-linode
-  visiblename: certbot-dns-linode
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: Linode DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
 - repo: freebsd
-  srcname: security/py-certbot-dns-luadns
-  binname: py312-certbot-dns-luadns
-  visiblename: security/py-certbot-dns-luadns
+  srcname: security/py-certbot-dns-gehirn
+  binname: py312-certbot-dns-gehirn
+  visiblename: security/py-certbot-dns-gehirn
   version: 4.2.0
   origversion: null
   status: outdated
-  summary: LuaDNS Authenticator plugin for Certbot
+  summary: Gehirn Infrastructure Service DNS Authenticator plugin for Certbot
   maintainers:
     - python@freebsd.org
   categories:
@@ -4698,17 +5202,6 @@
     - metapackage
   categories:
     - app-crypt
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: certbot-dns-dnsmadeeasy
-  binname: certbot-dns-dnsmadeeasy
-  visiblename: certbot-dns-dnsmadeeasy
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: DNS Made Easy DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
 - repo: gentoo
   srcname: app-crypt/certbot-nginx
   visiblename: app-crypt/certbot-nginx
@@ -4775,21 +5268,6 @@
     - Apache-2.0
   categories:
     - app-crypt
-- repo: mageia_9
-  subrepo: core/release
-  srcname: certbot
-  binnames:
-    - certbot
-    - certbot-doc
-  visiblename: certbot
-  version: 2.3.0
-  origversion: 2.3.0-1.mga9
-  status: outdated
-  summary: A free, automated certificate authority client
-  licenses:
-    - ASL 2.0
-  categories:
-    - Development/Python
 - repo: gentoo
   srcname: app-crypt/certbot
   visiblename: app-crypt/certbot
@@ -4818,6 +5296,17 @@
     - Apache-2.0
   categories:
     - app-crypt
+- repo: parabola
+  subrepo: extra
+  srcname: certbot-dns-route53
+  binname: certbot-dns-route53
+  visiblename: certbot-dns-route53
+  version: 5.9.0
+  origversion: 5.9.0-1
+  status: outdated
+  summary: Route53 DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
 - repo: gentoo
   srcname: app-crypt/certbot
   visiblename: app-crypt/certbot
@@ -4846,17 +5335,6 @@
     - Apache-2.0
   categories:
     - app-crypt
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: certbot-dns-digitalocean
-  binname: certbot-dns-digitalocean
-  visiblename: certbot-dns-digitalocean
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: DigitalOcean DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
 - repo: gentoo
   srcname: app-crypt/certbot
   visiblename: app-crypt/certbot
@@ -4871,6 +5349,19 @@
     - Apache-2.0
   categories:
     - app-crypt
+- repo: nix_stable_24_11
+  srcname: python311Packages.acme
+  visiblename: python3.11-acme
+  version: 2.11.0
+  origversion: null
+  status: outdated
+  summary: ACME protocol implementation in Python
+  maintainers:
+    - domen@dev.si
+  licenses:
+    - Apache-2.0
+  categories:
+    - python311Packages
 - repo: gentoo
   srcname: app-crypt/certbot
   visiblename: app-crypt/certbot
@@ -4912,14 +5403,6 @@
   categories:
     - app-crypt
 - repo: gnuguix
-  srcname: python-acme
-  binname: python-acme
-  visiblename: python-acme
-  version: 4.2.0
-  origversion: null
-  status: outdated
-  summary: ACME protocol implementation in Python
-- repo: gnuguix
   srcname: certbot
   binname: certbot
   visiblename: certbot
@@ -4927,6 +5410,14 @@
   origversion: null
   status: outdated
   summary: Let's Encrypt client by the Electronic Frontier Foundation
+- repo: gnuguix
+  srcname: python-acme
+  binname: python-acme
+  visiblename: python-acme
+  version: 4.2.0
+  origversion: null
+  status: outdated
+  summary: ACME protocol implementation in Python
 - repo: homebrew
   srcname: certbot
   visiblename: certbot
@@ -4983,20 +5474,6 @@
     - metapackage
   categories:
     - app-crypt
-- repo: mageia_9
-  subrepo: core/release
-  srcname: python-acme
-  binnames:
-    - python3-acme
-  visiblename: python-acme
-  version: 2.3.0
-  origversion: 2.3.0-1.mga9
-  status: outdated
-  summary: ACME protocol implementation in Python
-  licenses:
-    - Apache
-  categories:
-    - Development/Python
 - repo: liguros_stable
   srcname: app-crypt/certbot-dns-dnsimple
   visiblename: app-crypt/certbot-dns-dnsimple
@@ -5011,6 +5488,19 @@
     - metapackage
   categories:
     - app-crypt
+- repo: nix_stable_24_11
+  srcname: python311Packages.certbot
+  visiblename: python3.11-certbot
+  version: 2.11.0
+  origversion: null
+  status: outdated
+  summary: ACME client that can obtain certs and extensibly update server configurations
+  maintainers:
+    - domen@dev.si
+  licenses:
+    - Apache-2.0
+  categories:
+    - python311Packages
 - repo: liguros_stable
   srcname: app-crypt/certbot-dns-cloudflare
   visiblename: app-crypt/certbot-dns-cloudflare
@@ -5064,19 +5554,6 @@
   categories:
     - app-crypt
 - repo: liguros_stable
-  srcname: app-crypt/certbot-nginx
-  visiblename: app-crypt/certbot-nginx
-  version: 3.2.0
-  origversion: 3.2.0-r100
-  status: outdated
-  summary: Nginx plugin for Certbot (Let's Encrypt client)
-  maintainers:
-    - prometheanfire@gentoo.org
-  licenses:
-    - metapackage
-  categories:
-    - app-crypt
-- repo: liguros_stable
   srcname: app-crypt/certbot-dns-rfc2136
   visiblename: app-crypt/certbot-dns-rfc2136
   version: 2.11.1
@@ -5116,17 +5593,6 @@
     - Apache-2.0
   categories:
     - app-crypt
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: certbot-dns-google
-  binname: certbot-dns-google
-  visiblename: certbot-dns-google
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: Google Cloud DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
 - repo: liguros_stable
   srcname: app-crypt/certbot-apache
   visiblename: app-crypt/certbot-apache
@@ -5140,6 +5606,19 @@
     - Apache-2.0
   categories:
     - app-crypt
+- repo: nix_stable_25_05
+  srcname: python313Packages.acme
+  visiblename: python3.13-acme
+  version: 4.0.0
+  origversion: null
+  status: outdated
+  summary: ACME protocol implementation in Python
+  maintainers:
+    - domen@dev.si
+  licenses:
+    - Apache-2.0
+  categories:
+    - python313Packages
 - repo: liguros_stable
   srcname: app-crypt/certbot
   visiblename: app-crypt/certbot
@@ -5263,6 +5742,20 @@
   categories:
     - app-crypt
 - repo: liguros_develop
+  srcname: app-crypt/certbot
+  visiblename: app-crypt/certbot
+  version: 5.8.0
+  origversion: null
+  status: legacy
+  summary: Let's Encrypt client to automate deployment of X.509 certificates
+  maintainers:
+    - prometheanfire@gentoo.org
+    - thican@thican.net
+  licenses:
+    - Apache-2.0
+  categories:
+    - app-crypt
+- repo: liguros_develop
   srcname: app-crypt/certbot-dns-dnsimple
   visiblename: app-crypt/certbot-dns-dnsimple
   version: 3.2.0
@@ -5276,20 +5769,6 @@
     - metapackage
   categories:
     - app-crypt
-- repo: mageia_9
-  subrepo: core/release
-  srcname: certbot-apache
-  binnames:
-    - certbot-apache
-  visiblename: certbot-apache
-  version: 2.3.0
-  origversion: 2.3.0-1.mga9
-  status: outdated
-  summary: The apache plugin for certbot
-  licenses:
-    - ASL 2.0
-  categories:
-    - Development/Python
 - repo: liguros_develop
   srcname: app-crypt/certbot-apache
   visiblename: app-crypt/certbot-apache
@@ -5316,6 +5795,14 @@
     - metapackage
   categories:
     - app-crypt
+- repo: pypi
+  srcname: certbot-dns-dnsimple
+  binname: certbot-dns-dnsimple
+  visiblename: certbot-dns-dnsimple
+  version: 5.10.0
+  origversion: null
+  status: newest
+  summary: DNSimple DNS Authenticator plugin for Certbot
 - repo: liguros_develop
   srcname: app-crypt/certbot-dns-rfc2136
   visiblename: app-crypt/certbot-dns-rfc2136
@@ -5398,31 +5885,6 @@
     - Apache-2.0
   categories:
     - app-crypt
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: certbot-dns-sakuracloud
-  binname: certbot-dns-sakuracloud
-  visiblename: certbot-dns-sakuracloud
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: Sakura Cloud DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: liguros_develop
-  srcname: app-crypt/certbot
-  visiblename: app-crypt/certbot
-  version: 5.8.0
-  origversion: null
-  status: legacy
-  summary: Let's Encrypt client to automate deployment of X.509 certificates
-  maintainers:
-    - prometheanfire@gentoo.org
-    - thican@thican.net
-  licenses:
-    - Apache-2.0
-  categories:
-    - app-crypt
 - repo: liguros_develop
   srcname: app-crypt/certbot
   visiblename: app-crypt/certbot
@@ -5452,107 +5914,6 @@
   categories:
     - app-crypt
 - repo: macports
-  srcname: python/py-acme
-  binname: py-acme
-  visiblename: py-acme
-  version: 5.10.0
-  origversion: null
-  status: newest
-  summary: ACME protocol implementation in Python.
-  maintainers:
-    - mps@macports
-    - schamschula@github
-  licenses:
-    - Apache-2
-  categories:
-    - python
-- repo: macports
-  srcname: python/py-acme
-  binname: py310-acme
-  visiblename: py310-acme
-  version: 5.10.0
-  origversion: null
-  status: newest
-  summary: ACME protocol implementation in Python.
-  maintainers:
-    - mps@macports
-    - schamschula@github
-  licenses:
-    - Apache-2
-  categories:
-    - python
-- repo: macports
-  srcname: python/py-acme
-  binname: py312-acme
-  visiblename: py312-acme
-  version: 5.10.0
-  origversion: null
-  status: newest
-  summary: ACME protocol implementation in Python.
-  maintainers:
-    - mps@macports
-    - schamschula@github
-  licenses:
-    - Apache-2
-  categories:
-    - python
-- repo: macports
-  srcname: python/py-acme
-  binname: py311-acme
-  visiblename: py311-acme
-  version: 5.10.0
-  origversion: null
-  status: newest
-  summary: ACME protocol implementation in Python.
-  maintainers:
-    - mps@macports
-    - schamschula@github
-  licenses:
-    - Apache-2
-  categories:
-    - python
-- repo: macports
-  srcname: python/py-acme
-  binname: py313-acme
-  visiblename: py313-acme
-  version: 5.10.0
-  origversion: null
-  status: newest
-  summary: ACME protocol implementation in Python.
-  maintainers:
-    - mps@macports
-    - schamschula@github
-  licenses:
-    - Apache-2
-  categories:
-    - python
-- repo: macports
-  srcname: python/py-acme
-  binname: py314-acme
-  visiblename: py314-acme
-  version: 5.10.0
-  origversion: null
-  status: newest
-  summary: ACME protocol implementation in Python.
-  maintainers:
-    - mps@macports
-    - schamschula@github
-  licenses:
-    - Apache-2
-  categories:
-    - python
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: certbot-dns-luadns
-  binname: certbot-dns-luadns
-  visiblename: certbot-dns-luadns
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: LuaDNS DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: macports
   srcname: security/certbot
   binname: certbot
   visiblename: certbot
@@ -5569,12 +5930,12 @@
     - security
 - repo: macports
   srcname: security/certbot
-  binname: certbot-nginx
-  visiblename: certbot-nginx
+  binname: certbot-apache
+  visiblename: certbot-apache
   version: 5.10.0
   origversion: null
   status: newest
-  summary: The certbot Nginx plugin for http-01 challenges
+  summary: The certbot Apache plugin for http-01 challenges
   maintainers:
     - mps@macports
     - schamschula@github
@@ -5584,12 +5945,12 @@
     - security
 - repo: macports
   srcname: security/certbot
-  binname: certbot-apache
-  visiblename: certbot-apache
+  binname: certbot-nginx
+  visiblename: certbot-nginx
   version: 5.10.0
   origversion: null
   status: newest
-  summary: The certbot Apache plugin for http-01 challenges
+  summary: The certbot Nginx plugin for http-01 challenges
   maintainers:
     - mps@macports
     - schamschula@github
@@ -5629,21 +5990,6 @@
     - security
 - repo: macports
   srcname: security/certbot
-  binname: certbot-dns-gehirn
-  visiblename: certbot-dns-gehirn
-  version: 5.10.0
-  origversion: null
-  status: newest
-  summary: The certbot gehirn plugin for dns-01 challenges
-  maintainers:
-    - mps@macports
-    - schamschula@github
-  licenses:
-    - Apache-2
-  categories:
-    - security
-- repo: macports
-  srcname: security/certbot
   binname: certbot-dns-dnsimple
   visiblename: certbot-dns-dnsimple
   version: 5.10.0
@@ -5657,6 +6003,25 @@
     - Apache-2
   categories:
     - security
+- repo: mageia_cauldron
+  subrepo: core/release
+  srcname: certbot
+  binnames:
+    - certbot
+    - python3-acme
+    - certbot-apache
+    - certbot-nginx
+    - python-acme-doc
+    - certbot-doc
+  visiblename: certbot
+  version: 5.2.2
+  origversion: 5.2.2-2.mga10
+  status: outdated
+  summary: A free, automated certificate authority client
+  licenses:
+    - ASL 2.0
+  categories:
+    - Development/Python
 - repo: macports
   srcname: security/certbot
   binname: certbot-dns-dnsmadeeasy
@@ -5672,28 +6037,21 @@
     - Apache-2
   categories:
     - security
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: certbot-dns-nsone
-  binname: certbot-dns-nsone
-  visiblename: certbot-dns-nsone
+- repo: macports
+  srcname: security/certbot
+  binname: certbot-dns-gehirn
+  visiblename: certbot-dns-gehirn
   version: 5.10.0
-  origversion: 5.10.0-1
+  origversion: null
   status: newest
-  summary: NS1 DNS Authenticator plugin for Certbot
+  summary: The certbot gehirn plugin for dns-01 challenges
+  maintainers:
+    - mps@macports
+    - schamschula@github
   licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: certbot-nginx
-  binname: certbot-nginx
-  visiblename: certbot-nginx
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: Nginx plugin for Certbot
-  licenses:
-    - Apache-2.0
+    - Apache-2
+  categories:
+    - security
 - repo: macports
   srcname: security/certbot
   binname: certbot-dns-google
@@ -5771,21 +6129,6 @@
     - security
 - repo: macports
   srcname: security/certbot
-  binname: certbot-dns-sakuracloud
-  visiblename: certbot-dns-sakuracloud
-  version: 5.10.0
-  origversion: null
-  status: newest
-  summary: The certbot sakuracloud plugin for dns-01 challenges
-  maintainers:
-    - mps@macports
-    - schamschula@github
-  licenses:
-    - Apache-2
-  categories:
-    - security
-- repo: macports
-  srcname: security/certbot
   binname: certbot-dns-rfc2136
   visiblename: certbot-dns-rfc2136
   version: 5.10.0
@@ -5799,6 +6142,28 @@
     - Apache-2
   categories:
     - security
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: certbot-dns-digitalocean
+  binname: certbot-dns-digitalocean
+  visiblename: certbot-dns-digitalocean
+  version: 5.8.0
+  origversion: 5.8.0-1
+  status: outdated
+  summary: DigitalOcean DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: certbot-apache
+  binname: certbot-apache
+  visiblename: certbot-apache
+  version: 5.8.0
+  origversion: 5.8.0-1
+  status: outdated
+  summary: Apache plugin for Certbot
+  licenses:
+    - Apache-2.0
 - repo: macports
   srcname: security/certbot
   binname: certbot-dns-route53
@@ -5814,20 +6179,111 @@
     - Apache-2
   categories:
     - security
-- repo: mageia_9
-  subrepo: core/release
-  srcname: certbot-nginx
-  binnames:
-    - certbot-nginx
-  visiblename: certbot-nginx
-  version: 2.3.0
-  origversion: 2.3.0-1.mga9
-  status: outdated
-  summary: The nginx plugin for certbot
+- repo: macports
+  srcname: security/certbot
+  binname: certbot-dns-sakuracloud
+  visiblename: certbot-dns-sakuracloud
+  version: 5.10.0
+  origversion: null
+  status: newest
+  summary: The certbot sakuracloud plugin for dns-01 challenges
+  maintainers:
+    - mps@macports
+    - schamschula@github
   licenses:
-    - ASL 2.0
+    - Apache-2
   categories:
-    - Development/Python
+    - security
+- repo: macports
+  srcname: python/py-acme
+  binname: py-acme
+  visiblename: py-acme
+  version: 5.10.0
+  origversion: null
+  status: newest
+  summary: ACME protocol implementation in Python.
+  maintainers:
+    - mps@macports
+    - schamschula@github
+  licenses:
+    - Apache-2
+  categories:
+    - python
+- repo: macports
+  srcname: python/py-acme
+  binname: py310-acme
+  visiblename: py310-acme
+  version: 5.10.0
+  origversion: null
+  status: newest
+  summary: ACME protocol implementation in Python.
+  maintainers:
+    - mps@macports
+    - schamschula@github
+  licenses:
+    - Apache-2
+  categories:
+    - python
+- repo: macports
+  srcname: python/py-acme
+  binname: py311-acme
+  visiblename: py311-acme
+  version: 5.10.0
+  origversion: null
+  status: newest
+  summary: ACME protocol implementation in Python.
+  maintainers:
+    - mps@macports
+    - schamschula@github
+  licenses:
+    - Apache-2
+  categories:
+    - python
+- repo: macports
+  srcname: python/py-acme
+  binname: py312-acme
+  visiblename: py312-acme
+  version: 5.10.0
+  origversion: null
+  status: newest
+  summary: ACME protocol implementation in Python.
+  maintainers:
+    - mps@macports
+    - schamschula@github
+  licenses:
+    - Apache-2
+  categories:
+    - python
+- repo: macports
+  srcname: python/py-acme
+  binname: py313-acme
+  visiblename: py313-acme
+  version: 5.10.0
+  origversion: null
+  status: newest
+  summary: ACME protocol implementation in Python.
+  maintainers:
+    - mps@macports
+    - schamschula@github
+  licenses:
+    - Apache-2
+  categories:
+    - python
+- repo: macports
+  srcname: python/py-acme
+  binname: py314-acme
+  visiblename: py314-acme
+  version: 5.10.0
+  origversion: null
+  status: newest
+  summary: ACME protocol implementation in Python.
+  maintainers:
+    - mps@macports
+    - schamschula@github
+  licenses:
+    - Apache-2
+  categories:
+    - python
 - repo: mageia_10
   subrepo: core/release
   srcname: certbot
@@ -5847,313 +6303,6 @@
     - ASL 2.0
   categories:
     - Development/Python
-- repo: mageia_cauldron
-  subrepo: core/release
-  srcname: certbot
-  binnames:
-    - certbot
-    - python3-acme
-    - certbot-apache
-    - certbot-nginx
-    - python-acme-doc
-    - certbot-doc
-  visiblename: certbot
-  version: 5.2.2
-  origversion: 5.2.2-2.mga10
-  status: outdated
-  summary: A free, automated certificate authority client
-  licenses:
-    - ASL 2.0
-  categories:
-    - Development/Python
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: certbot-dns-linode
-  binname: certbot-dns-linode
-  visiblename: certbot-dns-linode
-  version: 5.8.0
-  origversion: 5.8.0-1
-  status: outdated
-  summary: Linode DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: certbot
-  binname: certbot
-  visiblename: certbot
-  version: 5.8.0
-  origversion: 5.8.0-1
-  status: outdated
-  summary: An ACME client
-  licenses:
-    - Apache-2.0
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: certbot-dns-rfc2136
-  binname: certbot-dns-rfc2136
-  visiblename: certbot-dns-rfc2136
-  version: 5.8.0
-  origversion: 5.8.0-1
-  status: outdated
-  summary: RFC2136 DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: certbot-dns-dnsimple
-  binname: certbot-dns-dnsimple
-  visiblename: certbot-dns-dnsimple
-  version: 5.8.0
-  origversion: 5.8.0-1
-  status: outdated
-  summary: DNSimple DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: certbot-dns-dnsmadeeasy
-  binname: certbot-dns-dnsmadeeasy
-  visiblename: certbot-dns-dnsmadeeasy
-  version: 5.8.0
-  origversion: 5.8.0-1
-  status: outdated
-  summary: DNS Made Easy DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: certbot-nginx
-  binname: certbot-nginx
-  visiblename: certbot-nginx
-  version: 5.8.0
-  origversion: 5.8.0-1
-  status: outdated
-  summary: Nginx plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: certbot-dns-cloudflare
-  binname: certbot-dns-cloudflare
-  visiblename: certbot-dns-cloudflare
-  version: 5.8.0
-  origversion: 5.8.0-1
-  status: outdated
-  summary: Cloudflare DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: certbot-dns-ovh
-  binname: certbot-dns-ovh
-  visiblename: certbot-dns-ovh
-  version: 5.8.0
-  origversion: 5.8.0-1
-  status: outdated
-  summary: OVH DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: certbot-dns-luadns
-  binname: certbot-dns-luadns
-  visiblename: certbot-dns-luadns
-  version: 5.8.0
-  origversion: 5.8.0-1
-  status: outdated
-  summary: LuaDNS DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: certbot-dns-google
-  binname: certbot-dns-google
-  visiblename: certbot-dns-google
-  version: 5.8.0
-  origversion: 5.8.0-1
-  status: outdated
-  summary: Google Cloud DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: certbot-dns-digitalocean
-  binname: certbot-dns-digitalocean
-  visiblename: certbot-dns-digitalocean
-  version: 5.8.0
-  origversion: 5.8.0-1
-  status: outdated
-  summary: DigitalOcean DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: certbot-apache
-  binname: certbot-apache
-  visiblename: certbot-apache
-  version: 5.8.0
-  origversion: 5.8.0-1
-  status: outdated
-  summary: Apache plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: certbot-dns-gehirn
-  binname: certbot-dns-gehirn
-  visiblename: certbot-dns-gehirn
-  version: 5.8.0
-  origversion: 5.8.0-1
-  status: outdated
-  summary: Gehirn DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: python-acme
-  binname: python-acme
-  visiblename: python-acme
-  version: 5.8.0
-  origversion: 5.8.0-1
-  status: outdated
-  summary: ACME protocol implementation in Python
-  licenses:
-    - Apache-2.0
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: certbot-dns-sakuracloud
-  binname: certbot-dns-sakuracloud
-  visiblename: certbot-dns-sakuracloud
-  version: 5.8.0
-  origversion: 5.8.0-1
-  status: outdated
-  summary: Sakura Cloud DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: certbot-dns-digitalocean
-  binname: certbot-dns-digitalocean
-  visiblename: certbot-dns-digitalocean
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: DigitalOcean DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: certbot-dns-dnsimple
-  binname: certbot-dns-dnsimple
-  visiblename: certbot-dns-dnsimple
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: DNSimple DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: certbot-dns-gehirn
-  binname: certbot-dns-gehirn
-  visiblename: certbot-dns-gehirn
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: Gehirn DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: certbot-dns-dnsmadeeasy
-  binname: certbot-dns-dnsmadeeasy
-  visiblename: certbot-dns-dnsmadeeasy
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: DNS Made Easy DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: certbot-dns-rfc2136
-  binname: certbot-dns-rfc2136
-  visiblename: certbot-dns-rfc2136
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: RFC2136 DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: certbot-dns-route53
-  binname: certbot-dns-route53
-  visiblename: certbot-dns-route53
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: Route53 DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: python-acme
-  binname: python-acme
-  visiblename: python-acme
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: ACME protocol implementation in Python
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: certbot-dns-cloudflare
-  binname: certbot-dns-cloudflare
-  visiblename: certbot-dns-cloudflare
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: Cloudflare DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: certbot-dns-linode
-  binname: certbot-dns-linode
-  visiblename: certbot-dns-linode
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: Linode DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: certbot-apache
-  binname: certbot-apache
-  visiblename: certbot-apache
-  version: 5.10.0
-  origversion: 5.10.0-1
-  status: newest
-  summary: Apache plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_24_05
-  srcname: python312Packages.certbot
-  visiblename: python3.12-certbot
-  version: 2.9.0
-  origversion: null
-  status: outdated
-  summary: ACME client that can obtain certs and extensibly update server configurations
-  maintainers:
-    - domen@dev.si
-  licenses:
-    - Apache-2.0
-  categories:
-    - python312Packages
 - repo: nix_stable_24_05
   srcname: python312Packages.certbot-dns-cloudflare
   visiblename: python3.12-certbot-dns-cloudflare
@@ -6323,134 +6472,6 @@
     - Apache-2.0
   categories:
     - python312Packages
-- repo: nix_stable_24_05
-  srcname: certbot
-  visiblename: certbot
-  version: 2.9.0
-  origversion: null
-  status: outdated
-  summary: ACME client that can obtain certs and extensibly update server configurations
-  maintainers:
-    - domen@dev.si
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_24_11
-  srcname: python312Packages.acme
-  visiblename: python3.12-acme
-  version: 2.11.0
-  origversion: null
-  status: outdated
-  summary: ACME protocol implementation in Python
-  maintainers:
-    - domen@dev.si
-  licenses:
-    - Apache-2.0
-  categories:
-    - python312Packages
-- repo: nix_stable_24_11
-  srcname: python312Packages.certbot
-  visiblename: python3.12-certbot
-  version: 2.11.0
-  origversion: null
-  status: outdated
-  summary: ACME client that can obtain certs and extensibly update server configurations
-  maintainers:
-    - domen@dev.si
-  licenses:
-    - Apache-2.0
-  categories:
-    - python312Packages
-- repo: nix_stable_24_11
-  srcname: python312Packages.certbot-dns-cloudflare
-  visiblename: python3.12-certbot-dns-cloudflare
-  version: 2.11.0
-  origversion: null
-  status: outdated
-  summary: Cloudflare DNS Authenticator plugin for Certbot
-  maintainers:
-    - domen@dev.si
-  licenses:
-    - Apache-2.0
-  categories:
-    - python312Packages
-- repo: nix_stable_24_11
-  srcname: python312Packages.certbot-dns-google
-  visiblename: python3.12-certbot-dns-google
-  version: 2.11.0
-  origversion: null
-  status: outdated
-  summary: Google Cloud DNS Authenticator plugin for Certbot
-  maintainers:
-    - domen@dev.si
-  licenses:
-    - Apache-2.0
-  categories:
-    - python312Packages
-- repo: nix_stable_24_11
-  srcname: python312Packages.certbot-dns-ovh
-  visiblename: python3.12-certbot-dns-ovh
-  version: 2.11.0
-  origversion: null
-  status: outdated
-  summary: OVH DNS Authenticator plugin for Certbot
-  maintainers:
-    - domen@dev.si
-  licenses:
-    - Apache-2.0
-  categories:
-    - python312Packages
-- repo: nix_stable_24_11
-  srcname: python312Packages.certbot-dns-rfc2136
-  visiblename: python3.12-certbot-dns-rfc2136
-  version: 2.11.0
-  origversion: null
-  status: outdated
-  summary: RFC 2136 DNS Authenticator plugin for Certbot
-  maintainers:
-    - domen@dev.si
-  licenses:
-    - Apache-2.0
-  categories:
-    - python312Packages
-- repo: nix_stable_24_11
-  srcname: python312Packages.certbot-dns-route53
-  visiblename: python3.12-certbot-dns-route53
-  version: 2.11.0
-  origversion: null
-  status: outdated
-  summary: Route53 DNS Authenticator plugin for Certbot
-  maintainers:
-    - domen@dev.si
-  licenses:
-    - Apache-2.0
-  categories:
-    - python312Packages
-- repo: nix_stable_24_11
-  srcname: python311Packages.acme
-  visiblename: python3.11-acme
-  version: 2.11.0
-  origversion: null
-  status: outdated
-  summary: ACME protocol implementation in Python
-  maintainers:
-    - domen@dev.si
-  licenses:
-    - Apache-2.0
-  categories:
-    - python311Packages
-- repo: nix_stable_24_11
-  srcname: python311Packages.certbot
-  visiblename: python3.11-certbot
-  version: 2.11.0
-  origversion: null
-  status: outdated
-  summary: ACME client that can obtain certs and extensibly update server configurations
-  maintainers:
-    - domen@dev.si
-  licenses:
-    - Apache-2.0
-  categories:
-    - python311Packages
 - repo: nix_stable_24_11
   srcname: python311Packages.certbot-dns-cloudflare
   visiblename: python3.11-certbot-dns-cloudflare
@@ -6517,31 +6538,9 @@
   categories:
     - python311Packages
 - repo: nix_stable_24_11
-  srcname: certbot
-  visiblename: certbot
-  version: 2.11.0
-  origversion: null
-  status: outdated
-  summary: ACME client that can obtain certs and extensibly update server configurations
-  maintainers:
-    - domen@dev.si
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_25_05
-  srcname: certbot
-  visiblename: certbot
-  version: 4.0.0
-  origversion: null
-  status: outdated
-  summary: ACME client that can obtain certs and extensibly update server configurations
-  maintainers:
-    - domen@dev.si
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_25_05
   srcname: python312Packages.acme
   visiblename: python3.12-acme
-  version: 4.0.0
+  version: 2.11.0
   origversion: null
   status: outdated
   summary: ACME protocol implementation in Python
@@ -6551,10 +6550,10 @@
     - Apache-2.0
   categories:
     - python312Packages
-- repo: nix_stable_25_05
+- repo: nix_stable_24_11
   srcname: python312Packages.certbot
   visiblename: python3.12-certbot
-  version: 4.0.0
+  version: 2.11.0
   origversion: null
   status: outdated
   summary: ACME client that can obtain certs and extensibly update server configurations
@@ -6564,10 +6563,10 @@
     - Apache-2.0
   categories:
     - python312Packages
-- repo: nix_stable_25_05
+- repo: nix_stable_24_11
   srcname: python312Packages.certbot-dns-cloudflare
   visiblename: python3.12-certbot-dns-cloudflare
-  version: 4.0.0
+  version: 2.11.0
   origversion: null
   status: outdated
   summary: Cloudflare DNS Authenticator plugin for Certbot
@@ -6577,10 +6576,10 @@
     - Apache-2.0
   categories:
     - python312Packages
-- repo: nix_stable_25_05
+- repo: nix_stable_24_11
   srcname: python312Packages.certbot-dns-google
   visiblename: python3.12-certbot-dns-google
-  version: 4.0.0
+  version: 2.11.0
   origversion: null
   status: outdated
   summary: Google Cloud DNS Authenticator plugin for Certbot
@@ -6590,10 +6589,10 @@
     - Apache-2.0
   categories:
     - python312Packages
-- repo: nix_stable_25_05
+- repo: nix_stable_24_11
   srcname: python312Packages.certbot-dns-ovh
   visiblename: python3.12-certbot-dns-ovh
-  version: 4.0.0
+  version: 2.11.0
   origversion: null
   status: outdated
   summary: OVH DNS Authenticator plugin for Certbot
@@ -6603,10 +6602,10 @@
     - Apache-2.0
   categories:
     - python312Packages
-- repo: nix_stable_25_05
+- repo: nix_stable_24_11
   srcname: python312Packages.certbot-dns-rfc2136
   visiblename: python3.12-certbot-dns-rfc2136
-  version: 4.0.0
+  version: 2.11.0
   origversion: null
   status: outdated
   summary: RFC 2136 DNS Authenticator plugin for Certbot
@@ -6616,10 +6615,10 @@
     - Apache-2.0
   categories:
     - python312Packages
-- repo: nix_stable_25_05
+- repo: nix_stable_24_11
   srcname: python312Packages.certbot-dns-route53
   visiblename: python3.12-certbot-dns-route53
-  version: 4.0.0
+  version: 2.11.0
   origversion: null
   status: outdated
   summary: Route53 DNS Authenticator plugin for Certbot
@@ -6630,18 +6629,16 @@
   categories:
     - python312Packages
 - repo: nix_stable_25_05
-  srcname: python313Packages.acme
-  visiblename: python3.13-acme
+  srcname: certbot
+  visiblename: certbot
   version: 4.0.0
   origversion: null
   status: outdated
-  summary: ACME protocol implementation in Python
+  summary: ACME client that can obtain certs and extensibly update server configurations
   maintainers:
     - domen@dev.si
   licenses:
     - Apache-2.0
-  categories:
-    - python313Packages
 - repo: nix_stable_25_05
   srcname: python313Packages.certbot
   visiblename: python3.13-certbot
@@ -6720,6 +6717,97 @@
     - Apache-2.0
   categories:
     - python313Packages
+- repo: nix_stable_25_05
+  srcname: python312Packages.acme
+  visiblename: python3.12-acme
+  version: 4.0.0
+  origversion: null
+  status: outdated
+  summary: ACME protocol implementation in Python
+  maintainers:
+    - domen@dev.si
+  licenses:
+    - Apache-2.0
+  categories:
+    - python312Packages
+- repo: nix_stable_25_05
+  srcname: python312Packages.certbot
+  visiblename: python3.12-certbot
+  version: 4.0.0
+  origversion: null
+  status: outdated
+  summary: ACME client that can obtain certs and extensibly update server configurations
+  maintainers:
+    - domen@dev.si
+  licenses:
+    - Apache-2.0
+  categories:
+    - python312Packages
+- repo: nix_stable_25_05
+  srcname: python312Packages.certbot-dns-cloudflare
+  visiblename: python3.12-certbot-dns-cloudflare
+  version: 4.0.0
+  origversion: null
+  status: outdated
+  summary: Cloudflare DNS Authenticator plugin for Certbot
+  maintainers:
+    - domen@dev.si
+  licenses:
+    - Apache-2.0
+  categories:
+    - python312Packages
+- repo: nix_stable_25_05
+  srcname: python312Packages.certbot-dns-google
+  visiblename: python3.12-certbot-dns-google
+  version: 4.0.0
+  origversion: null
+  status: outdated
+  summary: Google Cloud DNS Authenticator plugin for Certbot
+  maintainers:
+    - domen@dev.si
+  licenses:
+    - Apache-2.0
+  categories:
+    - python312Packages
+- repo: nix_stable_25_05
+  srcname: python312Packages.certbot-dns-ovh
+  visiblename: python3.12-certbot-dns-ovh
+  version: 4.0.0
+  origversion: null
+  status: outdated
+  summary: OVH DNS Authenticator plugin for Certbot
+  maintainers:
+    - domen@dev.si
+  licenses:
+    - Apache-2.0
+  categories:
+    - python312Packages
+- repo: nix_stable_25_05
+  srcname: python312Packages.certbot-dns-rfc2136
+  visiblename: python3.12-certbot-dns-rfc2136
+  version: 4.0.0
+  origversion: null
+  status: outdated
+  summary: RFC 2136 DNS Authenticator plugin for Certbot
+  maintainers:
+    - domen@dev.si
+  licenses:
+    - Apache-2.0
+  categories:
+    - python312Packages
+- repo: nix_stable_25_05
+  srcname: python312Packages.certbot-dns-route53
+  visiblename: python3.12-certbot-dns-route53
+  version: 4.0.0
+  origversion: null
+  status: outdated
+  summary: Route53 DNS Authenticator plugin for Certbot
+  maintainers:
+    - domen@dev.si
+  licenses:
+    - Apache-2.0
+  categories:
+    - python312Packages
 - repo: nix_stable_25_11
   srcname: python312Packages.acme
   visiblename: python3.12-acme
@@ -6940,142 +7028,6 @@
   licenses:
     - Apache-2.0
 - repo: nix_stable_26_05
-  srcname: python314Packages.acme
-  visiblename: acme
-  version: 5.4.0
-  origversion: null
-  status: outdated
-  summary: ACME protocol implementation in Python
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - Apache-2.0
-  categories:
-    - python314Packages
-- repo: nix_stable_26_05
-  srcname: python314Packages.certbot
-  visiblename: certbot
-  version: 5.4.0
-  origversion: null
-  status: outdated
-  summary: ACME client that can obtain certs and extensibly update server configurations
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - Apache-2.0
-  categories:
-    - python314Packages
-- repo: nix_stable_26_05
-  srcname: python314Packages.certbot-dns-cloudflare
-  visiblename: certbot-dns-cloudflare
-  version: 5.4.0
-  origversion: null
-  status: outdated
-  summary: Cloudflare DNS Authenticator plugin for Certbot
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - Apache-2.0
-  categories:
-    - python314Packages
-- repo: nix_stable_26_05
-  srcname: python314Packages.certbot-dns-google
-  visiblename: certbot-dns-google
-  version: 5.4.0
-  origversion: null
-  status: outdated
-  summary: Google Cloud DNS Authenticator plugin for Certbot
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - Apache-2.0
-  categories:
-    - python314Packages
-- repo: nix_stable_26_05
-  srcname: python314Packages.certbot-dns-ovh
-  visiblename: certbot-dns-ovh
-  version: 5.4.0
-  origversion: null
-  status: outdated
-  summary: OVH DNS Authenticator plugin for Certbot
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - Apache-2.0
-  categories:
-    - python314Packages
-- repo: nix_unstable
-  srcname: python314Packages.certbot
-  visiblename: certbot
-  version: 5.9.0
-  origversion: null
-  status: outdated
-  summary: ACME client that can obtain certs and extensibly update server configurations
-  maintainers:
-    - prinn.dev@pm.me
-  licenses:
-    - Apache-2.0
-  categories:
-    - python314Packages
-- repo: nix_stable_26_05
-  srcname: python314Packages.certbot-dns-rfc2136
-  visiblename: certbot-dns-rfc2136
-  version: 5.4.0
-  origversion: null
-  status: outdated
-  summary: RFC 2136 DNS Authenticator plugin for Certbot
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - Apache-2.0
-  categories:
-    - python314Packages
-- repo: nix_stable_26_05
-  srcname: python314Packages.certbot-dns-route53
-  visiblename: certbot-dns-route53
-  version: 5.4.0
-  origversion: null
-  status: outdated
-  summary: Route53 DNS Authenticator plugin for Certbot
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - Apache-2.0
-  categories:
-    - python314Packages
-- repo: nix_stable_26_05
-  srcname: python314Packages.certbot-nginx
-  visiblename: certbot-nginx
-  version: 5.4.0
-  origversion: null
-  status: outdated
-  summary: Nginx plugin for Certbot
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - Apache-2.0
-  categories:
-    - python314Packages
-- repo: nix_stable_26_05
-  srcname: certbot
-  visiblename: certbot
-  version: 5.4.0
-  origversion: null
-  status: outdated
-  summary: ACME client that can obtain certs and extensibly update server configurations
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_26_05
-  srcname: certbot-full
-  visiblename: certbot
-  version: 5.4.0
-  origversion: null
-  status: outdated
-  maintainers:
-    - fallback-mnt-nix@repology
-- repo: nix_stable_26_05
   srcname: python313Packages.acme
   visiblename: acme
   version: 5.4.0
@@ -7114,6 +7066,142 @@
     - Apache-2.0
   categories:
     - python313Packages
+- repo: nix_stable_26_05
+  srcname: python313Packages.certbot-dns-google
+  visiblename: certbot-dns-google
+  version: 5.4.0
+  origversion: null
+  status: outdated
+  summary: Google Cloud DNS Authenticator plugin for Certbot
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - Apache-2.0
+  categories:
+    - python313Packages
+- repo: nix_stable_26_05
+  srcname: python313Packages.certbot-dns-ovh
+  visiblename: certbot-dns-ovh
+  version: 5.4.0
+  origversion: null
+  status: outdated
+  summary: OVH DNS Authenticator plugin for Certbot
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - Apache-2.0
+  categories:
+    - python313Packages
+- repo: nix_unstable
+  srcname: python314Packages.certbot
+  visiblename: certbot
+  version: 5.10.0
+  origversion: null
+  status: newest
+  summary: ACME client that can obtain certs and extensibly update server configurations
+  maintainers:
+    - prinn.dev@pm.me
+  licenses:
+    - Apache-2.0
+  categories:
+    - python314Packages
+- repo: nix_stable_26_05
+  srcname: python313Packages.certbot-dns-rfc2136
+  visiblename: certbot-dns-rfc2136
+  version: 5.4.0
+  origversion: null
+  status: outdated
+  summary: RFC 2136 DNS Authenticator plugin for Certbot
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - Apache-2.0
+  categories:
+    - python313Packages
+- repo: nix_stable_26_05
+  srcname: python313Packages.certbot-dns-route53
+  visiblename: certbot-dns-route53
+  version: 5.4.0
+  origversion: null
+  status: outdated
+  summary: Route53 DNS Authenticator plugin for Certbot
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - Apache-2.0
+  categories:
+    - python313Packages
+- repo: nix_stable_26_05
+  srcname: python313Packages.certbot-nginx
+  visiblename: certbot-nginx
+  version: 5.4.0
+  origversion: null
+  status: outdated
+  summary: Nginx plugin for Certbot
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - Apache-2.0
+  categories:
+    - python313Packages
+- repo: nix_stable_26_05
+  srcname: certbot
+  visiblename: certbot
+  version: 5.4.0
+  origversion: null
+  status: outdated
+  summary: ACME client that can obtain certs and extensibly update server configurations
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_26_05
+  srcname: certbot-full
+  visiblename: certbot
+  version: 5.4.0
+  origversion: null
+  status: outdated
+  maintainers:
+    - fallback-mnt-nix@repology
+- repo: nix_stable_26_05
+  srcname: python314Packages.acme
+  visiblename: acme
+  version: 5.4.0
+  origversion: null
+  status: outdated
+  summary: ACME protocol implementation in Python
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - Apache-2.0
+  categories:
+    - python314Packages
+- repo: nix_stable_26_05
+  srcname: python314Packages.certbot
+  visiblename: certbot
+  version: 5.4.0
+  origversion: null
+  status: outdated
+  summary: ACME client that can obtain certs and extensibly update server configurations
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - Apache-2.0
+  categories:
+    - python314Packages
+- repo: nix_stable_26_05
+  srcname: python314Packages.certbot-dns-cloudflare
+  visiblename: certbot-dns-cloudflare
+  version: 5.4.0
+  origversion: null
+  status: outdated
+  summary: Cloudflare DNS Authenticator plugin for Certbot
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - Apache-2.0
+  categories:
+    - python314Packages
 - repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: python-certbot-dns-google
@@ -7127,7 +7215,7 @@
   categories:
     - Unspecified
 - repo: nix_stable_26_05
-  srcname: python313Packages.certbot-dns-google
+  srcname: python314Packages.certbot-dns-google
   visiblename: certbot-dns-google
   version: 5.4.0
   origversion: null
@@ -7138,9 +7226,9 @@
   licenses:
     - Apache-2.0
   categories:
-    - python313Packages
+    - python314Packages
 - repo: nix_stable_26_05
-  srcname: python313Packages.certbot-dns-ovh
+  srcname: python314Packages.certbot-dns-ovh
   visiblename: certbot-dns-ovh
   version: 5.4.0
   origversion: null
@@ -7151,9 +7239,9 @@
   licenses:
     - Apache-2.0
   categories:
-    - python313Packages
+    - python314Packages
 - repo: nix_stable_26_05
-  srcname: python313Packages.certbot-dns-rfc2136
+  srcname: python314Packages.certbot-dns-rfc2136
   visiblename: certbot-dns-rfc2136
   version: 5.4.0
   origversion: null
@@ -7164,9 +7252,9 @@
   licenses:
     - Apache-2.0
   categories:
-    - python313Packages
+    - python314Packages
 - repo: nix_stable_26_05
-  srcname: python313Packages.certbot-dns-route53
+  srcname: python314Packages.certbot-dns-route53
   visiblename: certbot-dns-route53
   version: 5.4.0
   origversion: null
@@ -7177,9 +7265,9 @@
   licenses:
     - Apache-2.0
   categories:
-    - python313Packages
+    - python314Packages
 - repo: nix_stable_26_05
-  srcname: python313Packages.certbot-nginx
+  srcname: python314Packages.certbot-nginx
   visiblename: certbot-nginx
   version: 5.4.0
   origversion: null
@@ -7190,13 +7278,13 @@
   licenses:
     - Apache-2.0
   categories:
-    - python313Packages
+    - python314Packages
 - repo: nix_unstable
   srcname: certbot
   visiblename: certbot
-  version: 5.9.0
+  version: 5.10.0
   origversion: null
-  status: outdated
+  status: newest
   summary: ACME client that can obtain certs and extensibly update server configurations
   maintainers:
     - prinn.dev@pm.me
@@ -7205,9 +7293,9 @@
 - repo: nix_unstable
   srcname: certbot-full
   visiblename: certbot
-  version: 5.9.0
+  version: 5.10.0
   origversion: null
-  status: outdated
+  status: newest
   summary: ACME client that can obtain certs and extensibly update server configurations
   maintainers:
     - prinn.dev@pm.me
@@ -7216,9 +7304,9 @@
 - repo: nix_unstable
   srcname: python314Packages.acme
   visiblename: acme
-  version: 5.9.0
+  version: 5.10.0
   origversion: null
-  status: outdated
+  status: newest
   summary: ACME protocol implementation in Python
   maintainers:
     - prinn.dev@pm.me
@@ -7226,23 +7314,12 @@
     - Apache-2.0
   categories:
     - python314Packages
-- repo: parabola
-  subrepo: extra
-  srcname: certbot-dns-digitalocean
-  binname: certbot-dns-digitalocean
-  visiblename: certbot-dns-digitalocean
-  version: 5.9.0
-  origversion: 5.9.0-1
-  status: outdated
-  summary: DigitalOcean DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
 - repo: nix_unstable
   srcname: python314Packages.certbot-dns-cloudflare
   visiblename: certbot-dns-cloudflare
-  version: 5.9.0
+  version: 5.10.0
   origversion: null
-  status: outdated
+  status: newest
   summary: Cloudflare DNS Authenticator plugin for Certbot
   maintainers:
     - prinn.dev@pm.me
@@ -7253,9 +7330,9 @@
 - repo: nix_unstable
   srcname: python314Packages.certbot-dns-google
   visiblename: certbot-dns-google
-  version: 5.9.0
+  version: 5.10.0
   origversion: null
-  status: outdated
+  status: newest
   summary: Google Cloud DNS Authenticator plugin for Certbot
   maintainers:
     - prinn.dev@pm.me
@@ -7266,9 +7343,9 @@
 - repo: nix_unstable
   srcname: python314Packages.certbot-dns-ovh
   visiblename: certbot-dns-ovh
-  version: 5.9.0
+  version: 5.10.0
   origversion: null
-  status: outdated
+  status: newest
   summary: OVH DNS Authenticator plugin for Certbot
   maintainers:
     - prinn.dev@pm.me
@@ -7279,9 +7356,9 @@
 - repo: nix_unstable
   srcname: python314Packages.certbot-dns-rfc2136
   visiblename: certbot-dns-rfc2136
-  version: 5.9.0
+  version: 5.10.0
   origversion: null
-  status: outdated
+  status: newest
   summary: RFC 2136 DNS Authenticator plugin for Certbot
   maintainers:
     - prinn.dev@pm.me
@@ -7292,9 +7369,9 @@
 - repo: nix_unstable
   srcname: python314Packages.certbot-dns-route53
   visiblename: certbot-dns-route53
-  version: 5.9.0
+  version: 5.10.0
   origversion: null
-  status: outdated
+  status: newest
   summary: Route53 DNS Authenticator plugin for Certbot
   maintainers:
     - prinn.dev@pm.me
@@ -7305,9 +7382,9 @@
 - repo: nix_unstable
   srcname: python314Packages.certbot-nginx
   visiblename: certbot-nginx
-  version: 5.9.0
+  version: 5.10.0
   origversion: null
-  status: outdated
+  status: newest
   summary: Nginx plugin for Certbot
   maintainers:
     - prinn.dev@pm.me
@@ -7318,9 +7395,9 @@
 - repo: nix_unstable
   srcname: python313Packages.acme
   visiblename: acme
-  version: 5.9.0
+  version: 5.10.0
   origversion: null
-  status: outdated
+  status: newest
   summary: ACME protocol implementation in Python
   maintainers:
     - prinn.dev@pm.me
@@ -7331,9 +7408,9 @@
 - repo: nix_unstable
   srcname: python313Packages.certbot
   visiblename: certbot
-  version: 5.9.0
+  version: 5.10.0
   origversion: null
-  status: outdated
+  status: newest
   summary: ACME client that can obtain certs and extensibly update server configurations
   maintainers:
     - prinn.dev@pm.me
@@ -7344,9 +7421,9 @@
 - repo: nix_unstable
   srcname: python313Packages.certbot-dns-cloudflare
   visiblename: certbot-dns-cloudflare
-  version: 5.9.0
+  version: 5.10.0
   origversion: null
-  status: outdated
+  status: newest
   summary: Cloudflare DNS Authenticator plugin for Certbot
   maintainers:
     - prinn.dev@pm.me
@@ -7357,9 +7434,9 @@
 - repo: nix_unstable
   srcname: python313Packages.certbot-dns-google
   visiblename: certbot-dns-google
-  version: 5.9.0
+  version: 5.10.0
   origversion: null
-  status: outdated
+  status: newest
   summary: Google Cloud DNS Authenticator plugin for Certbot
   maintainers:
     - prinn.dev@pm.me
@@ -7370,9 +7447,9 @@
 - repo: nix_unstable
   srcname: python313Packages.certbot-dns-ovh
   visiblename: certbot-dns-ovh
-  version: 5.9.0
+  version: 5.10.0
   origversion: null
-  status: outdated
+  status: newest
   summary: OVH DNS Authenticator plugin for Certbot
   maintainers:
     - prinn.dev@pm.me
@@ -7383,9 +7460,9 @@
 - repo: nix_unstable
   srcname: python313Packages.certbot-dns-rfc2136
   visiblename: certbot-dns-rfc2136
-  version: 5.9.0
+  version: 5.10.0
   origversion: null
-  status: outdated
+  status: newest
   summary: RFC 2136 DNS Authenticator plugin for Certbot
   maintainers:
     - prinn.dev@pm.me
@@ -7396,9 +7473,9 @@
 - repo: nix_unstable
   srcname: python313Packages.certbot-dns-route53
   visiblename: certbot-dns-route53
-  version: 5.9.0
+  version: 5.10.0
   origversion: null
-  status: outdated
+  status: newest
   summary: Route53 DNS Authenticator plugin for Certbot
   maintainers:
     - prinn.dev@pm.me
@@ -7409,9 +7486,9 @@
 - repo: nix_unstable
   srcname: python313Packages.certbot-nginx
   visiblename: certbot-nginx
-  version: 5.9.0
+  version: 5.10.0
   origversion: null
-  status: outdated
+  status: newest
   summary: Nginx plugin for Certbot
   maintainers:
     - prinn.dev@pm.me
@@ -7474,6 +7551,26 @@
     - Apache License 2.0
   categories:
     - System/Libraries
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: python-certbot-nginx
+  visiblename: python-certbot-nginx
+  version: 1.22.0
+  origversion: 1.22.0-bp155.1.7
+  status: outdated
+  summary: Nginx plugin for Certbot
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: pypi
+  srcname: certbot
+  binname: certbot
+  visiblename: certbot
+  version: 5.10.0
+  origversion: null
+  status: newest
+  summary: ACME client
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: certbot
@@ -7504,21 +7601,17 @@
     - MIT
   categories:
     - Development/Python
-- repo: pardus_21
-  subrepo: main
-  srcname: python-acme
-  binnames:
-    - python3-acme
-    - python-acme-doc
-  visiblename: python-acme
-  version: 1.12.0
-  origversion: 1.12.0-2+deb11u1
+- repo: parabola
+  subrepo: extra
+  srcname: certbot-dns-digitalocean
+  binname: certbot-dns-digitalocean
+  visiblename: certbot-dns-digitalocean
+  version: 5.9.0
+  origversion: 5.9.0-1
   status: outdated
-  maintainers:
-    - team+letsencrypt@tracker.debian.org
-    - hlieberman@debian.org
-  categories:
-    - misc
+  summary: DigitalOcean DNS Authenticator plugin for Certbot
+  licenses:
+    - Apache-2.0
 - repo: openmandriva_rolling
   subrepo: main/release
   srcname: certbot
@@ -7677,14 +7770,13 @@
     - Unspecified
 - repo: pardus_21
   subrepo: main
-  srcname: python-certbot
+  srcname: python-acme
   binnames:
-    - python3-certbot
-    - certbot
-    - python-certbot-doc
-  visiblename: python-certbot
+    - python3-acme
+    - python-acme-doc
+  visiblename: python-acme
   version: 1.12.0
-  origversion: 1.12.0-2
+  origversion: 1.12.0-2+deb11u1
   status: outdated
   maintainers:
     - team+letsencrypt@tracker.debian.org
@@ -7747,54 +7839,6 @@
   origversion: 1.22.0-bp155.1.7
   status: outdated
   summary: Route53 DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: python-certbot-nginx
-  visiblename: python-certbot-nginx
-  version: 1.22.0
-  origversion: 1.22.0-bp155.1.7
-  status: outdated
-  summary: Nginx plugin for Certbot
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: python-acme
-  visiblename: python-acme
-  version: 1.22.0
-  origversion: 1.22.0-bp156.2.2
-  status: outdated
-  summary: Python library for the ACME protocol
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: python-certbot
-  visiblename: python-certbot
-  version: 1.22.0
-  origversion: 1.22.0-bp156.2.2
-  status: outdated
-  summary: ACME client
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: python-certbot-apache
-  visiblename: python-certbot-apache
-  version: 1.22.0
-  origversion: 1.22.0-bp156.2.2
-  status: outdated
-  summary: Apache plugin for Certbot
   licenses:
     - Apache-2.0
   categories:
@@ -7871,14 +7915,6 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: pypi
-  srcname: certbot-dns-digitalocean
-  binname: certbot-dns-digitalocean
-  visiblename: certbot-dns-digitalocean
-  version: 5.10.0
-  origversion: null
-  status: newest
-  summary: DigitalOcean DNS Authenticator plugin for Certbot
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: python-certbot-dns-luadns
@@ -7986,12 +8022,14 @@
     - Unspecified
 - repo: pardus_21
   subrepo: main
-  srcname: python-certbot-apache
+  srcname: python-certbot
   binnames:
-    - python3-certbot-apache
-  visiblename: python-certbot-apache
-  version: 1.10.1
-  origversion: 1.10.1-1
+    - python3-certbot
+    - certbot
+    - python-certbot-doc
+  visiblename: python-certbot
+  version: 1.12.0
+  origversion: 1.12.0-2
   status: outdated
   maintainers:
     - team+letsencrypt@tracker.debian.org
@@ -8150,17 +8188,15 @@
     - Unspecified
 - repo: pardus_21
   subrepo: main
-  srcname: python-certbot-dns-rfc2136
+  srcname: python-certbot-apache
   binnames:
-    - python3-certbot-dns-rfc2136
-    - python-certbot-dns-rfc2136-doc
-  visiblename: python-certbot-dns-rfc2136
+    - python3-certbot-apache
+  visiblename: python-certbot-apache
   version: 1.10.1
   origversion: 1.10.1-1
   status: outdated
   maintainers:
     - team+letsencrypt@tracker.debian.org
-    - asb@debian.org
     - hlieberman@debian.org
   categories:
     - misc
@@ -8359,47 +8395,6 @@
   summary: Linode DNS Authenticator plugin for Certbot
   licenses:
     - Apache-2.0
-- repo: parabola
-  subrepo: extra
-  srcname: certbot-dns-route53
-  binname: certbot-dns-route53
-  visiblename: certbot-dns-route53
-  version: 5.9.0
-  origversion: 5.9.0-1
-  status: outdated
-  summary: Route53 DNS Authenticator plugin for Certbot
-  licenses:
-    - Apache-2.0
-- repo: pardus_21
-  subrepo: main
-  srcname: python-certbot-nginx
-  binnames:
-    - python3-certbot-nginx
-  visiblename: python-certbot-nginx
-  version: 1.10.1
-  origversion: 1.10.1-1
-  status: outdated
-  maintainers:
-    - team+letsencrypt@tracker.debian.org
-    - hlieberman@debian.org
-  categories:
-    - misc
-- repo: pardus_21
-  subrepo: main
-  srcname: python-certbot-dns-cloudflare
-  binnames:
-    - python3-certbot-dns-cloudflare
-    - python-certbot-dns-cloudflare-doc
-  visiblename: python-certbot-dns-cloudflare
-  version: 1.6.0
-  origversion: 1.6.0-1
-  status: outdated
-  maintainers:
-    - team+letsencrypt@tracker.debian.org
-    - asb@debian.org
-    - hlieberman@debian.org
-  categories:
-    - misc
 - repo: pardus_21
   subrepo: main
   srcname: python-certbot-dns-digitalocean
@@ -8986,23 +8981,6 @@
     - adam@netbsd.org
   categories:
     - security
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: python-acme
-  binnames:
-    - python-acme
-    - python-acme-doc
-    - python3-acme
-  visiblename: python-acme
-  version: 0.31.0
-  origversion: 0.31.0-2
-  status: outdated
-  maintainers:
-    - team+letsencrypt@tracker.debian.org
-    - francois@debian.org
-    - hlieberman@debian.org
-  categories:
-    - python
 - repo: pkgsrc_2026_3
   srcname: security/py-certbot
   binname: py313-certbot
@@ -9015,6 +8993,23 @@
     - adam@netbsd.org
   categories:
     - security
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: python-certbot-apache
+  binnames:
+    - python-certbot-apache
+    - python-certbot-apache-doc
+    - python3-certbot-apache
+  visiblename: python-certbot-apache
+  version: 0.31.0
+  origversion: 0.31.0-1
+  status: outdated
+  maintainers:
+    - team+letsencrypt@tracker.debian.org
+    - francois@debian.org
+    - hlieberman@debian.org
+  categories:
+    - oldlibs
 - repo: pkgsrc_2026_3
   srcname: security/py-certbot-apache
   binname: py313-certbot-apache
@@ -9203,18 +9198,6 @@
   origversion: null
   status: newest
   summary: ACME protocol implementation in Python
-  maintainers:
-    - adam@netbsd.org
-  categories:
-    - security
-- repo: pkgsrc_current
-  srcname: security/py-certbot
-  binname: py314-certbot
-  visiblename: security/py-certbot
-  version: 5.10.0
-  origversion: null
-  status: newest
-  summary: Client for the Let's Encrypt CA
   maintainers:
     - adam@netbsd.org
   categories:
@@ -9417,21 +9400,23 @@
   version: 5.5.0
   origversion: 5.5.0-1
   status: outdated
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: python-certbot-dns-ovh
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: python-acme
   binnames:
-    - python3-certbot-dns-ovh
-    - python-certbot-dns-ovh-doc
-  visiblename: python-certbot-dns-ovh
-  version: 2.1.0
-  origversion: 2.1.0-1
+    - python-acme
+    - python-acme-doc
+    - python3-acme
+  visiblename: python-acme
+  version: 0.31.0
+  origversion: 0.31.0-2
   status: outdated
   maintainers:
     - team+letsencrypt@tracker.debian.org
+    - francois@debian.org
     - hlieberman@debian.org
   categories:
-    - misc
+    - python
 - repo: pureos_amber
   subrepo: amber/main
   srcname: python-certbot
@@ -9452,23 +9437,6 @@
     - web
 - repo: pureos_amber
   subrepo: amber/main
-  srcname: python-certbot-apache
-  binnames:
-    - python-certbot-apache
-    - python-certbot-apache-doc
-    - python3-certbot-apache
-  visiblename: python-certbot-apache
-  version: 0.31.0
-  origversion: 0.31.0-1
-  status: outdated
-  maintainers:
-    - team+letsencrypt@tracker.debian.org
-    - francois@debian.org
-    - hlieberman@debian.org
-  categories:
-    - oldlibs
-- repo: pureos_amber
-  subrepo: amber/main
   srcname: python-certbot-dns-dnsimple
   binnames:
     - python-certbot-dns-dnsimple-doc
@@ -9483,6 +9451,14 @@
     - hlieberman@debian.org
   categories:
     - doc
+- repo: pypi
+  srcname: certbot-apache
+  binname: certbot-apache
+  visiblename: certbot-apache
+  version: 5.10.0
+  origversion: null
+  status: newest
+  summary: Apache plugin for Certbot
 - repo: pureos_amber
   subrepo: amber/main
   srcname: python-certbot-dns-gehirn
@@ -9763,6 +9739,14 @@
     - hlieberman@debian.org
   categories:
     - doc
+- repo: pypi
+  srcname: certbot-nginx
+  binname: certbot-nginx
+  visiblename: certbot-nginx
+  version: 5.10.0
+  origversion: null
+  status: newest
+  summary: Nginx plugin for Certbot
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: python-certbot-dns-gehirn
@@ -9979,33 +9963,29 @@
   categories:
     - python
 - repo: pypi
-  srcname: certbot-dns-cloudxns
-  binname: certbot-dns-cloudxns
-  visiblename: certbot-dns-cloudxns
-  version: 1.32.0
-  origversion: null
-  status: outdated
-  summary: CloudXNS DNS Authenticator plugin for Certbot
-  maintainers:
-    - certbot-dev@eff.org
-- repo: pypi
-  srcname: certbot-postfix
-  binname: certbot-postfix
-  visiblename: certbot-postfix
-  version: 0.18.0.dev0
-  origversion: null
-  status: outdated
-  summary: Postfix plugin for Certbot
-  maintainers:
-    - client-dev@letsencrypt.org
-- repo: pypi
-  srcname: certbot
-  binname: certbot
-  visiblename: certbot
+  srcname: certbot-dns-rfc2136
+  binname: certbot-dns-rfc2136
+  visiblename: certbot-dns-rfc2136
   version: 5.10.0
   origversion: null
   status: newest
-  summary: ACME client
+  summary: RFC 2136 DNS Authenticator plugin for Certbot
+- repo: pypi
+  srcname: certbot-dns-dnsmadeeasy
+  binname: certbot-dns-dnsmadeeasy
+  visiblename: certbot-dns-dnsmadeeasy
+  version: 5.10.0
+  origversion: null
+  status: newest
+  summary: DNS Made Easy DNS Authenticator plugin for Certbot
+- repo: pypi
+  srcname: certbot-dns-google
+  binname: certbot-dns-google
+  visiblename: certbot-dns-google
+  version: 5.10.0
+  origversion: null
+  status: newest
+  summary: Google Cloud DNS Authenticator plugin for Certbot
 - repo: pypi
   srcname: certbot-dns-route53
   binname: certbot-dns-route53
@@ -10030,77 +10010,14 @@
   origversion: null
   status: newest
   summary: Sakura Cloud DNS Authenticator plugin for Certbot
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: python-certbot-dns-linode
-  binnames:
-    - python3-certbot-dns-linode
-    - python-certbot-dns-linode-doc
-  visiblename: python-certbot-dns-linode
-  version: 2.1.0
-  origversion: 2.1.0-1
-  status: outdated
-  maintainers:
-    - team+letsencrypt@tracker.debian.org
-    - hlieberman@debian.org
-  categories:
-    - misc
 - repo: pypi
-  srcname: certbot-dns-nsone
-  binname: certbot-dns-nsone
-  visiblename: certbot-dns-nsone
+  srcname: certbot-dns-luadns
+  binname: certbot-dns-luadns
+  visiblename: certbot-dns-luadns
   version: 5.10.0
   origversion: null
   status: newest
-  summary: NS1 DNS Authenticator plugin for Certbot
-- repo: pypi
-  srcname: certbot-dns-cloudflare
-  binname: certbot-dns-cloudflare
-  visiblename: certbot-dns-cloudflare
-  version: 5.10.0
-  origversion: null
-  status: newest
-  summary: Cloudflare DNS Authenticator plugin for Certbot
-- repo: pypi
-  srcname: certbot-dns-dnsimple
-  binname: certbot-dns-dnsimple
-  visiblename: certbot-dns-dnsimple
-  version: 5.10.0
-  origversion: null
-  status: newest
-  summary: DNSimple DNS Authenticator plugin for Certbot
-- repo: pypi
-  srcname: certbot-apache
-  binname: certbot-apache
-  visiblename: certbot-apache
-  version: 5.10.0
-  origversion: null
-  status: newest
-  summary: Apache plugin for Certbot
-- repo: pypi
-  srcname: certbot-nginx
-  binname: certbot-nginx
-  visiblename: certbot-nginx
-  version: 5.10.0
-  origversion: null
-  status: newest
-  summary: Nginx plugin for Certbot
-- repo: pypi
-  srcname: certbot-dns-linode
-  binname: certbot-dns-linode
-  visiblename: certbot-dns-linode
-  version: 5.10.0
-  origversion: null
-  status: newest
-  summary: Linode DNS Authenticator plugin for Certbot
-- repo: pypi
-  srcname: acme
-  binname: acme
-  visiblename: acme
-  version: 5.10.0
-  origversion: null
-  status: newest
-  summary: ACME protocol implementation in Python
+  summary: LuaDNS Authenticator plugin for Certbot
 - repo: pypi
   srcname: certbot-dns-ovh
   binname: certbot-dns-ovh
@@ -10110,29 +10027,25 @@
   status: newest
   summary: OVH DNS Authenticator plugin for Certbot
 - repo: pypi
-  srcname: certbot-dns-rfc2136
-  binname: certbot-dns-rfc2136
-  visiblename: certbot-dns-rfc2136
-  version: 5.10.0
+  srcname: certbot-dns-cloudxns
+  binname: certbot-dns-cloudxns
+  visiblename: certbot-dns-cloudxns
+  version: 1.32.0
   origversion: null
-  status: newest
-  summary: RFC 2136 DNS Authenticator plugin for Certbot
+  status: outdated
+  summary: CloudXNS DNS Authenticator plugin for Certbot
+  maintainers:
+    - certbot-dev@eff.org
 - repo: pypi
-  srcname: certbot-dns-dnsmadeeasy
-  binname: certbot-dns-dnsmadeeasy
-  visiblename: certbot-dns-dnsmadeeasy
-  version: 5.10.0
+  srcname: certbot-postfix
+  binname: certbot-postfix
+  visiblename: certbot-postfix
+  version: 0.18.0.dev0
   origversion: null
-  status: newest
-  summary: DNS Made Easy DNS Authenticator plugin for Certbot
-- repo: pypi
-  srcname: certbot-dns-google
-  binname: certbot-dns-google
-  visiblename: certbot-dns-google
-  version: 5.10.0
-  origversion: null
-  status: newest
-  summary: Google Cloud DNS Authenticator plugin for Certbot
+  status: outdated
+  summary: Postfix plugin for Certbot
+  maintainers:
+    - client-dev@letsencrypt.org
 - repo: raspbian_oldstable
   subrepo: main
   srcname: python-acme
@@ -10172,6 +10085,36 @@
   visiblename: python-certbot-apache
   version: 2.1.0
   origversion: 2.1.0-2
+  status: outdated
+  maintainers:
+    - team+letsencrypt@tracker.debian.org
+    - hlieberman@debian.org
+  categories:
+    - misc
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: python-certbot-dns-linode
+  binnames:
+    - python3-certbot-dns-linode
+    - python-certbot-dns-linode-doc
+  visiblename: python-certbot-dns-linode
+  version: 2.1.0
+  origversion: 2.1.0-1
+  status: outdated
+  maintainers:
+    - team+letsencrypt@tracker.debian.org
+    - hlieberman@debian.org
+  categories:
+    - misc
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: python-certbot-dns-ovh
+  binnames:
+    - python3-certbot-dns-ovh
+    - python-certbot-dns-ovh-doc
+  visiblename: python-certbot-dns-ovh
+  version: 2.1.0
+  origversion: 2.1.0-1
   status: outdated
   maintainers:
     - team+letsencrypt@tracker.debian.org
@@ -10719,23 +10662,6 @@
     - ASL 2.0
   categories:
     - System/Servers
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: python-certbot-apache
-  binnames:
-    - python3-certbot-apache
-    - python-certbot-apache-doc
-    - python-certbot-apache
-  visiblename: python-certbot-apache
-  version: 0.23.0
-  origversion: 0.23.0-1
-  status: outdated
-  maintainers:
-    - letsencrypt-devel@lists.alioth.debian.org
-    - francois@debian.org
-    - hlieberman@debian.org
-  categories:
-    - universe/misc
 - repo: rosa_13
   subrepo: contrib/release
   srcname: certbot
@@ -10938,6 +10864,23 @@
     - universe/misc
 - repo: ubuntu_18_04
   subrepo: bionic/universe
+  srcname: python-certbot-apache
+  binnames:
+    - python3-certbot-apache
+    - python-certbot-apache-doc
+    - python-certbot-apache
+  visiblename: python-certbot-apache
+  version: 0.23.0
+  origversion: 0.23.0-1
+  status: outdated
+  maintainers:
+    - letsencrypt-devel@lists.alioth.debian.org
+    - francois@debian.org
+    - hlieberman@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
   srcname: python-certbot-dns-cloudflare
   binnames:
     - python3-certbot-dns-cloudflare
@@ -10949,6 +10892,20 @@
   maintainers:
     - letsencrypt-devel@lists.alioth.debian.org
     - asb@debian.org
+    - hlieberman@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: python-certbot-nginx
+  binnames:
+    - python3-certbot-nginx
+  visiblename: python-certbot-nginx
+  version: 4.0.0
+  origversion: 4.0.0-2
+  status: outdated
+  maintainers:
+    - team+letsencrypt@tracker.debian.org
     - hlieberman@debian.org
   categories:
     - universe/misc
@@ -11212,6 +11169,21 @@
     - hlieberman@debian.org
   categories:
     - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: python-acme
+  binnames:
+    - python3-acme
+    - python-acme-doc
+  visiblename: python-acme
+  version: 4.0.0
+  origversion: 4.0.0-2
+  status: outdated
+  maintainers:
+    - team+letsencrypt@tracker.debian.org
+    - hlieberman@debian.org
+  categories:
+    - universe/misc
 - repo: ubuntu_20_04
   subrepo: focal/universe
   srcname: python-certbot-dns-digitalocean
@@ -11349,6 +11321,21 @@
   maintainers:
     - team+letsencrypt@tracker.debian.org
     - asb@debian.org
+    - hlieberman@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy-updates/universe
+  srcname: python-acme
+  binnames:
+    - python3-acme
+    - python-acme-doc
+  visiblename: python-acme
+  version: 1.21.0
+  origversion: 1.21.0-1ubuntu0.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - hlieberman@debian.org
   categories:
     - universe/misc
@@ -11567,21 +11554,6 @@
     - hlieberman@debian.org
   categories:
     - universe/misc
-- repo: ubuntu_22_04
-  subrepo: jammy-updates/universe
-  srcname: python-acme
-  binnames:
-    - python3-acme
-    - python-acme-doc
-  visiblename: python-acme
-  version: 1.21.0
-  origversion: 1.21.0-1ubuntu0.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - hlieberman@debian.org
-  categories:
-    - universe/misc
 - repo: ubuntu_24_04
   subrepo: noble/universe
   srcname: python-acme
@@ -11621,6 +11593,20 @@
   visiblename: python-certbot-apache
   version: 2.9.0
   origversion: 2.9.0-1
+  status: outdated
+  maintainers:
+    - team+letsencrypt@tracker.debian.org
+    - hlieberman@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: python-certbot-nginx
+  binnames:
+    - python3-certbot-nginx
+  visiblename: python-certbot-nginx
+  version: 4.0.0
+  origversion: 4.0.0-3
   status: outdated
   maintainers:
     - team+letsencrypt@tracker.debian.org
@@ -12213,35 +12199,6 @@
     - hlieberman@debian.org
   categories:
     - universe/misc
-- repo: ubuntu_25_10
-  subrepo: questing/universe
-  srcname: python-certbot-nginx
-  binnames:
-    - python3-certbot-nginx
-  visiblename: python-certbot-nginx
-  version: 4.0.0
-  origversion: 4.0.0-2
-  status: outdated
-  maintainers:
-    - team+letsencrypt@tracker.debian.org
-    - hlieberman@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
-  srcname: python-acme
-  binnames:
-    - python3-acme
-    - python-acme-doc
-  visiblename: python-acme
-  version: 4.0.0
-  origversion: 4.0.0-2
-  status: outdated
-  maintainers:
-    - team+letsencrypt@tracker.debian.org
-    - hlieberman@debian.org
-  categories:
-    - universe/misc
 - repo: ubuntu_26_04
   subrepo: resolute/universe
   srcname: python-certbot
@@ -12264,20 +12221,6 @@
   binnames:
     - python3-certbot-apache
   visiblename: python-certbot-apache
-  version: 4.0.0
-  origversion: 4.0.0-3
-  status: outdated
-  maintainers:
-    - team+letsencrypt@tracker.debian.org
-    - hlieberman@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
-  srcname: python-certbot-nginx
-  binnames:
-    - python3-certbot-nginx
-  visiblename: python-certbot-nginx
   version: 4.0.0
   origversion: 4.0.0-3
   status: outdated
