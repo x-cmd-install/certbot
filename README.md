@@ -14,11 +14,11 @@ x install certbot
 
 ## Code insight
 
-Total: **73,603** lines of code across **725** files in the top 5 languages.
+Total: **73,609** lines of code across **725** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 58,032 | 5,366 | 11,828 | 366 |
+| Python | 58,038 | 5,366 | 11,828 | 366 |
 | Bitbake | 6,296 | 3,415 | 1,706 | 237 |
 | ReStructuredText | 2,664 | 0 | 928 | 97 |
 | Sh | 2,066 | 520 | 346 | 20 |
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 33,341 · **Forks**: 3,509 · **Open issues**: 5,577 · **Contributors**: 497
+- **Stars**: 33,343 · **Forks**: 3,509 · **Open issues**: 5,577 · **Contributors**: 498
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 4151 · **Open PRs**: 69 · **Closed issues**: 5458 · **Open issues**: 119 · **Commits**: 11468
+- **Releases**: 75 · **Merged PRs**: 4153 · **Open PRs**: 67 · **Closed issues**: 5458 · **Open issues**: 119 · **Commits**: 11470
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 2 | 10 | 6 | 0 | 0 | 22 |
-| last60d | 2026-09-21 | 2 | 18 | 10 | 0 | 3 | 33 |
-| 90d | 2026-08-22 | 3 | 20 | 11 | 0 | 4 | 41 |
-| last180d | 2026-05-24 | 4 | 48 | 15 | 23 | 12 | 81 |
-| 360d | 2025-11-25 | 11 | 116 | 25 | 56 | 36 | 197 |
-| last720d | 2024-11-30 | 21 | 353 | 35 | 168 | 69 | 464 |
+| 30d | 2026-10-22 | 2 | 12 | 4 | 0 | 0 | 24 |
+| last60d | 2026-09-22 | 2 | 20 | 7 | 0 | 3 | 35 |
+| 90d | 2026-08-23 | 3 | 22 | 9 | 0 | 4 | 43 |
+| last180d | 2026-05-25 | 4 | 50 | 13 | 23 | 12 | 83 |
+| 360d | 2025-11-26 | 11 | 117 | 23 | 56 | 36 | 199 |
+| last720d | 2024-12-01 | 21 | 355 | 33 | 168 | 69 | 466 |
 
 ## Release assets
 
@@ -90,7 +90,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **896** distros on [repology.org](https://repology.org/project/certbot). **164** are ✅ on the latest upstream release, **696** are ⚠️ on an older version.
+Reported by **881** distros on [repology.org](https://repology.org/project/certbot). **164** are ✅ on the latest upstream release, **681** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -104,7 +104,7 @@ Reported by **896** distros on [repology.org](https://repology.org/project/certb
 | Fedora rawhide | `5.8.0` | ⚠️ outdated |
 | Nix unstable | `5.10.0` | ✅ latest |
 | Void | `5.1.0` | ⚠️ outdated |
-| Alpine edge | `5.10.0` | ✅ latest |
+| Alpine edge | `5.9.0` | ⚠️ outdated |
 | openSUSE Tumbleweed | `5.8.0` | ⚠️ outdated |
 
 ## Improve this data
@@ -116,4 +116,4 @@ Install metadata for certbot lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T07:36:26Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T07:03:59Z._
