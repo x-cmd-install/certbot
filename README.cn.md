@@ -26,7 +26,7 @@ x install certbot
 
 ## OpenSSF Scorecard 评分
 
-总评分: **6.8 / 10**
+总评分: **6.9 / 10**
 
 评分最低的几项:
 
@@ -57,12 +57,12 @@ x install certbot
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 2 | 12 | 4 | 0 | 0 | 15 |
-| last60d | 2026-09-24 | 2 | 20 | 7 | 0 | 3 | 33 |
-| 90d | 2026-08-25 | 3 | 21 | 9 | 0 | 4 | 42 |
-| last180d | 2026-05-27 | 4 | 49 | 13 | 23 | 11 | 83 |
-| 360d | 2025-11-28 | 11 | 117 | 23 | 56 | 36 | 193 |
-| last720d | 2024-12-03 | 21 | 353 | 33 | 168 | 68 | 466 |
+| 30d | 2026-10-25 | 2 | 12 | 4 | 0 | 0 | 15 |
+| last60d | 2026-09-25 | 2 | 20 | 7 | 0 | 3 | 33 |
+| 90d | 2026-08-26 | 3 | 21 | 9 | 0 | 3 | 42 |
+| last180d | 2026-05-28 | 4 | 49 | 13 | 23 | 11 | 83 |
+| 360d | 2025-11-29 | 11 | 117 | 23 | 56 | 36 | 193 |
+| last720d | 2024-12-04 | 21 | 351 | 33 | 168 | 68 | 462 |
 
 ## Release 资产
 
@@ -90,7 +90,7 @@ x install certbot
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/certbot) 上共有 **881** 个发行版报告此项目。**165** 个 ✅ 已是最新上游版本，**680** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/certbot) 上共有 **881** 个发行版报告此项目。**198** 个 ✅ 已是最新上游版本，**647** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -105,7 +105,7 @@ x install certbot
 | Nix unstable | `5.10.0` | ✅ latest |
 | Void | `5.1.0` | ⚠️ outdated |
 | Alpine edge | `5.9.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `5.8.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `5.10.0` | ✅ latest |
 
 ## 改进这些数据
 
@@ -116,4 +116,4 @@ certbot 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261123.yml` · 2026-11-23T09:18:51Z._
+_数据快照: `data/card/261124.yml` · 2026-11-24T10:54:17Z._

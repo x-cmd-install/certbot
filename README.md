@@ -26,7 +26,7 @@ Total: **73,609** lines of code across **725** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **6.8 / 10**
+Overall score: **6.9 / 10**
 
 Lowest-scoring checks:
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 2 | 12 | 4 | 0 | 0 | 15 |
-| last60d | 2026-09-24 | 2 | 20 | 7 | 0 | 3 | 33 |
-| 90d | 2026-08-25 | 3 | 21 | 9 | 0 | 4 | 42 |
-| last180d | 2026-05-27 | 4 | 49 | 13 | 23 | 11 | 83 |
-| 360d | 2025-11-28 | 11 | 117 | 23 | 56 | 36 | 193 |
-| last720d | 2024-12-03 | 21 | 353 | 33 | 168 | 68 | 466 |
+| 30d | 2026-10-25 | 2 | 12 | 4 | 0 | 0 | 15 |
+| last60d | 2026-09-25 | 2 | 20 | 7 | 0 | 3 | 33 |
+| 90d | 2026-08-26 | 3 | 21 | 9 | 0 | 3 | 42 |
+| last180d | 2026-05-28 | 4 | 49 | 13 | 23 | 11 | 83 |
+| 360d | 2025-11-29 | 11 | 117 | 23 | 56 | 36 | 193 |
+| last720d | 2024-12-04 | 21 | 351 | 33 | 168 | 68 | 462 |
 
 ## Release assets
 
@@ -90,7 +90,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **881** distros on [repology.org](https://repology.org/project/certbot). **165** are ✅ on the latest upstream release, **680** are ⚠️ on an older version.
+Reported by **881** distros on [repology.org](https://repology.org/project/certbot). **198** are ✅ on the latest upstream release, **647** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -105,7 +105,7 @@ Reported by **881** distros on [repology.org](https://repology.org/project/certb
 | Nix unstable | `5.10.0` | ✅ latest |
 | Void | `5.1.0` | ⚠️ outdated |
 | Alpine edge | `5.9.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `5.8.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `5.10.0` | ✅ latest |
 
 ## Improve this data
 
@@ -116,4 +116,4 @@ Install metadata for certbot lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T09:18:50Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T10:54:16Z._
