@@ -14,13 +14,13 @@ x install certbot
 
 ## Code insight
 
-Total: **73,609** lines of code across **725** files in the top 5 languages.
+Total: **73,611** lines of code across **725** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Python | 58,038 | 5,366 | 11,828 | 366 |
 | Bitbake | 6,296 | 3,415 | 1,706 | 237 |
-| ReStructuredText | 2,664 | 0 | 928 | 97 |
+| ReStructuredText | 2,666 | 0 | 928 | 97 |
 | Sh | 2,066 | 520 | 346 | 20 |
 | Json | 1,446 | 0 | 0 | 5 |
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v5.10.0` (2026-11-10)
-- **Last commit**: 2026-11-20
+- **Last commit**: 2026-11-25
 - **Assets in release**: 19
 
 ## Popularity
 
-- **Stars**: 33,346 · **Forks**: 3,509 · **Open issues**: 5,577 · **Contributors**: 498
+- **Stars**: 33,346 · **Forks**: 3,510 · **Open issues**: 5,577 · **Contributors**: 499
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 4153 · **Open PRs**: 67 · **Closed issues**: 5458 · **Open issues**: 119 · **Commits**: 11470
+- **Releases**: 75 · **Merged PRs**: 4155 · **Open PRs**: 66 · **Closed issues**: 5458 · **Open issues**: 119 · **Commits**: 11472
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 2 | 12 | 4 | 0 | 0 | 15 |
-| last60d | 2026-09-25 | 2 | 20 | 7 | 0 | 3 | 33 |
-| 90d | 2026-08-26 | 3 | 21 | 9 | 0 | 3 | 42 |
-| last180d | 2026-05-28 | 4 | 49 | 13 | 23 | 11 | 83 |
-| 360d | 2025-11-29 | 11 | 117 | 23 | 56 | 36 | 193 |
-| last720d | 2024-12-04 | 21 | 351 | 33 | 168 | 68 | 462 |
+| 30d | 2026-10-26 | 2 | 13 | 3 | 0 | 0 | 17 |
+| last60d | 2026-09-26 | 2 | 21 | 6 | 0 | 3 | 35 |
+| 90d | 2026-08-27 | 3 | 23 | 8 | 0 | 3 | 44 |
+| last180d | 2026-05-29 | 4 | 51 | 12 | 22 | 11 | 85 |
+| 360d | 2025-11-30 | 11 | 119 | 22 | 56 | 36 | 195 |
+| last720d | 2024-12-05 | 21 | 353 | 32 | 168 | 68 | 463 |
 
 ## Release assets
 
@@ -90,7 +90,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **881** distros on [repology.org](https://repology.org/project/certbot). **198** are ✅ on the latest upstream release, **647** are ⚠️ on an older version.
+Reported by **867** distros on [repology.org](https://repology.org/project/certbot). **198** are ✅ on the latest upstream release, **633** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -116,4 +116,4 @@ Install metadata for certbot lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:54:16Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T08:31:14Z._
