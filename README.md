@@ -14,13 +14,13 @@ x install certbot
 
 ## Code insight
 
-Total: **73,611** lines of code across **725** files in the top 5 languages.
+Total: **73,641** lines of code across **725** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 58,038 | 5,366 | 11,828 | 366 |
+| Python | 58,066 | 5,366 | 11,833 | 366 |
 | Bitbake | 6,296 | 3,415 | 1,706 | 237 |
-| ReStructuredText | 2,666 | 0 | 928 | 97 |
+| ReStructuredText | 2,668 | 0 | 929 | 97 |
 | Sh | 2,066 | 520 | 346 | 20 |
 | Json | 1,446 | 0 | 0 | 5 |
 
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 33,346 · **Forks**: 3,510 · **Open issues**: 5,577 · **Contributors**: 499
+- **Stars**: 33,346 · **Forks**: 3,509 · **Open issues**: 5,577 · **Contributors**: 502
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 4155 · **Open PRs**: 66 · **Closed issues**: 5458 · **Open issues**: 119 · **Commits**: 11472
+- **Releases**: 75 · **Merged PRs**: 4157 · **Open PRs**: 65 · **Closed issues**: 5459 · **Open issues**: 118 · **Commits**: 11473
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 2 | 13 | 3 | 0 | 0 | 17 |
-| last60d | 2026-09-26 | 2 | 21 | 6 | 0 | 3 | 35 |
-| 90d | 2026-08-27 | 3 | 23 | 8 | 0 | 3 | 44 |
-| last180d | 2026-05-29 | 4 | 51 | 12 | 22 | 11 | 85 |
-| 360d | 2025-11-30 | 11 | 119 | 22 | 56 | 36 | 195 |
-| last720d | 2024-12-05 | 21 | 353 | 32 | 168 | 68 | 463 |
+| 30d | 2026-10-27 | 2 | 14 | 2 | 0 | 0 | 18 |
+| last60d | 2026-09-27 | 2 | 22 | 5 | 0 | 3 | 36 |
+| 90d | 2026-08-28 | 3 | 24 | 7 | 0 | 3 | 45 |
+| last180d | 2026-05-30 | 4 | 53 | 11 | 21 | 11 | 86 |
+| 360d | 2025-12-01 | 11 | 121 | 21 | 56 | 35 | 196 |
+| last720d | 2024-12-06 | 21 | 355 | 31 | 168 | 67 | 463 |
 
 ## Release assets
 
@@ -116,4 +116,4 @@ Install metadata for certbot lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T08:31:14Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T08:34:58Z._
