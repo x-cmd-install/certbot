@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 33,346 · **Forks**: 3,509 · **Open issues**: 5,577 · **Contributors**: 502
+- **Stars**: 33,346 · **Forks**: 3,510 · **Open issues**: 5,577 · **Contributors**: 502
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 2 | 14 | 2 | 0 | 0 | 18 |
-| last60d | 2026-09-27 | 2 | 22 | 5 | 0 | 3 | 36 |
-| 90d | 2026-08-28 | 3 | 24 | 7 | 0 | 3 | 45 |
-| last180d | 2026-05-30 | 4 | 53 | 11 | 21 | 11 | 86 |
-| 360d | 2025-12-01 | 11 | 121 | 21 | 56 | 35 | 196 |
-| last720d | 2024-12-06 | 21 | 355 | 31 | 168 | 67 | 463 |
+| 30d | 2026-10-28 | 2 | 13 | 2 | 0 | 0 | 18 |
+| last60d | 2026-09-28 | 2 | 22 | 5 | 0 | 3 | 36 |
+| 90d | 2026-08-29 | 3 | 24 | 7 | 0 | 3 | 45 |
+| last180d | 2026-05-31 | 4 | 53 | 11 | 21 | 11 | 86 |
+| 360d | 2025-12-02 | 11 | 120 | 21 | 55 | 35 | 196 |
+| last720d | 2024-12-07 | 21 | 355 | 31 | 168 | 67 | 462 |
 
 ## Release assets
 
@@ -88,25 +88,6 @@ Lowest-scoring checks:
 | [SHA256SUMS](https://github.com/certbot/certbot/releases/download/v5.10.0/SHA256SUMS) | 1.6 KiB | `other` |
 | [SHA256SUMS.asc](https://github.com/certbot/certbot/releases/download/v5.10.0/SHA256SUMS.asc) | 659 B | `other` |
 
-## Distribution status
-
-Reported by **867** distros on [repology.org](https://repology.org/project/certbot). **198** are ✅ on the latest upstream release, **633** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `5.5.0` | ⚠️ outdated |
-| Debian 14 | `5.5.0` | ⚠️ outdated |
-| Debian 13 | `4.0.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `4.0.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2.9.0` | ⚠️ outdated |
-| Arch | `5.10.0` | ✅ latest |
-| Homebrew | `5.10.0` | ✅ latest |
-| Fedora rawhide | `5.8.0` | ⚠️ outdated |
-| Nix unstable | `5.10.0` | ✅ latest |
-| Void | `5.1.0` | ⚠️ outdated |
-| Alpine edge | `5.9.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `5.10.0` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for certbot lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `certbot` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -116,4 +97,4 @@ Install metadata for certbot lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T08:34:58Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T08:30:46Z._
