@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 4157 · **Open PRs**: 65 · **Closed issues**: 5459 · **Open issues**: 118 · **Commits**: 11473
+- **Releases**: 75 · **Merged PRs**: 4157 · **Open PRs**: 66 · **Closed issues**: 5459 · **Open issues**: 118 · **Commits**: 11473
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 2 | 13 | 2 | 0 | 0 | 18 |
-| last60d | 2026-09-28 | 2 | 22 | 5 | 0 | 3 | 36 |
-| 90d | 2026-08-29 | 3 | 24 | 7 | 0 | 3 | 45 |
-| last180d | 2026-05-31 | 4 | 53 | 11 | 21 | 11 | 86 |
-| 360d | 2025-12-02 | 11 | 120 | 21 | 55 | 35 | 196 |
-| last720d | 2024-12-07 | 21 | 355 | 31 | 168 | 67 | 462 |
+| 30d | 2026-10-29 | 2 | 12 | 2 | 0 | 0 | 18 |
+| last60d | 2026-09-29 | 2 | 21 | 6 | 0 | 2 | 36 |
+| 90d | 2026-08-30 | 3 | 24 | 8 | 0 | 3 | 45 |
+| last180d | 2026-06-01 | 4 | 53 | 12 | 21 | 11 | 86 |
+| 360d | 2025-12-03 | 11 | 118 | 22 | 55 | 35 | 196 |
+| last720d | 2024-12-08 | 21 | 355 | 32 | 168 | 67 | 462 |
 
 ## Release assets
 
@@ -97,4 +97,4 @@ Install metadata for certbot lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T08:30:46Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T07:49:57Z._
